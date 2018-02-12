@@ -1,0 +1,693 @@
+rom kAvailable to kUnavailable
+9173.915 [I] sysobs: WiFi Availability is changing from kAvailable to kUnavailable
+9173.915 [I] sysobs: WiFi MAC address property not supported on this platform
+9173.915 [I] pnr.mgr: Phone number hasn't been read
+9507.556 [I] pwr: Telling CSI to exit low power
+9507.556 [I] NoBBRadioModule:exitLowPower: 
+9507.556 [I] NoBBRadioModule:exitLowPower_sync: 
+9507.556 [I] evt: Sending internal notification kEventExitingLowPower (5) params={0, 0, 0x0}
+9507.556 [I] evt: Firing event 'exitLowPower'
+9507.556 [I] DATA.wifi: handleExitLowPower_sync: Exiting low power mode
+9507.712 [I] DATA: getiWLanSettingDict: no TechSettings dictionary can be found
+9507.713 [I] DATA: getiWLanSettingDict: no TechSettings dictionary can be found
+9507.713 [I] DATA.iRatController: handleLowPower_sync: start
+9517.058 [I] DATA.wifi: handleNetworkStateChanged_sync: nwi_state: 0x7fa6c1fa3c10
+9517.058 [I] DATA.wifi: checkIPConnectivity_sync: ***** ipConnectivityAvailable: false
+9517.064 [I] DATA.wifi: handleNetworkStateChanged_sync: nwi_state: 0x7fa6c1fb0880
+9517.064 [I] DATA.wifi: checkIPConnectivity_sync: ***** ipConnectivityAvailable: true
+9517.065 [I] DATA.wifi: checkIPConnectivity_sync: ipConnectivity UP. Current primary interface: 'en0'
+9517.065 [I] evt: Firing event 'dataWifiAvailable': with params= 1, {en0}
+9517.065 [I] DATA.wifi: handleWifiAvailable_sync: available = true  on [en0]
+9517.065 [I] evt: Firing event 'dataInterfaceAvailable': with params= 1, en0, 1
+9517.065 [I] ent.ctr: Wifi availability is changing from false to true
+9517.065 [I] evt: Firing event 'recalculateConnectionAvailability': with params= 0, Wifi Changed
+9517.065 [I] NoBBRadioModule:handleWifiAvailable: available = true
+9517.065 [I] 5wi.SDM: handleWifiAvailable_sync: currently available=false, new value=true
+9517.065 [I] NoBBRadioModule:checkNoBBRadioDownCondition: fNoBBWiFiOffInAirplaneMode false. fNoBBAirplaneMode false  fWiFiAvailable true
+9517.065 [I] DATA.wifi: handleWifiAvailable_sync: fWifiInterfaceName changes from  to en0
+9517.065 [I] evt: Firing event 'RATChanged': with params= kRatLTE
+9517.065 [I] evt: Firing event 'dataAttached'
+9517.065 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+9517.065 [I] evt: Firing event 'dataModeChanged': with params= kLTE, kLTE
+9517.065 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+9517.065 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+9517.065 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+9517.065 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+9517.065 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+9517.065 [I] call: isEmergencyWiFiAllowed is false
+9517.065 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+9517.065 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+9517.065 [I] call: ## notifyCallCapabilities_sync: isEmergencyWiFiAllowed=0,isEmergencyWiFiNoLimit=0
+9517.065 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+9517.065 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+9517.065 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+9517.065 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+9517.065 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+9517.065 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+9517.065 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+9517.065 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+9517.065 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+9517.065 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+9517.065 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+9517.065 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+9517.065 [I] xpc.event:   --------------> kCTEventCallManagementStateChanged(123) sent to 1 (of 4) clients.
+9517.065 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+9517.065 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+9517.065 [I] call.provider: Updating max calls capabilities: <CXProviderConfiguration 0x7fa6c1c2e840 localizedName=Telephony ringtoneSoundURL=(null) iconTemplateImageData=0x0 maximumCallGroups=6 maximumCallsPerCallGroup=5 supportsAudioOnly=1 supportsVideo=0 supportsEmergency=1 supportsVoicemail=1 audioSessionID=0 supportedHandleTypes=2>
+9517.065 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+9517.065 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+9517.065 [I] DATA.ServiceController: handleDataModeChanged_sync: kLTE
+9517.065 [I] DATA.ServiceController: activateController_sync: with (nothing)
+9517.065 [I] DATA.wifi: refreshAllDataSettings: start
+9517.065 [I] DATA: getiWLanSettingDict: no TechSettings dictionary can be found
+9517.065 [I] DATA.wifi: refreshAllDataSettings: for 0
+9517.065 [I] DATA.wifi: refreshAllDataSettings: APN info not present
+9517.065 [I] DATA.wifi: refreshAllDataSettings: APN info not present or does not support iWLan
+9517.065 [I] DATA.TechContext:0: stopUsing: start
+9517.065 [I] DATA.wifi: refreshAllDataSettings: for 1
+9517.065 [I] DATA.wifi: refreshAllDataSettings: APN info not present
+9517.065 [I] DATA.wifi: refreshAllDataSettings: APN info not present or does not support iWLan
+9517.065 [I] DATA.TechContext:1: stopUsing: start
+9517.065 [I] DATA.wifi: refreshAllDataSettings: stop
+9517.065 [I] DATA.iRatController: subscribeLineTypes_sync: with app Types { }
+9517.065 [I] DATA.iRatController: subscribeLineTypes_sync: Subscribe app Types not changed
+9517.065 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+9517.065 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+9517.065 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+9517.065 [I] xpc.client: CCXpcServer(395[callservicesd]:'callservicesd-CTTelephonyCenter'/0x7fa6c1c104e0) request: kCallModelGetProperty, expects reply.
+9517.065 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+9517.065 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+9517.065 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+9517.065 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+9517.065 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+9517.065 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+9517.065 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+9517.065 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+9517.065 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+9517.065 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+9517.065 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+9517.065 [I] call: isEmergencyWiFiAllowed is false
+9517.066 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+9517.066 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+9517.066 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+9517.066 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+9517.066 [I] clm: ## kCallModelGetProperty: isEmergencyWiFiAllowed=0,isEmergencyWiFiNoLimit=0
+9517.066 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+9517.066 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+9517.066 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+9517.066 [I] xpc.client: CCXpcServer(395[callservicesd]:'callservicesd-CTTelephonyCenter'/0x7fa6c1c104e0) reply to request 'kCallModelGetProperty'.
+9517.066 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+9517.066 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+9517.066 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+9517.066 [I] evt: Firing event 'recalculateConnectionAvailability': with params= 1, DataServiceController activation
+9517.066 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+9517.066 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+9517.066 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+9517.066 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+9517.066 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+9517.066 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+9517.066 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+9517.066 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+9517.066 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+9517.066 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+9517.066 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+9517.066 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+9517.066 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+9517.066 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+9517.066 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+9517.066 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+9517.066 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+9517.066 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+9517.066 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+9517.066 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+9517.066 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+9517.066 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+9517.066 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+9517.066 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+9517.066 [I] DATA.ServiceController: recalculateConnectionAvailability_sync: Internal event start: ==>>
+9517.066 [I] DATA.ServiceController: recalculateConnectionAvailability_sync:      internal event: If(kDataNotSupported{context is not assigned })
+9517.066 [I] DATA.ServiceController: recalculateConnectionAvailability_sync:      internal event: Vf(kDataNotSupported{context is not assigned })
+9517.066 [I] DATA.ServiceController: recalculateConnectionAvailability_sync:      internal event: Mf(kDataNotSupported{context is not assigned })
+9517.066 [I] DATA.ServiceController: recalculateConnectionAvailability_sync:      internal event: Ef(kDataNotSupported{context is not assigned })
+9517.066 [I] DATA.ServiceController: recalculateConnectionAvailability_sync:      internal event: Wf(kDataNotSupported{context is not assigned })
+9517.066 [I] DATA.ServiceController: recalculateConnectionAvailability_sync:      internal event: wf(kDataNotSupported{context is not assigned })
+9517.066 [I] DATA.ServiceController: recalculateConnectionAvailability_sync:      internal event: Pf(kDataNotSupported{context is not assigned })
+9517.066 [I] DATA.ServiceController: recalculateConnectionAvailability_sync:      internal event: Df(kDataNotSupported{context is not assigned })
+9517.066 [I] DATA.ServiceController: recalculateConnectionAvailability_sync:      internal event: Tf(kDataNotSupported{context is not assigned })
+9517.066 [I] DATA.ServiceController: recalculateConnectionAvailability_sync:      internal event: Of(kDataNotSupported{context is not assigned })
+9517.066 [I] DATA.ServiceController: recalculateConnectionAvailability_sync:      internal event: Ff(kDataNotSupported{context is not assigned })
+9517.066 [I] DATA.ServiceController: recalculateConnectionAvailability_sync:      internal event: ff(kDataNotSupported{context is not assigned })
+9517.066 [I] DATA.ServiceController: recalculateConnectionAvailability_sync:      internal event: mf(kDataNotSupported{context is not assigned })
+9517.066 [I] DATA.ServiceController: recalculateConnectionAvailability_sync:      internal event: of(kDataNotSupported{context is not assigned })
+9517.066 [I] DATA.ServiceController: recalculateConnectionAvailability_sync:      internal event: Zf(kDataNotSupported{context is not assigned })
+9517.066 [I] DATA.ServiceController: recalculateConnectionAvailability_sync:      internal event: $f(kDataNotSupported{context is not assigned })
+9517.066 [I] DATA.ServiceController: recalculateConnectionAvailability_sync:      internal event: if(kDataNotSupported{context is not assigned })
+9517.066 [I] DATA.ServiceController: recalculateConnectionAvailability_sync:      internal event: Sf(kDataNotSupported{context is not assigned })
+9517.066 [I] DATA.ServiceController: recalculateConnectionAvailability_sync:      internal event: 9f(kDataNotSupported{context is not assigned })
+9517.066 [I] DATA.ServiceController: recalculateConnectionAvailability_sync:      internal event: Bf(kDataNotSupported{context is not assigned })
+9517.066 [I] DATA.ServiceController: recalculateConnectionAvailability_sync:      internal event: Uf(kDataNotSupported{context is not assigned })
+9517.066 [I] DATA.ServiceController: recalculateConnectionAvailability_sync:      internal event: bf(kDataNotSupported{context is not assigned })
+9517.066 [I] DATA.ServiceController: recalculateConnectionAvailability_sync:      internal event: Lf(kDataNotSupported{context is not assigned })
+9517.066 [I] DATA.ServiceController: recalculateConnectionAvailability_sync:      internal event: 2f(kDataNotSupported{context is not assigned })
+9517.066 [I] DATA.ServiceController: recalculateConnectionAvailability_sync: <<== Internal event end: due to DataServiceController activation
+9517.066 [I] evt: Firing event 'connectionAvailability': with params= 0, {f(kDataNotSupported{context is not assigned}),f(kDataNotSupported{context is not assigned}),f(kDataNotSupported{context is not assigned}),f(kDataNotSupported{context is not assigned}),f(kDataNotSupported{context is not assigned}),f(kDataNotSupported{context is not assigned}),f(kDataNotSupported{context is not assigned}),f(kDataNotSupported{context is not assigned}),f(kDataNotSupported{context is not assigned}),f(kDataNotSupported{context is not assigned}),f(kDataNotSupported{context is not assigned}),f(kDataNotSupported{context is not assigned}),f(kDataNotSupported{context is not assigned}),f(kDataNotSupported{context is not assigned}),f(kDataNotSupported{context is not assigned}),f(kDataNotSupported{context is not assigned}),f(kDataNotSupported{context is not assigned}),f(kDataNotSupported{context is not assigned}),f(kDataNotSupported{context is not assigned}),f(kDataNotSupported{context is not assigned}),f(kDataNotSupported{context is not assigned}),f(kDataNotSupported{context is not assigned}),f(kDataNotSupported{context is not assigned}),f(kDataNotSupported{context is not assigned})}
+9517.066 [I] DATA.ServiceController: recalculateConnectionAvailability_sync: sending CT event due to DataServiceController activation
+9517.066 [I] xpc.event:   --------------> kCTEventDataServiceAvailability(158) sent to 0 (of 4) clients.
+9517.642 [I] sysobs: On WiFi: true OnCellular: false
+9517.642 [I] cb.client: Internet availability is changing from kUnavailable to kAvailable
+9517.642 [I] sysobs: Internet availability is changing from kUnavailable to kAvailable
+9517.642 [I] sysobs: WiFi Availability is changing from kUnavailable to kAvailable
+9517.642 [I] sysobs: WiFi MAC address property not supported on this platform
+9517.642 [I] pnr.mgr: Phone number hasn't been read
+9538.814 [I] CSIAppInfo.ApplicationActivationObserver: handleLSNotitifcation_sync: Application exited: AppInfo[AddressBookSourceSync, com.apple.addressbooksourcesync, false, 1017, 0]
+10190.887 [I] sysobs: On WiFi: true OnCellular: false
+10190.887 [I] pnr.mgr: Phone number hasn't been read
+10327.964 [I] CSIAppInfo.ApplicationActivationObserver: handleLSNotitifcation_sync: Application exited: AppInfo[Location Menu, com.apple.locationmenu, false, 1060, 0]
+10779.958 [I] DATA.Collocation_NoBB:0: dataCollocationAssertionUpdate: tearDownNow = true
+10779.958 [I] DATA.Collocation_NoBB:1: dataCollocationAssertionUpdate: tearDownNow = true
+10779.958 [I] DATA.ServiceController: ___ZN21DataServiceController21deactivateNonAssertedEv_block_invoke: nothing to wait for
+10779.958 [I] DATA.ServiceController: waitForDeactivateNonAsserted: result code 0
+10779.958 [I] pwr: Telling CSI to go low power
+10779.958 [I] NOBB:NoBBRadioModule_NOSUPPORT:canEnterLowPower: 
+10779.958 [I] pwr: CSI can enter low power, so now telling to do so
+10779.958 [I] NoBBRadioModule:enterLowPower: 
+10779.958 [I] pwr: Will sleep.  Heard from CSI in 7.49826e-05 seconds
+10779.958 [I] NoBBRadioModule:enterLowPower_sync: 
+10779.958 [I] evt: Sending internal notification kEventEnteringLowPower (4) params={0, 0, 0x0}
+10779.958 [I] evt: Firing event 'enterLowPower'
+10779.958 [I] DATA.wifi: enterLowPower: Entering low power mode
+10779.958 [I] DATA.wifi: callbackEnteredLowPower: Calling Low Power call back
+10779.958 [I] NoBBRadioModule:finishEnterLowPower: 
+10779.958 [I] DATA.iRatController: handleLowPower_sync: start
+10779.958 [I] call: Entering low power mode.
+10779.958 [I] NoBBRadioModule:finishEnterLowPower_sync: 
+10779.958 [I] NoBBRadioModule:finishEnterLowPower_sync: calling low power callback, result is 1
+11943.060 [I] DATA.wifi: handleNetworkStateChanged_sync: nwi_state: 0x7fa6c1e2b760
+11943.060 [I] DATA.wifi: checkIPConnectivity_sync: ***** ipConnectivityAvailable: false
+11943.060 [I] DATA.wifi: checkIPConnectivity_sync: fCurrentIfName: 'en0'
+11943.060 [I] DATA.wifi: checkIPConnectivity_sync: ipConnectivity DOWN. Previous primary interface: 'en0'
+11943.060 [I] evt: Firing event 'dataWifiAvailable': with params= 0, {}
+11943.060 [I] ent.ctr: Wifi availability is changing from true to false
+11943.060 [I] DATA.wifi: handleWifiAvailable_sync: available = false 
+11943.060 [I] evt: Firing event 'recalculateConnectionAvailability': with params= 0, Wifi Changed
+11943.060 [I] NoBBRadioModule:handleWifiAvailable: available = false
+11943.060 [I] DATA.TechContext:0: handleWifiAvailable: Looking for en0 in updated interface list
+11943.060 [I] DATA.TechContext:0: handleWifiAvailable: Interface en0 is gone, clear fActiveInterfaceName
+11943.060 [I] DATA.TechContext:1: handleWifiAvailable: Looking for en0 in updated interface list
+11943.060 [I] evt: Firing event 'dataModeChanged': with params= kNoData, kNoData
+11943.060 [I] DATA.TechContext:1: handleWifiAvailable: Interface en0 is gone, clear fActiveInterfaceName
+11943.060 [I] DATA.wifi: handleWifiAvailable_sync: fWifiInterfaceName changes from en0 to 
+11943.060 [I] evt: Firing event 'dataNotAttached'
+11943.060 [I] evt: Firing event 'RATChanged': with params= kRatUnknown
+11943.060 [I] NoBBRadioModule:checkNoBBRadioDownCondition: fNoBBWiFiOffInAirplaneMode false. fNoBBAirplaneMode false  fWiFiAvailable false
+11943.060 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+11943.060 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+11943.060 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+11943.060 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+11943.060 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+11943.060 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+11943.060 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+11943.060 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+11943.060 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+11943.060 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+11943.060 [I] call: isEmergencyWiFiAllowed is false
+11943.060 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+11943.060 [I] call: ## notifyCallCapabilities_sync: isEmergencyWiFiAllowed=0,isEmergencyWiFiNoLimit=0
+11943.060 [I] 5wi.SDM: handleWifiAvailable_sync: currently available=true, new value=false
+11943.060 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+11943.060 [I] xpc.event:   --------------> kCTEventCallManagementStateChanged(123) sent to 1 (of 4) clients.
+11943.060 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+11943.060 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+11943.060 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+11943.060 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+11943.060 [I] call.provider: Updating max calls capabilities: <CXProviderConfiguration 0x7fa6c1f64bc0 localizedName=Telephony ringtoneSoundURL=(null) iconTemplateImageData=0x0 maximumCallGroups=6 maximumCallsPerCallGroup=5 supportsAudioOnly=1 supportsVideo=0 supportsEmergency=1 supportsVoicemail=1 audioSessionID=0 supportedHandleTypes=2>
+11943.060 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+11943.060 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+11943.060 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+11943.060 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+11943.060 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+11943.060 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+11943.060 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+11943.060 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+11943.060 [I] DATA.ServiceController: handleDataModeChanged_sync: kNoData
+11943.062 [I] xpc.client: CCXpcServer(395[callservicesd]:'callservicesd-CTTelephonyCenter'/0x7fa6c1c104e0) request: kCallModelGetProperty, expects reply.
+11943.062 [I] call: isEmergencyWiFiAllowed is false
+11943.062 [I] clm: ## kCallModelGetProperty: isEmergencyWiFiAllowed=0,isEmergencyWiFiNoLimit=0
+11943.062 [I] xpc.client: CCXpcServer(395[callservicesd]:'callservicesd-CTTelephonyCenter'/0x7fa6c1c104e0) reply to request 'kCallModelGetProperty'.
+11943.753 [I] sysobs: On WiFi: false OnCellular: false
+11943.753 [I] cb.client: Internet availability is changing from kAvailable to kUnavailable
+11943.753 [I] sysobs: Internet availability is changing from kAvailable to kUnavailable
+11943.753 [I] sysobs: WiFi Availability is changing from kAvailable to kUnavailable
+11943.753 [I] sysobs: WiFi MAC address property not supported on this platform
+11943.753 [I] pnr.mgr: Phone number hasn't been read
+11946.195 [I] DATA.wifi: handleNetworkStateChanged_sync: nwi_state: 0x7fa6c1c220c0
+11946.195 [I] DATA.wifi: checkIPConnectivity_sync: ***** ipConnectivityAvailable: false
+11946.202 [I] DATA.wifi: handleNetworkStateChanged_sync: nwi_state: 0x7fa6c1c13110
+11946.202 [I] DATA.wifi: checkIPConnectivity_sync: ***** ipConnectivityAvailable: true
+11946.202 [I] DATA.wifi: checkIPConnectivity_sync: ipConnectivity UP. Current primary interface: 'en0'
+11946.202 [I] evt: Firing event 'dataWifiAvailable': with params= 1, {en0}
+11946.202 [I] ent.ctr: Wifi availability is changing from false to true
+11946.202 [I] DATA.wifi: handleWifiAvailable_sync: available = true  on [en0]
+11946.202 [I] NoBBRadioModule:handleWifiAvailable: available = true
+11946.202 [I] evt: Firing event 'dataInterfaceAvailable': with params= 1, en0, 1
+11946.202 [I] NoBBRadioModule:checkNoBBRadioDownCondition: fNoBBWiFiOffInAirplaneMode false. fNoBBAirplaneMode false  fWiFiAvailable true
+11946.202 [I] evt: Firing event 'recalculateConnectionAvailability': with params= 0, Wifi Changed
+11946.202 [I] evt: Firing event 'RATChanged': with params= kRatLTE
+11946.202 [I] evt: Firing event 'dataAttached'
+11946.202 [I] DATA.wifi: handleWifiAvailable_sync: fWifiInterfaceName changes from  to en0
+11946.202 [I] evt: Firing event 'dataModeChanged': with params= kLTE, kLTE
+11946.202 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+11946.202 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+11946.202 [I] 5wi.SDM: handleWifiAvailable_sync: currently available=false, new value=true
+11946.202 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+11946.202 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+11946.202 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+11946.202 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+11946.202 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+11946.202 [I] call: isEmergencyWiFiAllowed is false
+11946.202 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+11946.202 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+11946.202 [I] call: ## notifyCallCapabilities_sync: isEmergencyWiFiAllowed=0,isEmergencyWiFiNoLimit=0
+11946.202 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+11946.202 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+11946.202 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+11946.202 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+11946.202 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+11946.202 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+11946.202 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+11946.202 [I] xpc.event:   --------------> kCTEventCallManagementStateChanged(123) sent to 1 (of 4) clients.
+11946.202 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+11946.202 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+11946.202 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+11946.202 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+11946.202 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+11946.202 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+11946.202 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+11946.202 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+11946.202 [I] call.provider: Updating max calls capabilities: <CXProviderConfiguration 0x7fa6c1e06880 localizedName=Telephony ringtoneSoundURL=(null) iconTemplateImageData=0x0 maximumCallGroups=6 maximumCallsPerCallGroup=5 supportsAudioOnly=1 supportsVideo=0 supportsEmergency=1 supportsVoicemail=1 audioSessionID=0 supportedHandleTypes=2>
+11946.202 [I] DATA.ServiceController: handleDataModeChanged_sync: kLTE
+11946.202 [I] DATA.ServiceController: activateController_sync: with (nothing)
+11946.202 [I] DATA.wifi: refreshAllDataSettings: start
+11946.202 [I] DATA: getiWLanSettingDict: no TechSettings dictionary can be found
+11946.202 [I] DATA.wifi: refreshAllDataSettings: for 0
+11946.202 [I] DATA.wifi: refreshAllDataSettings: APN info not present
+11946.202 [I] DATA.wifi: refreshAllDataSettings: APN info not present or does not support iWLan
+11946.202 [I] DATA.TechContext:0: stopUsing: start
+11946.202 [I] DATA.wifi: refreshAllDataSettings: for 1
+11946.202 [I] DATA.wifi: refreshAllDataSettings: APN info not present
+11946.202 [I] DATA.wifi: refreshAllDataSettings: APN info not present or does not support iWLan
+11946.202 [I] DATA.TechContext:1: stopUsing: start
+11946.202 [I] DATA.wifi: refreshAllDataSettings: stop
+11946.202 [I] DATA.iRatController: subscribeLineTypes_sync: with app Types { }
+11946.202 [I] DATA.iRatController: subscribeLineTypes_sync: Subscribe app Types not changed
+11946.202 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+11946.202 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+11946.202 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+11946.202 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+11946.202 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+11946.202 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+11946.202 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+11946.202 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+11946.202 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+11946.202 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+11946.202 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+11946.202 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+11946.202 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+11946.202 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+11946.202 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+11946.202 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+11946.202 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+11946.202 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+11946.202 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+11946.202 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+11946.202 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+11946.202 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+11946.202 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+11946.202 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+11946.202 [I] evt: Firing event 'recalculateConnectionAvailability': with params= 1, DataServiceController activation
+11946.202 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+11946.202 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+11946.202 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+11946.203 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+11946.203 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+11946.203 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+11946.203 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+11946.203 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+11946.203 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+11946.203 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+11946.203 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+11946.203 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+11946.203 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+11946.203 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+11946.203 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+11946.203 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+11946.203 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+11946.203 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+11946.203 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+11946.203 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+11946.203 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+11946.203 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+11946.203 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+11946.203 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+11946.203 [I] DATA.ServiceController: recalculateConnectionAvailability_sync: Internal event start: ==>>
+11946.203 [I] DATA.ServiceController: recalculateConnectionAvailability_sync:      internal event: If(kDataNotSupported{context is not assigned })
+11946.203 [I] DATA.ServiceController: recalculateConnectionAvailability_sync:      internal event: Vf(kDataNotSupported{context is not assigned })
+11946.203 [I] DATA.ServiceController: recalculateConnectionAvailability_sync:      internal event: Mf(kDataNotSupported{context is not assigned })
+11946.203 [I] DATA.ServiceController: recalculateConnectionAvailability_sync:      internal event: Ef(kDataNotSupported{context is not assigned })
+11946.203 [I] DATA.ServiceController: recalculateConnectionAvailability_sync:      internal event: Wf(kDataNotSupported{context is not assigned })
+11946.203 [I] DATA.ServiceController: recalculateConnectionAvailability_sync:      internal event: wf(kDataNotSupported{context is not assigned })
+11946.203 [I] DATA.ServiceController: recalculateConnectionAvailability_sync:      internal event: Pf(kDataNotSupported{context is not assigned })
+11946.203 [I] DATA.ServiceController: recalculateConnectionAvailability_sync:      internal event: Df(kDataNotSupported{context is not assigned })
+11946.203 [I] DATA.ServiceController: recalculateConnectionAvailability_sync:      internal event: Tf(kDataNotSupported{context is not assigned })
+11946.203 [I] DATA.ServiceController: recalculateConnectionAvailability_sync:      internal event: Of(kDataNotSupported{context is not assigned })
+11946.203 [I] DATA.ServiceController: recalculateConnectionAvailability_sync:      internal event: Ff(kDataNotSupported{context is not assigned })
+11946.203 [I] DATA.ServiceController: recalculateConnectionAvailability_sync:      internal event: ff(kDataNotSupported{context is not assigned })
+11946.203 [I] DATA.ServiceController: recalculateConnectionAvailability_sync:      internal event: mf(kDataNotSupported{context is not assigned })
+11946.203 [I] DATA.ServiceController: recalculateConnectionAvailability_sync:      internal event: of(kDataNotSupported{context is not assigned })
+11946.203 [I] DATA.ServiceController: recalculateConnectionAvailability_sync:      internal event: Zf(kDataNotSupported{context is not assigned })
+11946.203 [I] DATA.ServiceController: recalculateConnectionAvailability_sync:      internal event: $f(kDataNotSupported{context is not assigned })
+11946.203 [I] DATA.ServiceController: recalculateConnectionAvailability_sync:      internal event: if(kDataNotSupported{context is not assigned })
+11946.203 [I] xpc.client: CCXpcServer(395[callservicesd]:'callservicesd-CTTelephonyCenter'/0x7fa6c1c104e0) request: kCallModelGetProperty, expects reply.
+11946.203 [I] DATA.ServiceController: recalculateConnectionAvailability_sync:      internal event: Sf(kDataNotSupported{context is not assigned })
+11946.203 [I] DATA.ServiceController: recalculateConnectionAvailability_sync:      internal event: 9f(kDataNotSupported{context is not assigned })
+11946.203 [I] DATA.ServiceController: recalculateConnectionAvailability_sync:      internal event: Bf(kDataNotSupported{context is not assigned })
+11946.203 [I] DATA.ServiceController: recalculateConnectionAvailability_sync:      internal event: Uf(kDataNotSupported{context is not assigned })
+11946.203 [I] DATA.ServiceController: recalculateConnectionAvailability_sync:      internal event: bf(kDataNotSupported{context is not assigned })
+11946.203 [I] DATA.ServiceController: recalculateConnectionAvailability_sync:      internal event: Lf(kDataNotSupported{context is not assigned })
+11946.203 [I] DATA.ServiceController: recalculateConnectionAvailability_sync:      internal event: 2f(kDataNotSupported{context is not assigned })
+11946.203 [I] DATA.ServiceController: recalculateConnectionAvailability_sync: <<== Internal event end: due to DataServiceController activation
+11946.203 [I] call: isEmergencyWiFiAllowed is false
+11946.203 [I] clm: ## kCallModelGetProperty: isEmergencyWiFiAllowed=0,isEmergencyWiFiNoLimit=0
+11946.203 [I] evt: Firing event 'connectionAvailability': with params= 0, {f(kDataNotSupported{context is not assigned}),f(kDataNotSupported{context is not assigned}),f(kDataNotSupported{context is not assigned}),f(kDataNotSupported{context is not assigned}),f(kDataNotSupported{context is not assigned}),f(kDataNotSupported{context is not assigned}),f(kDataNotSupported{context is not assigned}),f(kDataNotSupported{context is not assigned}),f(kDataNotSupported{context is not assigned}),f(kDataNotSupported{context is not assigned}),f(kDataNotSupported{context is not assigned}),f(kDataNotSupported{context is not assigned}),f(kDataNotSupported{context is not assigned}),f(kDataNotSupported{context is not assigned}),f(kDataNotSupported{context is not assigned}),f(kDataNotSupported{context is not assigned}),f(kDataNotSupported{context is not assigned}),f(kDataNotSupported{context is not assigned}),f(kDataNotSupported{context is not assigned}),f(kDataNotSupported{context is not assigned}),f(kDataNotSupported{context is not assigned}),f(kDataNotSupported{context is not assigned}),f(kDataNotSupported{context is not assigned}),f(kDataNotSupported{context is not assigned})}
+11946.203 [I] DATA.ServiceController: recalculateConnectionAvailability_sync: sending CT event due to DataServiceController activation
+11946.203 [I] xpc.client: CCXpcServer(395[callservicesd]:'callservicesd-CTTelephonyCenter'/0x7fa6c1c104e0) reply to request 'kCallModelGetProperty'.
+11946.203 [I] xpc.event:   --------------> kCTEventDataServiceAvailability(158) sent to 0 (of 4) clients.
+11946.782 [I] sysobs: On WiFi: true OnCellular: false
+11946.782 [I] cb.client: Internet availability is changing from kUnavailable to kAvailable
+11946.782 [I] sysobs: Internet availability is changing from kUnavailable to kAvailable
+11946.782 [I] pnr.mgr: Phone number hasn't been read
+11946.782 [I] sysobs: WiFi Availability is changing from kUnavailable to kAvailable
+11946.782 [I] sysobs: WiFi MAC address property not supported on this platform
+12552.556 [I] pwr: Telling CSI to exit low power
+12552.556 [I] NoBBRadioModule:exitLowPower: 
+12552.556 [I] NoBBRadioModule:exitLowPower_sync: 
+12552.556 [I] evt: Sending internal notification kEventExitingLowPower (5) params={0, 0, 0x0}
+12552.556 [I] evt: Firing event 'exitLowPower'
+12552.556 [I] DATA.wifi: handleExitLowPower_sync: Exiting low power mode
+12552.556 [I] DATA: getiWLanSettingDict: no TechSettings dictionary can be found
+12552.556 [I] DATA: getiWLanSettingDict: no TechSettings dictionary can be found
+12552.557 [I] DATA.iRatController: handleLowPower_sync: start
+12928.724 [I] CSIAppInfo.ApplicationActivationObserver: handleLSNotitifcation_sync: Application exited: AppInfo[Location Menu, com.apple.locationmenu, false, 1094, 0]
+13159.644 [I] CSIAppInfo.ApplicationActivationObserver: handleLSNotitifcation_sync: Application exited: AppInfo[Location Menu, com.apple.locationmenu, false, 1112, 0]
+13279.360 [I] CSIAppInfo.ApplicationActivationObserver: handleLSNotitifcation_sync: Application exited: AppInfo[Safari Web Content, com.apple.webkit.webcontent, false, 1117, 0]
+13281.737 [I] CSIAppInfo.ApplicationActivationObserver: handleLSNotitifcation_sync: Application exited: AppInfo[Safari Networking, com.apple.webkit.networking, false, 1115, 0]
+13281.741 [I] CSIAppInfo.ApplicationActivationObserver: handleLSNotitifcation_sync: Application exited: AppInfo[Safari Web Content, com.apple.webkit.webcontent, false, 1116, 0]
+13285.108 [I] CSIAppInfo.ApplicationActivationObserver: handleLSNotitifcation_sync: Application exited: AppInfo[Safari Web Content, com.apple.webkit.webcontent, false, 1114, 0]
+13348.842 [I] CSIAppInfo.ApplicationActivationObserver: handleLSNotitifcation_sync: Application launched: AppInfo[TextEdit, com.apple.textedit, true, 1121, 0]
+13573.296 [I] CSIAppInfo.ApplicationActivationObserver: handleLSNotitifcation_sync: Application exited: AppInfo[Quick Look UI Helper, com.apple.quicklook.ui.helper, false, 1133, 0]
+13580.854 [I] CSIAppInfo.ApplicationActivationObserver: handleLSNotitifcation_sync: Application exited: AppInfo[Quick Look UI Helper, com.apple.quicklook.ui.helper, false, 1134, 0]
+13638.573 [I] CSIAppInfo.ApplicationActivationObserver: handleLSNotitifcation_sync: Application exited: AppInfo[Quick Look UI Helper, com.apple.quicklook.ui.helper, false, 1138, 0]
+13661.697 [I] CSIAppInfo.ApplicationActivationObserver: handleLSNotitifcation_sync: Application exited: AppInfo[Quick Look UI Helper, com.apple.quicklook.ui.helper, false, 1139, 0]
+14059.684 [I] CSIAppInfo.ApplicationActivationObserver: handleLSNotitifcation_sync: Application exited: AppInfo[Location Menu, com.apple.locationmenu, false, 1157, 0]
+14659.934 [I] CSIAppInfo.ApplicationActivationObserver: handleLSNotitifcation_sync: Application exited: AppInfo[Safari Web Content, com.apple.webkit.webcontent, false, 919, 0]
+14661.868 [I] CSIAppInfo.ApplicationActivationObserver: handleLSNotitifcation_sync: Application exited: AppInfo[Safari Web Content, com.apple.webkit.webcontent, false, 918, 0]
+15007.217 [I] CSIAppInfo.ApplicationActivationObserver: handleLSNotitifcation_sync: Application exited: AppInfo[Location Menu, com.apple.locationmenu, false, 1193, 0]
+15389.971 [I] DATA.Collocation_NoBB:0: dataCollocationAssertionUpdate: tearDownNow = true
+15389.971 [I] DATA.Collocation_NoBB:1: dataCollocationAssertionUpdate: tearDownNow = true
+15389.971 [I] DATA.ServiceController: ___ZN21DataServiceController21deactivateNonAssertedEv_block_invoke: nothing to wait for
+15389.971 [I] DATA.ServiceController: waitForDeactivateNonAsserted: result code 0
+15389.971 [I] pwr: Telling CSI to go low power
+15389.971 [I] NOBB:NoBBRadioModule_NOSUPPORT:canEnterLowPower: 
+15389.971 [I] pwr: CSI can enter low power, so now telling to do so
+15389.971 [I] NoBBRadioModule:enterLowPower: 
+15389.971 [I] pwr: Will sleep.  Heard from CSI in 3.60012e-05 seconds
+15389.972 [I] NoBBRadioModule:enterLowPower_sync: 
+15389.972 [I] evt: Sending internal notification kEventEnteringLowPower (4) params={0, 0, 0x0}
+15389.972 [I] evt: Firing event 'enterLowPower'
+15389.972 [I] DATA.wifi: enterLowPower: Entering low power mode
+15389.972 [I] call: Entering low power mode.
+15389.972 [I] DATA.wifi: callbackEnteredLowPower: Calling Low Power call back
+15389.972 [I] NoBBRadioModule:finishEnterLowPower: 
+15389.972 [I] NoBBRadioModule:finishEnterLowPower_sync: 
+15389.972 [I] DATA.iRatController: handleLowPower_sync: start
+15389.972 [I] NoBBRadioModule:finishEnterLowPower_sync: calling low power callback, result is 1
+17681.560 [I] pwr: Telling CSI to exit low power
+17681.560 [I] NoBBRadioModule:exitLowPower: 
+17681.560 [I] NoBBRadioModule:exitLowPower_sync: 
+17681.560 [I] evt: Sending internal notification kEventExitingLowPower (5) params={0, 0, 0x0}
+17681.560 [I] evt: Firing event 'exitLowPower'
+17681.560 [I] DATA.wifi: handleExitLowPower_sync: Exiting low power mode
+17681.560 [I] DATA: getiWLanSettingDict: no TechSettings dictionary can be found
+17681.560 [I] DATA: getiWLanSettingDict: no TechSettings dictionary can be found
+17681.560 [I] DATA.iRatController: handleLowPower_sync: start
+17753.579 [I] CSIAppInfo.ApplicationActivationObserver: handleLSNotitifcation_sync: Application exited: AppInfo[TMHelperAgent, com.apple.tmhelperagent, false, 1228, 0]
+17758.903 [I] CSIAppInfo.ApplicationActivationObserver: handleLSNotitifcation_sync: Application exited: AppInfo[Spotlight Web Content, com.apple.webkit.webcontent, false, 1256, 0]
+17760.171 [I] CSIAppInfo.ApplicationActivationObserver: handleLSNotitifcation_sync: Application exited: AppInfo[Spotlight Web Content, com.apple.webkit.webcontent, false, 1264, 0]
+17760.796 [I] CSIAppInfo.ApplicationActivationObserver: handleLSNotitifcation_sync: Application exited: AppInfo[Spotlight Web Content, com.apple.webkit.webcontent, false, 1265, 0]
+17767.668 [I] CSIAppInfo.ApplicationActivationObserver: handleLSNotitifcation_sync: Application exited: AppInfo[Spotlight Web Content, com.apple.webkit.webcontent, false, 1267, 0]
+17769.559 [I] CSIAppInfo.ApplicationActivationObserver: handleLSNotitifcation_sync: Application exited: AppInfo[Spotlight Web Content, com.apple.webkit.webcontent, false, 1268, 0]
+17829.641 [I] CSIAppInfo.ApplicationActivationObserver: handleLSNotitifcation_sync: Application exited: AppInfo[Spotlight Networking, com.apple.webkit.networking, false, 1255, 0]
+17999.154 [I] CSIAppInfo.ApplicationActivationObserver: handleLSNotitifcation_sync: Application exited: AppInfo[Safari Web Content, com.apple.webkit.webcontent, false, 1304, 0]
+18176.941 [I] CSIAppInfo.ApplicationActivationObserver: handleLSNotitifcation_sync: Application exited: AppInfo[Location Menu, com.apple.locationmenu, false, 1412, 0]
+18500.583 [I] CSIAppInfo.ApplicationActivationObserver: handleLSNotitifcation_sync: Application exited: AppInfo[Safari Web Content, com.apple.webkit.webcontent, false, 1119, 0]
+18781.166 [I] CSIAppInfo.ApplicationActivationObserver: handleLSNotitifcation_sync: Application exited: AppInfo[Location Menu, com.apple.locationmenu, false, 1445, 0]
+19289.085 [I] DATA.Collocation_NoBB:0: dataCollocationAssertionUpdate: tearDownNow = true
+19289.085 [I] DATA.Collocation_NoBB:1: dataCollocationAssertionUpdate: tearDownNow = true
+19289.085 [I] DATA.ServiceController: ___ZN21DataServiceController21deactivateNonAssertedEv_block_invoke: nothing to wait for
+19289.085 [I] DATA.ServiceController: waitForDeactivateNonAsserted: result code 0
+19289.085 [I] pwr: Telling CSI to go low power
+19289.085 [I] NOBB:NoBBRadioModule_NOSUPPORT:canEnterLowPower: 
+19289.085 [I] pwr: CSI can enter low power, so now telling to do so
+19289.085 [I] NoBBRadioModule:enterLowPower: 
+19289.085 [I] pwr: Will sleep.  Heard from CSI in 3.00407e-05 seconds
+19289.085 [I] NoBBRadioModule:enterLowPower_sync: 
+19289.085 [I] evt: Sending internal notification kEventEnteringLowPower (4) params={0, 0, 0x0}
+19289.085 [I] evt: Firing event 'enterLowPower'
+19289.085 [I] DATA.wifi: enterLowPower: Entering low power mode
+19289.085 [I] DATA.wifi: callbackEnteredLowPower: Calling Low Power call back
+19289.085 [I] NoBBRadioModule:finishEnterLowPower: 
+19289.085 [I] DATA.iRatController: handleLowPower_sync: start
+19289.085 [I] call: Entering low power mode.
+19289.085 [I] NoBBRadioModule:finishEnterLowPower_sync: 
+19289.085 [I] NoBBRadioModule:finishEnterLowPower_sync: calling low power callback, result is 1
+20396.557 [I] pwr: Telling CSI to exit low power
+20396.557 [I] NoBBRadioModule:exitLowPower: 
+20396.557 [I] NoBBRadioModule:exitLowPower_sync: 
+20396.557 [I] evt: Sending internal notification kEventExitingLowPower (5) params={0, 0, 0x0}
+20396.557 [I] evt: Firing event 'exitLowPower'
+20396.557 [I] DATA.wifi: handleExitLowPower_sync: Exiting low power mode
+20396.557 [I] DATA: getiWLanSettingDict: no TechSettings dictionary can be found
+20396.557 [I] DATA: getiWLanSettingDict: no TechSettings dictionary can be found
+20396.557 [I] DATA.iRatController: handleLowPower_sync: start
+20467.814 [I] CSIAppInfo.ApplicationActivationObserver: handleLSNotitifcation_sync: Application exited: AppInfo[TMHelperAgent, com.apple.tmhelperagent, false, 1522, 0]
+20766.824 [I] CSIAppInfo.ApplicationActivationObserver: handleLSNotitifcation_sync: Application exited: AppInfo[Location Menu, com.apple.locationmenu, false, 1565, 0]
+20969.931 [I] CSIAppInfo.ApplicationActivationObserver: handleLSNotitifcation_sync: Application exited: AppInfo[Safari Web Content, com.apple.webkit.webcontent, false, 1581, 0]
+20973.115 [I] CSIAppInfo.ApplicationActivationObserver: handleLSNotitifcation_sync: Application exited: AppInfo[Safari Web Content, com.apple.webkit.webcontent, false, 1582, 0]
+20978.717 [I] CSIAppInfo.ApplicationActivationObserver: handleLSNotitifcation_sync: Application exited: AppInfo[Safari Web Content, com.apple.webkit.webcontent, false, 1578, 0]
+20994.438 [I] CSIAppInfo.ApplicationActivationObserver: handleLSNotitifcation_sync: Application exited: AppInfo[Safari Networking, com.apple.webkit.networking, false, 1579, 0]
+20994.442 [I] CSIAppInfo.ApplicationActivationObserver: handleLSNotitifcation_sync: Application exited: AppInfo[Safari Web Content, com.apple.webkit.webcontent, false, 1580, 0]
+21666.879 [I] CSIAppInfo.ApplicationActivationObserver: handleLSNotitifcation_sync: Application exited: AppInfo[Location Menu, com.apple.locationmenu, false, 1621, 0]
+21721.960 [I] CSIAppInfo.ApplicationActivationObserver: handleLSNotitifcation_sync: Application exited: AppInfo[CoreServicesUIAgent, com.apple.coreservices.uiagent, false, 513, 0]
+22566.933 [I] CSIAppInfo.ApplicationActivationObserver: handleLSNotitifcation_sync: Application exited: AppInfo[Location Menu, com.apple.locationmenu, false, 1663, 0]
+22693.692 [I] CSIAppInfo.ApplicationActivationObserver: handleLSNotitifcation_sync: Application exited: AppInfo[Safari Web Content, com.apple.webkit.webcontent, false, 1665, 0]
+22694.894 [I] CSIAppInfo.ApplicationActivationObserver: handleLSNotitifcation_sync: Application exited: AppInfo[Safari Web Content, com.apple.webkit.webcontent, false, 1664, 0]
+22775.045 [I] CSIAppInfo.ApplicationActivationObserver: handleLSNotitifcation_sync: Application exited: AppInfo[Safari Web Content, com.apple.webkit.webcontent, false, 1666, 0]
+23180.658 [I] CSIAppInfo.ApplicationActivationObserver: handleLSNotitifcation_sync: Application exited: AppInfo[Safari Web Content, com.apple.webkit.webcontent, false, 1697, 0]
+23231.433 [I] CSIAppInfo.ApplicationActivationObserver: handleLSNotitifcation_sync: Application exited: AppInfo[Safari Web Content, com.apple.webkit.webcontent, false, 1698, 0]
+23245.959 [I] CSIAppInfo.ApplicationActivationObserver: handleLSNotitifcation_sync: Application exited: AppInfo[Safari Web Content, com.apple.webkit.webcontent, false, 1700, 0]
+23281.611 [I] DATA.wifi: handleNetworkStateChanged_sync: nwi_state: 0x7fa6c1d3da00
+23281.611 [I] DATA.wifi: checkIPConnectivity_sync: ***** ipConnectivityAvailable: false
+23281.611 [I] DATA.wifi: checkIPConnectivity_sync: fCurrentIfName: 'en0'
+23281.611 [I] DATA.wifi: checkIPConnectivity_sync: ipConnectivity DOWN. Previous primary interface: 'en0'
+23281.611 [I] evt: Firing event 'dataWifiAvailable': with params= 0, {}
+23281.611 [I] ent.ctr: Wifi availability is changing from true to false
+23281.611 [I] NoBBRadioModule:handleWifiAvailable: available = false
+23281.611 [I] DATA.wifi: handleWifiAvailable_sync: available = false 
+23281.611 [I] evt: Firing event 'dataModeChanged': with params= kNoData, kNoData
+23281.611 [I] evt: Firing event 'recalculateConnectionAvailability': with params= 0, Wifi Changed
+23281.611 [I] evt: Firing event 'dataNotAttached'
+23281.611 [I] DATA.TechContext:0: handleWifiAvailable: Looking for en0 in updated interface list
+23281.611 [I] evt: Firing event 'RATChanged': with params= kRatUnknown
+23281.611 [I] DATA.TechContext:0: handleWifiAvailable: Interface en0 is gone, clear fActiveInterfaceName
+23281.611 [I] NoBBRadioModule:checkNoBBRadioDownCondition: fNoBBWiFiOffInAirplaneMode false. fNoBBAirplaneMode false  fWiFiAvailable false
+23281.611 [I] DATA.TechContext:1: handleWifiAvailable: Looking for en0 in updated interface list
+23281.611 [I] DATA.TechContext:1: handleWifiAvailable: Interface en0 is gone, clear fActiveInterfaceName
+23281.611 [I] 5wi.SDM: handleWifiAvailable_sync: currently available=true, new value=false
+23281.611 [I] DATA.wifi: handleWifiAvailable_sync: fWifiInterfaceName changes from en0 to 
+23281.611 [I] DATA.ServiceController: handleDataModeChanged_sync: kNoData
+23281.611 [I] call: isEmergencyWiFiAllowed is false
+23281.611 [I] call: ## notifyCallCapabilities_sync: isEmergencyWiFiAllowed=0,isEmergencyWiFiNoLimit=0
+23281.611 [I] xpc.event:   --------------> kCTEventCallManagementStateChanged(123) sent to 1 (of 4) clients.
+23281.611 [I] call.provider: Updating max calls capabilities: <CXProviderConfiguration 0x7fa6c1f69410 localizedName=Telephony ringtoneSoundURL=(null) iconTemplateImageData=0x0 maximumCallGroups=6 maximumCallsPerCallGroup=5 supportsAudioOnly=1 supportsVideo=0 supportsEmergency=1 supportsVoicemail=1 audioSessionID=0 supportedHandleTypes=2>
+23281.611 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+23281.612 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+23281.612 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+23281.612 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+23281.612 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+23281.612 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+23281.612 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+23281.612 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+23281.612 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+23281.612 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+23281.612 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+23281.612 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+23281.612 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+23281.612 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+23281.612 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+23281.612 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+23281.612 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+23281.612 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+23281.612 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+23281.612 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+23281.612 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+23281.612 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+23281.612 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+23281.612 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+23281.612 [I] xpc.client: CCXpcServer(395[callservicesd]:'callservicesd-CTTelephonyCenter'/0x7fa6c1c104e0) request: kCallModelGetProperty, expects reply.
+23281.612 [I] call: isEmergencyWiFiAllowed is false
+23281.612 [I] clm: ## kCallModelGetProperty: isEmergencyWiFiAllowed=0,isEmergencyWiFiNoLimit=0
+23281.613 [I] xpc.client: CCXpcServer(395[callservicesd]:'callservicesd-CTTelephonyCenter'/0x7fa6c1c104e0) reply to request 'kCallModelGetProperty'.
+23281.739 [I] sysobs: On WiFi: false OnCellular: false
+23281.740 [I] cb.client: Internet availability is changing from kAvailable to kUnavailable
+23281.740 [I] sysobs: Internet availability is changing from kAvailable to kUnavailable
+23281.740 [I] sysobs: WiFi Availability is changing from kAvailable to kUnavailable
+23281.740 [I] sysobs: WiFi MAC address property not supported on this platform
+23281.740 [I] pnr.mgr: Phone number hasn't been read
+23291.583 [I] DATA.wifi: handleNetworkStateChanged_sync: nwi_state: 0x7fa6c1d401d0
+23291.583 [I] DATA.wifi: checkIPConnectivity_sync: ***** ipConnectivityAvailable: false
+23291.591 [I] DATA.wifi: handleNetworkStateChanged_sync: nwi_state: 0x7fa6c1e41780
+23291.591 [I] DATA.wifi: checkIPConnectivity_sync: ***** ipConnectivityAvailable: true
+23291.591 [I] DATA.wifi: checkIPConnectivity_sync: ipConnectivity UP. Current primary interface: 'en0'
+23291.591 [I] evt: Firing event 'dataWifiAvailable': with params= 1, {en0}
+23291.591 [I] ent.ctr: Wifi availability is changing from false to true
+23291.591 [I] evt: Firing event 'dataInterfaceAvailable': with params= 1, en0, 1
+23291.591 [I] NoBBRadioModule:handleWifiAvailable: available = true
+23291.591 [I] NoBBRadioModule:checkNoBBRadioDownCondition: fNoBBWiFiOffInAirplaneMode false. fNoBBAirplaneMode false  fWiFiAvailable true
+23291.591 [I] DATA.wifi: handleWifiAvailable_sync: available = true  on [en0]
+23291.591 [I] evt: Firing event 'RATChanged': with params= kRatLTE
+23291.591 [I] evt: Firing event 'dataAttached'
+23291.591 [I] evt: Firing event 'recalculateConnectionAvailability': with params= 0, Wifi Changed
+23291.591 [I] evt: Firing event 'dataModeChanged': with params= kLTE, kLTE
+23291.591 [I] DATA.wifi: handleWifiAvailable_sync: fWifiInterfaceName changes from  to en0
+23291.591 [I] 5wi.SDM: handleWifiAvailable_sync: currently available=false, new value=true
+23291.591 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+23291.591 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+23291.591 [I] call: isEmergencyWiFiAllowed is false
+23291.591 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+23291.591 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+23291.591 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+23291.591 [I] call: ## notifyCallCapabilities_sync: isEmergencyWiFiAllowed=0,isEmergencyWiFiNoLimit=0
+23291.591 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+23291.591 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+23291.591 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+23291.591 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+23291.591 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+23291.591 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+23291.591 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+23291.591 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+23291.591 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+23291.591 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+23291.591 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+23291.591 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+23291.591 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+23291.591 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+23291.591 [I] xpc.event:   --------------> kCTEventCallManagementStateChanged(123) sent to 1 (of 4) clients.
+23291.591 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+23291.591 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+23291.591 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+23291.591 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+23291.591 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+23291.591 [I] DATA.ServiceController: handleDataModeChanged_sync: kLTE
+23291.591 [I] DATA.ServiceController: activateController_sync: with (nothing)
+23291.591 [I] DATA.wifi: refreshAllDataSettings: start
+23291.591 [I] call.provider: Updating max calls capabilities: <CXProviderConfiguration 0x7fa6c1e41520 localizedName=Telephony ringtoneSoundURL=(null) iconTemplateImageData=0x0 maximumCallGroups=6 maximumCallsPerCallGroup=5 supportsAudioOnly=1 supportsVideo=0 supportsEmergency=1 supportsVoicemail=1 audioSessionID=0 supportedHandleTypes=2>
+23291.591 [I] DATA: getiWLanSettingDict: no TechSettings dictionary can be found
+23291.591 [I] DATA.wifi: refreshAllDataSettings: for 0
+23291.591 [I] DATA.wifi: refreshAllDataSettings: APN info not present
+23291.591 [I] DATA.wifi: refreshAllDataSettings: APN info not present or does not support iWLan
+23291.591 [I] DATA.TechContext:0: stopUsing: start
+23291.591 [I] DATA.wifi: refreshAllDataSettings: for 1
+23291.591 [I] DATA.wifi: refreshAllDataSettings: APN info not present
+23291.591 [I] DATA.wifi: refreshAllDataSettings: APN info not present or does not support iWLan
+23291.591 [I] DATA.TechContext:1: stopUsing: start
+23291.591 [I] DATA.wifi: refreshAllDataSettings: stop
+23291.591 [I] DATA.iRatController: subscribeLineTypes_sync: with app Types { }
+23291.591 [I] DATA.iRatController: subscribeLineTypes_sync: Subscribe app Types not changed
+23291.591 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+23291.591 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+23291.591 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+23291.591 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+23291.591 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+23291.591 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+23291.591 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+23291.591 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+23291.591 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+23291.591 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+23291.591 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+23291.591 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+23291.591 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+23291.591 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+23291.591 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+23291.591 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+23291.591 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+23291.591 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+23291.591 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+23291.591 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+23291.591 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+23291.592 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+23291.592 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+23291.592 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+23291.592 [I] evt: Firing event 'recalculateConnectionAvailability': with params= 1, DataServiceController activation
+23291.592 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+23291.592 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+23291.592 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+23291.592 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+23291.592 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+23291.592 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+23291.592 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+23291.592 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+23291.592 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+23291.592 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+23291.592 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+23291.592 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+23291.592 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+23291.592 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+23291.592 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+23291.592 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+23291.592 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+23291.592 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+23291.592 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+23291.592 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+23291.592 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+23291.592 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+23291.592 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+23291.592 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+23291.592 [I] DATA.ServiceController: recalculateConnectionAvailability_sync: Internal event start: ==>>
+23291.592 [I] DATA.ServiceController: recalculateConnectionAvailability_sync:      internal event: If(kDataNotSupported{context is not assigned })
+23291.592 [I] DATA.ServiceController: recalculateConnectionAvailability_sync:      internal event: Vf(kDataNotSupported{context is not assigned })
+23291.592 [I] DATA.ServiceController: recalculateConnectionAvailability_sync:      internal event: Mf(kDataNotSupported{context is not assigned })
+23291.592 [I] DATA.ServiceController: recalculateConnectionAvailability_sync:      internal event: Ef(kDataNotSupported{context is not assigned })
+23291.592 [I] DATA.ServiceController: recalculateConnectionAvailability_sync:      internal event: Wf(kDataNotSupported{context is not assigned })
+23291.592 [I] DATA.ServiceController: recalculateConnectionAvailability_sync:      internal event: wf(kDataNotSupported{context is not assigned })
+23291.592 [I] DATA.ServiceController: recalculateConnectionAvailability_sync:      internal event: Pf(kDataNotSupported{context is not assigned })
+23291.592 [I] DATA.ServiceController: recalculateConnectionAvailability_sync:      internal event: Df(kDataNotSupported{context is not assigned })
+23291.592 [I] DATA.ServiceController: recalculateConnectionAvailability_sync:      internal event: Tf(kDataNotSupported{context is not assigned })
+23291.592 [I] DATA.ServiceController: recalculateConnectionAvailability_sync:      internal event: Of(kDataNotSupported{context is not assigned })
+23291.592 [I] DATA.ServiceController: recalculateConnectionAvailability_sync:      internal event: Ff(kDataNotSupported{context is not assigned })
+23291.592 [I] DATA.ServiceController: recalculateConnectionAvailability_sync:      internal event: ff(kDataNotSupported{context is not assigned })
+23291.592 [I] DATA.ServiceController: recalculateConnectionAvailability_sync:      internal event: mf(kDataNotSupported{context is not assigned })
+23291.592 [I] DATA.ServiceController: recalculateConnectionAvailability_sync:      internal event: of(kDataNotSupported{context is not assigned })
+23291.592 [I] DATA.ServiceController: recalculateConnectionAvailability_sync:      internal event: Zf(kDataNotSupported{context is not assigned })
+23291.592 [I] DATA.ServiceController: recalculateConnectionAvailability_sync:      internal event: $f(kDataNotSupported{context is not assigned })
+23291.592 [I] DATA.ServiceController: recalculateConnectionAvailability_sync:      internal event: if(kDataNotSupported{context is not assigned })
+23291.592 [I] xpc.client: CCXpcServer(395[callservicesd]:'callservicesd-CTTelephonyCenter'/0x7fa6c1c104e0) request: kCallModelGetProperty, expects reply.
+23291.592 [I] DATA.ServiceController: recalculateConnectionAvailability_sync:      internal event: Sf(kDataNotSupported{context is not assigned })
+23291.592 [I] DATA.ServiceController: recalculateConnectionAvailability_sync:      internal event: 9f(kDataNotSupported{context is not assigned })
+23291.592 [I] DATA.ServiceController: recalculateConnectionAvailability_sync:      internal event: Bf(kDataNotSupported{context is not assigned })
+23291.592 [I] DATA.ServiceController: recalculateConnectionAvailability_sync:      internal event: Uf(kDataNotSupported{context is not assigned })
+23291.592 [I] DATA.ServiceController: recalculateConnectionAvailability_sync:      internal event: bf(kDataNotSupported{context is not assigned })
+23291.592 [I] DATA.ServiceController: recalculateConnectionAvailability_sync:      internal event: Lf(kDataNotSupported{context is not assigned })
+23291.592 [I] call: isEmergencyWiFiAllowed is false
+23291.592 [I] DATA.ServiceController: recalculateConnectionAvailability_sync:      internal event: 2f(kDataNotSupported{context is not assigned })
+23291.592 [I] DATA.ServiceController: recalculateConnectionAvailability_sync: <<== Internal event end: due to DataServiceController activation
+23291.592 [I] clm: ## kCallModelGetProperty: isEmergencyWiFiAllowed=0,isEmergen
