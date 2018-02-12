@@ -1,0 +1,756 @@
+0.878 misc: Time of day: 1518428745.325005 (tz=7200)
+0.002 [N] main: CommCenter Init: initializing
+0.221 [I] misc: Communications Center passed sandbox_init_with_parameters. homeDirPath: '/Users/MonaAskary', usersBasePath: '/Users', realHomeDirPath: '/Users/MonaAskary', realUsersBasePath: '/Users', userCacheDir: '/private/var/folders/bq/d2wrx2td5sx723cbb81wv5sm0000gn/C'
+0.222 [I] misc: Communications Center quarantined successfully
+0.280 [N] main: CommCenter Init: creating basic services
+0.280 [N] dyld: No CommandDriver dylib was loaded! Returning null-factory.
+0.281 [N] dyld: 'NullFactory' instantiated!
+0.282 [I] xpc.tracker: Tracker gathering stats = 0 (logged=0, queriable=0)
+0.282 [I] xpc.tracker: Tracker gathering stats = 0 (logged=0, queriable=0)
+0.282 [I] xpc.tracker: Tracker gathering stats = 0 (logged=0, queriable=0)
+0.283 [I] sysconf: SCSettings: current plist values are AirplaneMode=unset RestrictedMode=unset
+0.285 [I] call.EmergencyNumbers: Adding iCloud emergency numbers 911;112;*911;#911; from EmergencyNumbersListType::kDefault
+0.751 [I] kc: KeychainAutoUnlock(readFromKeychain - 'KeychainObserver::create') - Unlocking keychain failed with error The user name or passphrase you entered is not correct.(-25293)
+0.775 [I] persist: KeychainObserver::create cache read failed (error = -25300)
+0.775 [N] main: CommCenter Init: Starting Rest Services
+0.776 [I] NoBBRadioModule:NoBBRadioModule: 
+0.776 [I] rm: ----------------- Starting NoBBRadioModule ----------------
+0.776 [I] NoBBAudioRoutingModel:NoBBAudioRoutingModel: 
+0.878 [I] evt: Firing event 'csi_logging_enabled': with params= 1
+0.879 [I] trc: CSILog: Long history set to 32MB
+0.879 [I] rm: ----------------- Created traceModule ----------------
+0.882 [I] 5wi.SDM: init: Constructor: id=1, fCountrySetFlag set to false
+0.882 [I] cb.client: Retrieved next update from preferences file: 2016-01-07 08:49:36 +0000
+0.882 [I] cb.client: Next update present in the preferences file is past now (2018-02-12 09:45:45 +0000), will check for update as soon as possible
+0.883 [I] cb.client: Setting update trigger from BundleUpdateCheckTrigger::kUnknown to BundleUpdateCheckTrigger::kPeriodicCheck
+0.883 [I] cb.client: Setting carrier bundle update upon from CheckBundleUpdateUpon::kTimerExpiry to CheckBundleUpdateUpon::kSubscriberInformationAvailable
+0.883 [I] cb.client: Not starting an update timer, bundle update will be checked as soon as CheckBundleUpdateUpon::kSubscriberInformationAvailable happens
+0.883 [I] cb.server: Received command at the server: kInitialize
+0.883 [I] cb.server: Initializing the bundles
+0.883 [I] cb.man: Initializing Carrier Bundle Locations
+0.884 [N] cb.man: Carrier Bundles not supported on this device
+0.884 [N] cb.man: Carrier Bundles not supported on this device
+0.884 [I] cb.man: Using /System/Library/Carrier Bundles/ and /Users/MonaAskary/Library/Carrier Bundles/ for respective locations
+0.884 [I] DATA.wifi: ___ZN21DataNetworkMonitorOSX26registerForInterfaceEventsEv_block_invoke: Notify registration status: 0, token: 34, this: <0x7fa6c1c31470>
+0.884 [N] cb.man: No content in directory in cache: /System/Library/Carrier Bundles
+0.884 [I] cb.man: Scanning for carrier bundles in /System/Library/Carrier Bundles/
+0.885 [I] call: Setting CallCommandDriver to IMSCallCommandDriver
+0.885 [N] cb.man: Failed to get contents of directory at path: /System/Library/Carrier Bundles
+0.885 [I] cb.man: Directory /System/Library/Carrier Bundles/ contents cannot be cached
+0.885 [I] cb.man: Resetting carrier bundle content cache
+0.885 [N] cb.man: No content in directory in cache: /Users/MonaAskary/Library/Carrier Bundles
+0.885 [I] cb.man: Scanning for carrier bundles in /Users/MonaAskary/Library/Carrier Bundles/
+0.885 [N] cb.man: Failed to get contents of directory at path: /Users/MonaAskary/Library/Carrier Bundles
+0.885 [I] cb.man: Directory /Users/MonaAskary/Library/Carrier Bundles/ contents cannot be cached
+0.885 [I] cb.man: Invalid matching information
+0.885 [I] cb.server: Reply dictionary after initialization: {
+	"kOperatorBundle": {
+		"kCarrierFilePathName": "",
+		"kLinkingPath": "",
+		"kBundleVersion": "",
+		"kBundleTechnologyType": 0,
+		"kMatchedPath": "",
+		"kResolvedPath": "",
+		"kBundleIdentifier": "",
+		"kPrefFile": "",
+		"kNameOfBundle": ""
+	},
+	"kCarrierBundle": {
+		"kCarrierFilePathName": "",
+		"kLinkingPath": "",
+		"kBundleVersion": "",
+		"kBundleTechnologyType": 0,
+		"kMatchedPath": "",
+		"kResolvedPath": "",
+		"kBundleIdentifier": "",
+		"kPrefFile": "",
+		"kNameOfBundle": ""
+	},
+	"kDefaultBundle": {
+		"kCarrierFilePathName": "",
+		"kLinkingPath": "",
+		"kBundleVersion": "",
+		"kBundleTechnologyType": 0,
+		"kMatchedPath": "",
+		"kResolvedPath": "",
+		"kBundleIdentifier": "",
+		"kPrefFile": "",
+		"kNameOfBundle": ""
+	},
+	"kBootstrapBundle": {
+		"kCarrierFilePathName": "",
+		"kLinkingPath": "",
+		"kBundleVersion": "",
+		"kBundleTechnologyType": 0,
+		"kMatchedPath": "",
+		"kResolvedPath": "",
+		"kBundleIdentifier": "",
+		"kPrefFile": "",
+		"kNameOfBundle": ""
+	}
+}
+0.885 [I] DATA.wifi: handleNetworkStateChanged_sync: nwi_state: 0x0
+0.885 [I] cs: Reloading the com.apple.carrier preferences from file: 
+0.886 [N] cb.network: Failed to get the URL for the file 
+0.886 [N] cs: Could not load domain as dictionary from file: 
+0.886 [I] cb.client: Carrier bundle: Name: , ID: , Matched: , Resolved: , Version: , Linking: , Preference: , Carrier File: , Tech type: 0, Match Info: null, Tech: (nothing)
+0.886 [I] cb.client: Operator bundle: Name: , ID: , Matched: , Resolved: , Version: , Linking: , Preference: , Carrier File: , Tech type: 0, Match Info: null, Tech: (nothing)
+0.886 [I] cs: Reloading the com.apple.operator preferences from file: 
+0.886 [N] cb.network: Failed to get the URL for the file 
+0.886 [I] cb.client: Bootstrap bundle: Name: , ID: , Matched: , Resolved: , Version: , Linking: , Preference: , Carrier File: , Tech type: 0, Match Info: null, Tech: (nothing)
+0.886 [N] cs: Could not load domain as dictionary from file: 
+0.886 [I] cb.client: Default bundle: Name: , ID: , Matched: , Resolved: , Version: , Linking: , Preference: , Carrier File: , Tech type: 0, Match Info: null, Tech: (nothing)
+0.886 [I] cs: Reloading the com.apple.carrier.bootstrap preferences from file: 
+0.886 [N] cb.network: Failed to get the URL for the file 
+0.886 [N] cs: Could not load domain as dictionary from file: 
+0.886 [I] cs: Reloading the com.apple.carrier.default preferences from file: 
+0.886 [N] cb.network: Failed to get the URL for the file 
+0.886 [N] cs: Could not load domain as dictionary from file: 
+0.886 [I] cb.client: BundleType::kDefault: Matching info has changed
+0.886 [I] cb.server: Received command at the server: kMatchBundle
+0.887 [I] cb.server: Matching the BundleType::kDefault bundle with criteria: {
+	"InternationalMobileSubscriberIdentity": "Default.bundle"
+}
+0.887 [I] cb.man: =========================== Potentially Resetting BundleType::kDefault Bundle ===========================
+0.887 [I] cb.man: ---Begin Carrier Info for Bundle Matching---
+0.887 [I] cb.man: Number of key-values: 1
+0.887 [I] cb.man: IMSI = 'Default.bundle'
+0.887 [I] cb.man: ---End of Carrier Info---
+0.887 [I] cb.man: ------------ Device Overlay ------------ 
+0.887 [I] cb.man: ********** System Bundle Lookup *********
+0.887 [I] cb.man: Provided match prefix to search based on SIM information: Default.bundle
+0.887 [N] cb.man: No content in directory in cache: /System/Library/Carrier Bundles
+0.887 [N] cb.man: Failed to get contents of directory at path: /System/Library/Carrier Bundles
+0.887 [I] cb.man: No candidates were found in the collection
+0.887 [I] cb.man: Returning bundle match: Matchs: [Name: , Score: 0, include cookie: true], [Name: , Score: 0, include cookie: false]
+0.887 [I] cb.man: *********** User Bundle Lookup **********
+0.887 [I] cb.man: Provided match prefix to search based on SIM information: Default.bundle
+0.887 [N] cb.man: No content in directory in cache: /Users/MonaAskary/Library/Carrier Bundles
+0.887 [N] cb.man: Failed to get contents of directory at path: /Users/MonaAskary/Library/Carrier Bundles
+0.887 [I] cb.man: No candidates were found in the collection
+0.887 [I] cb.man: Returning bundle match: Matchs: [Name: , Score: 0, include cookie: true], [Name: , Score: 0, include cookie: false]
+0.887 [E] cb.man: No matching bundle found in System or user directories
+0.887 [I] cb.man: ********** System Bundle Lookup *********
+0.887 [I] cb.man: Provided match prefix to search based on SIM information: Unknown.bundle
+0.887 [N] cb.man: No content in directory in cache: /System/Library/Carrier Bundles
+0.888 [N] cb.man: Failed to get contents of directory at path: /System/Library/Carrier Bundles
+0.888 [I] cb.man: No candidates were found in the collection
+0.888 [I] cb.man: Returning bundle match: Matchs: [Name: , Score: 0, include cookie: true], [Name: , Score: 0, include cookie: false]
+0.888 [I] cb.man: *********** User Bundle Lookup **********
+0.888 [I] cb.man: Provided match prefix to search based on SIM information: Unknown.bundle
+0.888 [N] cb.man: No content in directory in cache: /Users/MonaAskary/Library/Carrier Bundles
+0.888 [N] cb.man: Failed to get contents of directory at path: /Users/MonaAskary/Library/Carrier Bundles
+0.888 [I] cb.man: No candidates were found in the collection
+0.888 [I] cb.man: Returning bundle match: Matchs: [Name: , Score: 0, include cookie: true], [Name: , Score: 0, include cookie: false]
+0.888 [E] cb.man: No matching bundle found in System or user directories
+0.888 [I] cb.overlay: Failed to find a bundle
+0.888 [I] cb.overlay: Loading carrier file 
+0.888 [N] cb.network: Failed to get the URL for the file 
+0.888 [I] cb.overlay: Failed to load the base bundle carrier file itself, carrier info not present
+0.888 [I] cb.man: Device overlay decision: kCarrierInfoNotPresent
+0.888 [I] cb.man: Is the matching bundle found: No
+0.888 [N] cb.man: Unable to find a matching BundleType::kDefault bundle
+0.891 [E] atcs.client.NAS: [CallModule: NAS Service] Client connection invalid.
+0.891 [I] cb.bun: Bundle path is invalid, cannot remove
+0.891 [E] cb.man: There was an error setting up the BundleType::kDefault bundle, unfortunately we now have to brick the phone
+0.891 [N] cb.man: Carrier Bundle Match Result: kBundleChangeTypeSetupError
+0.891 [I] cb.server: Reply dictionary after matching the carrier bundle: {
+	"kCarrierFilePathName": "",
+	"kLinkingPath": "",
+	"kBundleVersion": "",
+	"kBundleMatchResult": 5,
+	"kBundleTechnologyType": 0,
+	"kMatchedPath": "",
+	"kResolvedPath": "",
+	"kBundleIdentifier": "",
+	"kPrefFile": "",
+	"kNameOfBundle": ""
+}
+0.891 [I] cb.client: BundleType::kDefault: Sent request {
+	"kWirelessTechnology": 0,
+	"kBundleCommand": "kMatchBundle",
+	"kMatchingCriteria": {
+		"InternationalMobileSubscriberIdentity": "Default.bundle"
+	},
+	"kBundleType": 5
+} to match bundle, received result: {
+	"kCarrierFilePathName": "",
+	"kLinkingPath": "",
+	"kBundleVersion": "",
+	"kBundleMatchResult": 5,
+	"kBundleTechnologyType": 0,
+	"kMatchedPath": "",
+	"kResolvedPath": "",
+	"kBundleIdentifier": "",
+	"kPrefFile": "",
+	"kNameOfBundle": ""
+}
+0.891 [I] cb.client: No SID Table file in carrier or default bundles
+0.891 [I] cb.client: No Equivalent Bundle Table file in carrier or default bundles
+0.891 [I] evt: Firing event 'default_bundle_setup': with params= kBundleChangeTypeSetupError
+0.891 [I] cb.client: Not sending default bundle change as there is no carrier info
+0.892 [I] cs: Reloading the com.apple.carrier.default preferences from file: 
+0.892 [N] cb.network: Failed to get the URL for the file 
+0.892 [N] cs: Could not load domain as dictionary from file: 
+0.892 [I] DATA.cb-apn: refresh: cellularDataBundleName: 
+0.892 [I] DATA.cb-apn: refresh: carrierBundleName: 
+0.892 [I] DATA.cb-apn: refresh: reading APNs from: com.apple.carrier.data
+0.892 [I] DATA.cb-apn: refresh: No APNS in com.apple.carrier.data
+0.892 [I] DATA.cb-apn: refresh: 0 APN(s) in CB.single bundle
+0.892 [I] DATA.dw-apn: init: Default wireless technology is GSM/UMTS
+0.892 [I] DATA.eu-apn: refresh: no own MCC detected yet - opt-out
+0.892 [I] DATA.dw-apn: reconfigure: tech:GSM/UMTS, forced:false
+0.892 [I] DATA.ui-apn: refresh: refresh for subscriber:'' (same)
+0.894 [I] DATA.ui-apn: apply: 0 APN(s)
+0.894 [I] DATA.ui-apn: apply: AttachAPN: NULL
+0.894 [I] DATA.ipcu: readAPN: No IPCU profile or missing key 'profile'
+0.894 [I] DATA: old_copyAPNFromManagedPreferences: Pulling APN settings for 0 from profile or carrier settings
+0.895 [I] DATA: old_copyAPNFromManagedPreferences: IPCU file DOES NOT exist - old style profile reading skipped
+0.895 [I] DATA: old_copyAPNFromManagedPreferences: IPCU APN not found (old style)
+0.895 [I] DATA.ipcu: readAttachAPN: No IPCU profile or missing key 'profile'
+0.896 [I] DATA.dw-apn: reviseImsApnForThumper: start
+0.897 [I] DATA.dw-apn: reconfigure: skipped - no changes detected, new compatible technologies: (GSM/UMTS)
+0.897 [I] ps.tdm: Local store has 1 records
+0.897 [I] ps.tdm:   last.known.icloud.id
+0.897 [I] ps.tdm: setThumperKeepAlive: Somebody wants us to stay alive
+0.897 [I] ent.ctr: Initializing Carrier Entitlements Controller
+0.897 [I] ps.tdm: setThumperKeepAlive: ThumperKeepAlive Jetsam assertion taken. Assertions remaining: CCDaemon-init,ThumperKeepAlive
+0.898 [I] DATA.dw-apn: configureDnsOverrides: configuring DNS overrides
+0.898 [I] ent.ctr: _____________   Reset called upon with update:false, reason:CheckEntitlementsReason::kSelfInitiated
+0.898 [I] ent.ctr: Potentially instantiating Entitlements Command Driver
+0.898 [I] ent.psh: Reset Push Listener
+0.898 [E] ent.ctr: Entitlement server address missing. Driver is not created
+0.898 [I] ent.ctr: Stopping shorter timer
+0.898 [E] ent.ctr: No Entitlements Driver
+0.898 [I] ps.tdm: Using iCloud-KVS for Thumper sync
+0.898 [I] ps.ids: [i] Created a sync for service com.apple.private.alloy.thumper.keys
+0.898 [I] DATA.Collocation_NoBB:0: init: init
+0.898 [I] DATA.Collocation_NoBB:1: init: init
+0.899 [I] ent.ctr: Known [], Cached []
+0.899 [I] ent.ctr: Generating entitlement changed events
+0.899 [I] kc: KeychainAutoUnlock(readArrayFromKeychainByAttr - 'thumper') - Unlocking keychain failed with error The user name or passphrase you entered is not correct.(-25293)
+0.899 [I] evt: Firing event 'entitlement_changed': with params= 00000000000, 00000000000, 10111001100, EntitlementResults(Phone Number:Unknown, SubscriptionAndUsageStatus:Unknown, FaceTimeOverCellular:Unknown, Tethering:Unknown, Update Push Token:Unknown, Perform Auth-Only:Unknown, Agent:Unknown, VoWiFi:Unknown, Thumper:Unknown, VVM:Unknown, Multi-SIM:Unknown, )
+0.899 [I] ent.ctr: Invalidating Entitlements State with reason CheckEntitlementsReason::kSelfInitiated
+0.899 [I] xpc.event:   --------------> kCTEventCarrierEntitlementsQueryComplete(137) sent to 0 (of 0) clients.
+0.900 [I] kc: KeychainAutoUnlock(readFromKeychain - 'kEntitlementCacheKey') - Unlocking keychain failed with error The user name or passphrase you entered is not correct.(-25293)
+0.900 [I] persist: thumper cache read array failed (error = -25300)
+0.900 [I] ps.ids: [i] Started
+0.900 [I] ps.ids: [i] Initial set of bootstrapped uuids: 0 devices
+0.900 [I] ps.ids: [i]     (no device uuids)
+0.901 [I] persist: kEntitlementCacheKey cache read failed (error = -25300)
+0.901 [I] ent.ctr: Unable to retrieve cached entitlements ALL
+0.901 [I] kc: KeychainAutoUnlock(readFromKeychain - 'kSignatureCacheKey') - Unlocking keychain failed with error The user name or passphrase you entered is not correct.(-25293)
+0.901 [I] DATA.Connection:Internet: initAgent: useSavedParams=0, networkProvider=0, userActivated=0
+0.902 [I] persist: kSignatureCacheKey cache read failed (error = -25300)
+0.902 [I] ent.ctr: Known [], Cached []
+0.902 [I] ent.ctr: Entitlement results have not changed, not sending entitlement_changed event
+0.902 [E] ent.ctr: no driver
+0.902 [I] ent.psh: subscribeForPushNotificationIfNeeded PreferredNetworks
+0.902 [I] ent.ctr: Checking entitlements [] with reason: CheckEntitlementsReason::kSelfInitiated
+0.902 [E] ent.ctr: Invalid Driver
+0.902 [E] ent.psh: No topic to subscribe for push notification 'PreferredNetworks'
+0.904 [I] ps.icld: ICloudSync created
+0.904 [I] ps.tdm: Loaded AssociatedAccountID ''
+0.904 [I] ps.tdm: Bootup switch is:Default, account ID:, fProvisioningApplied:false
+0.904 [I] ps.tdm: Created
+0.904 [I] ps.ctl: Created
+0.904 [I] ps.ctl: handleEntitlementUpdate: ================================ Evaluate Entitlement Update ================================
+0.907 [I] DATA.Connection:Internet: initAgent: Registered NWAgent 766CF646-1D2F-441D-8BED-5078892F67B8
+0.909 [I] DATA.Connection:Internet: setPolicy: Creating policy for unscoped Internet for first time NWAgent 766CF646-1D2F-441D-8BED-5078892F67B8: result=true
+0.909 [I] DATA.Connection:Internet: setPolicy: Clearing policy for NWAgent 766CF646-1D2F-441D-8BED-5078892F67B8: NEPolicyDeleteAll=true
+0.909 [I] DATA.Connection:Internet: setPolicy: Creating policy for NWAgent 766CF646-1D2F-441D-8BED-5078892F67B8: netagentUUID=true
+0.909 [I] DATA.Connection:Internet: setPolicy: Creating policy for NWAgent 766CF646-1D2F-441D-8BED-5078892F67B8: policyId is 14
+0.909 [I] DATA.Connection:Internet: setPolicy: Creating policy for NWAgent 766CF646-1D2F-441D-8BED-5078892F67B8: NEPolicyApply=true
+0.910 [I] DATA.Connection:Internet: updateAgent: Updating NWAgent 766CF646-1D2F-441D-8BED-5078892F67B8
+0.910 [I] DATA.Connection:VVM: initAgent: useSavedParams=0, networkProvider=0, userActivated=0
+0.910 [I] DATA.Connection:VVM: updateAgent: NWAgent BB9F962F-395F-4CD9-8D2C-B108089A499B is not ready to be updated
+0.910 [I] DATA.Connection:MMS: initAgent: useSavedParams=0, networkProvider=0, userActivated=0
+0.910 [I] DATA.Connection:MMS: updateAgent: NWAgent 815FBF29-A7B9-4D03-9D82-4D672C9E81E9 is not ready to be updated
+0.911 [I] DATA.Connection:PushEmail: initAgent: useSavedParams=0, networkProvider=0, userActivated=0
+0.916 [I] DATA.Connection:PushEmail: updateAgent: NWAgent A4AF87D7-46C9-4E0F-8A99-97194F666A18 is not ready to be updated
+0.917 [I] ps.tdm: iCloud status event 'accounts daemon ready' with name 'monaaskary15@icloud.com' a483aa844a30600b6bb1612ded1f8df4f31a1e0f
+0.917 [I] ps.tdm: iCloud status: signed, ID 'a483aa844a30600b6bb1612ded1f8df4f31a1e0f', last known ID 'monaaskary15@icloud.com'
+0.917 [I] ps.icld: iCloud KVS store has:
+0.917 [I] ps.tdm: Received 0 record(s) via KVS. FULL SYNC
+0.917 [I] ps.tdm: start processing iCloud data
+0.917 [I] ps.tdm: finished processing iCloud data - no changes detected
+0.917 [I] DATA.Connection:WirelessModemTraffic: initAgent: useSavedParams=0, networkProvider=0, userActivated=0
+0.917 [I] DATA.Connection:WirelessModemTraffic: updateAgent: NWAgent 6ED56BCF-1145-426F-8AC4-D0A0B80DAADE is not ready to be updated
+0.918 [I] DATA.Connection:WirelessModemAuthentication: initAgent: useSavedParams=0, networkProvider=0, userActivated=0
+0.918 [I] DATA.Connection:WirelessModemAuthentication: updateAgent: NWAgent 1EEE63FC-18EB-404A-A6E8-2559D16EF72D is not ready to be updated
+0.918 [I] DATA.Connection:Provisioning: initAgent: useSavedParams=0, networkProvider=0, userActivated=0
+0.918 [I] DATA.Connection:Provisioning: updateAgent: NWAgent 7FF548F2-59B3-459A-A9EA-BD5FE28F4FB6 is not ready to be updated
+0.918 [I] DATA.agent.provisioning: provisioning: created fallback agent
+0.919 [I] DATA.agent.provisioning: provisioning: registered fallback agent
+0.920 [I] DATA.agent.provisioning: provisioning: registered fallback policy uuid 7FF548F2-59B3-459A-A9EA-BD5FE28F4FB6, session {
+    priority = default
+    policies = {
+        15 = {
+            order = 10
+            result = {
+                result-type = use-netagent
+                agent-uuid = 9DD2202C-C5FE-451B-922B-A3D0FE691F15
+            }
+            conditions = (
+                {
+                    condition-type = account-identifier
+                    account-identifier = com.apple.CommCenter.DataPlanProvisioning
+                },
+            )
+        },
+    }
+}
+0.920 [I] DATA.Connection:AppleWirelessDiagnostics: initAgent: useSavedParams=0, networkProvider=0, userActivated=0
+0.920 [I] DATA.Connection:AppleWirelessDiagnostics: updateAgent: NWAgent 64C46D5F-D268-49EE-B041-72A37EF0D09E is not ready to be updated
+0.920 [I] DATA.Connection:DataTest: initAgent: useSavedParams=0, networkProvider=0, userActivated=0
+0.920 [I] DATA.Connection:DataTest: updateAgent: NWAgent E51032E4-C382-4BDF-AC76-675784DF4905 is not ready to be updated
+0.921 [I] DATA.Connection:OTAActivation: initAgent: useSavedParams=0, networkProvider=0, userActivated=0
+0.921 [I] DATA.Connection:OTAActivation: updateAgent: NWAgent DD9BBCB5-1874-4F46-9A51-55474CF8E521 is not ready to be updated
+0.921 [I] DATA.Connection:3GFaceTimeTraffic: initAgent: useSavedParams=0, networkProvider=0, userActivated=0
+0.921 [I] DATA.Connection:3GFaceTimeTraffic: updateAgent: NWAgent 0813024E-50F2-4DE4-A24D-C048E50634C8 is not ready to be updated
+0.921 [I] DATA.Connection:3GFaceTimeAuthentication: initAgent: useSavedParams=0, networkProvider=0, userActivated=0
+0.921 [I] DATA.Connection:3GFaceTimeAuthentication: updateAgent: NWAgent D839EC68-ECF2-48AD-A479-1D765CC717DA is not ready to be updated
+0.921 [I] DATA.Connection:OMADM: initAgent: useSavedParams=0, networkProvider=0, userActivated=0
+0.921 [I] DATA.Connection:OMADM: updateAgent: NWAgent D003100F-D3B9-4B28-88CC-536FFB78B436 is not ready to be updated
+0.921 [I] DATA.Connection:OTAInternet: initAgent: useSavedParams=0, networkProvider=0, userActivated=0
+0.921 [I] DATA.Connection:OTAInternet: updateAgent: NWAgent 5B891FD4-9003-4853-8B91-03E7F2307299 is not ready to be updated
+0.922 [I] DATA.Connection:ZeroRated: initAgent: useSavedParams=0, networkProvider=0, userActivated=0
+0.922 [I] DATA.Connection:ZeroRated: updateAgent: NWAgent C9605F53-7364-4B98-A088-E120C925200D is not ready to be updated
+0.922 [I] DATA.Connection:EntitlementTraffic: initAgent: useSavedParams=0, networkProvider=0, userActivated=0
+0.922 [I] DATA.Connection:EntitlementTraffic: updateAgent: NWAgent 073E8FA2-F40E-4A96-A343-2DF493A9ED27 is not ready to be updated
+0.922 [I] DATA.Connection:InternalDataProbe: initAgent: useSavedParams=0, networkProvider=0, userActivated=0
+0.922 [I] DATA.Connection:InternalDataProbe: updateAgent: NWAgent 78913097-62C0-4282-A57F-446B5E8A3BB5 is not ready to be updated
+0.922 [I] DATA.Connection:iw5: initAgent: useSavedParams=0, networkProvider=0, userActivated=0
+0.922 [I] DATA.Connection:iw5: updateAgent: NWAgent C75C37B5-1DBD-4CAA-A3F9-682D30BDF787 is not ready to be updated
+0.922 [I] DATA.Connection:Em: initAgent: useSavedParams=0, networkProvider=0, userActivated=0
+0.922 [I] DATA.Connection:Em: updateAgent: NWAgent 9668C540-D860-4E2C-9054-E27491A41620 is not ready to be updated
+0.922 [I] DATA.Connection:Bootstrap: initAgent: useSavedParams=0, networkProvider=0, userActivated=0
+0.922 [I] DATA.Connection:Bootstrap: updateAgent: NWAgent D519B707-2E84-4D3A-82F0-E4682C047DF5 is not ready to be updated
+0.922 [I] DATA.agent.bootstrap: bootstrap: create bootstrap agent
+0.922 [I] DATA.agent.bootstrap: bootstrap: created fallback agent
+0.923 [I] DATA.agent.bootstrap: bootstrap: registered fallback agent
+0.924 [I] DATA.agent.bootstrap: bootstrap: registered fallback policy uuid D519B707-2E84-4D3A-82F0-E4682C047DF5, session {
+    priority = default
+    policies = {
+        16 = {
+            order = 10
+            result = {
+                result-type = use-netagent
+                agent-uuid = 5A5F2E96-656D-4A4D-901C-4754F76D7DFE
+            }
+            conditions = (
+                {
+                    condition-type = account-identifier
+                    account-identifier = com.apple.CommCenter.CellularPlanProvisioning
+                },
+            )
+        },
+    }
+}
+0.924 [I] DATA.Connection:UT: initAgent: useSavedParams=0, networkProvider=0, userActivated=0
+0.924 [I] DATA.Connection:UT: updateAgent: NWAgent 9D437793-EB9A-45CB-96B6-84EC4F6FFA63 is not ready to be updated
+0.924 [I] DATA.Connection:BootstrapRoamingInternetBypass: initAgent: useSavedParams=0, networkProvider=0, userActivated=0
+0.924 [I] DATA.Connection:BootstrapRoamingInternetBypass: updateAgent: NWAgent F41A30ED-AA78-4693-8A1E-591C38C771EE is not ready to be updated
+0.924 [I] DATA.Connection:EmLoc: initAgent: useSavedParams=0, networkProvider=0, userActivated=0
+0.924 [I] DATA.Connection:EmLoc: updateAgent: NWAgent E55D8C9C-9EB8-4B83-9826-A81EDF76E43C is not ready to be updated
+0.924 [I] DATA.Connection:Provisioning: initAgent: useSavedParams=0, networkProvider=0, userActivated=0
+0.924 [I] DATA.Connection:Provisioning: updateAgent: NWAgent 61B554B0-5F74-4891-849B-DDA5E1EC27B3 is not ready to be updated
+0.926 [I] DATA.TechContext:0: setStatus: Changing state (change states) kNEIPSecNotifyIKEStatusInvalid->kNEIPSecNotifyIKEStatusInvalid
+0.926 [I] DATA.Collocation_NoBB:0: registerObserver: TechContext:0 registered with us
+0.926 [I] DATA.TechContext:1: setStatus: Changing state (change states) kNEIPSecNotifyIKEStatusInvalid->kNEIPSecNotifyIKEStatusInvalid
+0.926 [I] DATA.Collocation_NoBB:1: registerObserver: TechContext:1 registered with us
+0.926 [I] DATA.wifi: init: sessionActive: false
+0.927 [I] DATA.wifi: handleImpiFileAvailable_sync: subscriber service is not running
+0.927 [I] DATA.wifi: handleImpiFileAvailable_sync: handleImpiFileAvailable_sync: fImpiUser=
+0.927 [I] DATA.wifi: handleWifiAvailable_sync: available = false 
+0.927 [I] evt: Firing event 'recalculateConnectionAvailability': with params= 0, Wifi Changed
+0.927 [I] DATA.wifi: handleWifiAvailable_sync: fWifiInterfaceName changes from en0 to 
+0.927 [I] DATA.wifi: handleSimsChanged_sync: empty sim info.
+0.927 [I] DATA.wifi: init: <0x7fa6c1f69d30> created
+0.927 [I] CSIAppInfo.LoginSessionObserver: handleLoginSessionStateChange_sync: handleLoginSessionStateChange_sync(): Session is logged in
+0.927 [I] evt: Firing event 'loginSessionStateChange': with params= 1
+0.927 [I] CSIAppInfo.LoginSessionObserver: ___ZN20LoginSessionObserver8activateEv_block_invoke: initialize(): loginSessionActive: true
+0.927 [I] DATA.ServiceController: load_APNFallbackKernelEventMonitor: load() called
+0.927 [I] DATA.ServiceController: load_APNFallbackKernelEventMonitor: kernel event monitor started
+0.927 [I] DATA.ServiceController: initDSC: <0x7fa6c1d28700> created
+0.928 [I] DATA.ServiceController: recalculateConnectionAvailability_sync: fRadioModuleCreated is false, bailing for now (Wifi Changed)
+0.928 [I] evt: Firing event 'recalculateConnectionAvailability': with params= 1, Login session state changed to true
+0.928 [I] evt: Firing event 'recalculateConnectionAvailability': with params= 1, Login session state changed to true
+0.928 [I] DATA.iRatController: handleLoginSessionStateChanged_sync: Session is logged in. Start iRatClient
+0.928 [I] DATA.ServiceController: setupEvents_sync: start
+0.928 [I] DATA.iRatClient: start_sync: Starting iRat Client
+0.928 [I] DATA.iRatClient: register_sync: register with server: {
+	"kMessageId": 1u,
+	"kMessageArgs": {
+		"kWCMRegisterProcess_ProcessId": 7u
+	}
+}
+0.928 [I] DATA.ServiceController: recalculateConnectionAvailability_sync: fRadioModuleCreated is false, bailing for now (Login session state changed to true)
+0.928 [I] DATA.ServiceController: recalculateConnectionAvailability_sync: fRadioModuleCreated is false, bailing for now (Login session state changed to true)
+0.928 [I] rm: Model Mask is 822200
+0.928 [I] rm: ----------------- created  models ----------------
+0.928 [I] evt: Firing event 'postponementStatusChanged': with params= kUnknown, kActivated, 1
+0.928 [I] DATA.ServiceController: handlePostponementStatusChanged_sync: Current: kUnknown, New kActivated
+0.928 [I] evt: Firing event 'recalculateConnectionAvailability': with params= 0, Postponement status change
+0.928 [I] NoBBRadioModule:handleWifiAvailable: available = false
+0.928 [I] DATA.ServiceController: recalculateConnectionAvailability_sync: fRadioModuleCreated is false, bailing for now (Postponement status change)
+0.928 [I] NoBBRadioModule:checkNoBBRadioDownCondition: fNoBBWiFiOffInAirplaneMode true. fNoBBAirplaneMode false  fWiFiAvailable false
+0.928 [I] NoBBRadioModule:checkNoBBRadioDownCondition: Pretending that NoBB Radio is on. fNoBBAirplaneMode false  fWiFiAvailable false
+0.928 [I] evt: Firing event 'WiFiOffInAirplaneMode': with params= 0
+0.928 [I] DATA.dw-apn: setUpPacketHandlers: creating PDP Managers
+0.928 [I] trc: Module: changes state from Idle to Starting
+0.928 [I] trc: Work Start
+0.928 [I] trc: Starting
+0.928 [I] trc: Module: changes state from Starting to Idle
+0.928 [I] NoBBRadioModule:handleTraceStart: 
+0.929 [I] DATA.pkt.0: init: Created PDP manager for unit 0
+0.929 [I] DATA.pkt.0: writeServiceEntryToSystemConfig_sync: pdp0, technology (nothing)
+0.929 [I] DATA.pkt.0: operator(): Finished initializing PDP manager for unit 0
+0.929 [I] DATA.pkt.0: handleErrorOccurred: Failed to get serviceID for IPV4
+0.929 [I] DATA.pkt.0: changeState: unit 0: offline->error
+0.929 [I] DATA.pkt.0: handleErrorOccurred: Failed to get serviceID for IPV6
+0.929 [I] DATA.pkt.0: changeState: unit 0: offline->error
+0.929 [I] DATA.pkt.1: init: Created PDP manager for unit 1
+0.929 [I] DATA.pkt.1: writeServiceEntryToSystemConfig_sync: pdp1, technology (nothing)
+0.929 [I] DATA.dw-apn: setUpPacketHandlers: created 2 PDP Managers
+0.929 [I] DATA.pkt.1: operator(): Finished initializing PDP manager for unit 1
+0.929 [I] DATA.pkt.1: handleErrorOccurred: Failed to get serviceID for IPV4
+0.929 [I] DATA.pkt.1: changeState: unit 1: offline->error
+0.929 [I] NoBBRadioModule:getModelMask: returning 100000100010001000000000
+0.929 [I] DATA.pkt.1: handleErrorOccurred: Failed to get serviceID for IPV6
+0.929 [I] DATA.pkt.1: changeState: unit 1: offline->error
+0.929 [I] DATA.ServiceController: radioModuleCreated_sync: setting fRadioModuleCreated to true
+0.929 [I] evt: Firing event 'recalculateConnectionAvailability': with params= 1, fRadioModuleCreated is true
+0.929 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+0.929 [I] DATA.pkt.0: setInterfaceAvailability: setting interface availability, pdp: 0, source: kDataEnabled available: 1
+0.930 [I] DATA.pkt.0: setInterfaceAvailability: map for pdp:0 {  (kDataEnabled:1) } 
+0.930 [I] DATA.pkt.0: setInterfaceAvailability: changing interface availability, pdp: 0, available: 1
+0.930 [I] DATA.pkt.0: getInterfaceAvailable: dictionary com.apple.CommCenter in State:// is not present
+0.930 [I] DATA.pkt.0: shouldAllowInterfaceAvailabilitySetting: (CSIPDPManager::ifstatus = 0, Boolean newstate =1
+0.930 [I] DATA.pkt.0: shouldAllowInterfaceAvailabilitySetting: returning value CSIPDPManager::ifstatus =  unknown 1
+0.930 [I] DATA.pkt.0: setInterfaceAvailability: setting interface availability, pdp: 0, source: kDataDisabledButton available: 1
+0.930 [I] DATA.pkt.0: setInterfaceAvailability: map for pdp:0 {  (kDataEnabled:1) (kDataDisabledButton:1) } 
+0.930 [I] DATA.pkt.0: setInterfaceAvailability: changing interface availability, pdp: 0, available: 1
+0.930 [I] evt: Connecting
+0.931 [I] DATA.pkt.0: getInterfaceAvailable: dictionary com.apple.CommCenter in State:// is not present
+0.931 [I] DATA.pkt.0: shouldAllowInterfaceAvailabilitySetting: (CSIPDPManager::ifstatus = 0, Boolean newstate =1
+0.931 [I] DATA.pkt.0: shouldAllowInterfaceAvailabilitySetting: returning value CSIPDPManager::ifstatus =  unknown 1
+0.931 [I] DATA.pkt.1: setInterfaceAvailability: setting interface availability, pdp: 1, source: kDataEnabled available: 1
+0.931 [I] DATA.pkt.1: setInterfaceAvailability: map for pdp:1 {  (kDataEnabled:1) } 
+0.931 [I] DATA.pkt.1: setInterfaceAvailability: changing interface availability, pdp: 1, available: 1
+0.931 [I] DATA.pkt.1: getInterfaceAvailable: dictionary com.apple.CommCenter in State:// is not present
+0.931 [I] DATA.pkt.1: shouldAllowInterfaceAvailabilitySetting: (CSIPDPManager::ifstatus = 0, Boolean newstate =1
+0.931 [I] DATA.pkt.1: shouldAllowInterfaceAvailabilitySetting: returning value CSIPDPManager::ifstatus =  unknown 1
+0.932 [I] DATA.pkt.1: setInterfaceAvailability: setting interface availability, pdp: 1, source: kDataDisabledButton available: 1
+0.932 [I] DATA.pkt.1: setInterfaceAvailability: map for pdp:1 {  (kDataEnabled:1) (kDataDisabledButton:1) } 
+0.932 [I] DATA.pkt.1: setInterfaceAvailability: changing interface availability, pdp: 1, available: 1
+0.932 [I] DATA.pkt.1: getInterfaceAvailable: dictionary com.apple.CommCenter in State:// is not present
+0.932 [I] DATA.pkt.1: shouldAllowInterfaceAvailabilitySetting: (CSIPDPManager::ifstatus = 0, Boolean newstate =1
+0.932 [I] DATA.pkt.1: shouldAllowInterfaceAvailabilitySetting: returning value CSIPDPManager::ifstatus =  unknown 1
+0.933 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+0.933 [I] DATA.ServiceController: updateStateCache_sync: kDataConnectionInternet: idByMask=-2, configuredByMask[BB]=false, configuredByMask[iW]=false, activeByMask=false, networkActive=false, activeOver=kDataContextUnknown
+0.933 [I] DATA.ServiceController: updateStateCache_sync:     activeAndIdByConnection:  id=-2, active=false, currentInterface=/{}, transportType=kDataContextUnknown
+0.933 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+0.933 [I] DATA.ServiceController: updateStateCache_sync: kDataConnectionVVM: idByMask=-2, configuredByMask[BB]=false, configuredByMask[iW]=false, activeByMask=false, networkActive=false, activeOver=kDataContextUnknown
+0.933 [I] DATA.ServiceController: updateStateCache_sync:     activeAndIdByConnection:  id=-2, active=false, currentInterface=/{}, transportType=kDataContextUnknown
+0.933 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+0.933 [I] DATA.ServiceController: updateStateCache_sync: kDataConnectionMMS: idByMask=-2, configuredByMask[BB]=false, configuredByMask[iW]=false, activeByMask=false, networkActive=false, activeOver=kDataContextUnknown
+0.933 [I] DATA.ServiceController: updateStateCache_sync:     activeAndIdByConnection:  id=-2, active=false, currentInterface=/{}, transportType=kDataContextUnknown
+0.933 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+0.933 [I] DATA.ServiceController: updateStateCache_sync: kDataConnectionPushEmail: idByMask=-2, configuredByMask[BB]=false, configuredByMask[iW]=false, activeByMask=false, networkActive=false, activeOver=kDataContextUnknown
+0.933 [I] DATA.ServiceController: updateStateCache_sync:     activeAndIdByConnection:  id=-2, active=false, currentInterface=/{}, transportType=kDataContextUnknown
+0.933 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+0.933 [I] DATA.ServiceController: updateStateCache_sync: kDataConnectionWirelessModemTraffic: idByMask=-2, configuredByMask[BB]=false, configuredByMask[iW]=false, activeByMask=false, networkActive=false, activeOver=kDataContextUnknown
+0.933 [I] DATA.ServiceController: updateStateCache_sync:     activeAndIdByConnection:  id=-2, active=false, currentInterface=/{}, transportType=kDataContextUnknown
+0.933 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+0.933 [I] DATA.ServiceController: updateStateCache_sync: kDataConnectionWirelessModemAuthentication: idByMask=-2, configuredByMask[BB]=false, configuredByMask[iW]=false, activeByMask=false, networkActive=false, activeOver=kDataContextUnknown
+0.933 [I] DATA.ServiceController: updateStateCache_sync:     activeAndIdByConnection:  id=-2, active=false, currentInterface=/{}, transportType=kDataContextUnknown
+0.933 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+0.933 [I] DATA.ServiceController: updateStateCache_sync: kDataConnectionCellularDataPlanProvisioning: idByMask=-2, configuredByMask[BB]=false, configuredByMask[iW]=false, activeByMask=false, networkActive=false, activeOver=kDataContextUnknown
+0.933 [I] DATA.ServiceController: updateStateCache_sync:     activeAndIdByConnection:  id=-2, active=false, currentInterface=/{}, transportType=kDataContextUnknown
+0.933 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+0.933 [I] DATA.ServiceController: updateStateCache_sync: kDataConnectionAppleWirelessDiagnostics: idByMask=-2, configuredByMask[BB]=false, configuredByMask[iW]=false, activeByMask=false, networkActive=false, activeOver=kDataContextUnknown
+0.933 [I] DATA.ServiceController: updateStateCache_sync:     activeAndIdByConnection:  id=-2, active=false, currentInterface=/{}, transportType=kDataContextUnknown
+0.933 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+0.933 [I] DATA.ServiceController: updateStateCache_sync: kDataConnectionDataTest: idByMask=-2, configuredByMask[BB]=false, configuredByMask[iW]=false, activeByMask=false, networkActive=false, activeOver=kDataContextUnknown
+0.933 [I] DATA.ServiceController: updateStateCache_sync:     activeAndIdByConnection:  id=-2, active=false, currentInterface=/{}, transportType=kDataContextUnknown
+0.933 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+0.933 [I] DATA.ServiceController: updateStateCache_sync: kDataConnectionOTAActivation: idByMask=-2, configuredByMask[BB]=false, configuredByMask[iW]=false, activeByMask=false, networkActive=false, activeOver=kDataContextUnknown
+0.933 [I] DATA.ServiceController: updateStateCache_sync:     activeAndIdByConnection:  id=-2, active=false, currentInterface=/{}, transportType=kDataContextUnknown
+0.933 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+0.933 [I] DATA.ServiceController: updateStateCache_sync: kDataConnection3GFaceTimeTraffic: idByMask=-2, configuredByMask[BB]=false, configuredByMask[iW]=false, activeByMask=false, networkActive=false, activeOver=kDataContextUnknown
+0.933 [I] DATA.ServiceController: updateStateCache_sync:     activeAndIdByConnection:  id=-2, active=false, currentInterface=/{}, transportType=kDataContextUnknown
+0.933 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+0.933 [I] DATA.ServiceController: updateStateCache_sync: kDataConnection3GFaceTimeAuthentication: idByMask=-2, configuredByMask[BB]=false, configuredByMask[iW]=false, activeByMask=false, networkActive=false, activeOver=kDataContextUnknown
+0.933 [I] DATA.ServiceController: updateStateCache_sync:     activeAndIdByConnection:  id=-2, active=false, currentInterface=/{}, transportType=kDataContextUnknown
+0.933 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+0.933 [I] DATA.ServiceController: updateStateCache_sync: kDataConnectionOMADM: idByMask=-2, configuredByMask[BB]=false, configuredByMask[iW]=false, activeByMask=false, networkActive=false, activeOver=kDataContextUnknown
+0.933 [I] DATA.ServiceController: updateStateCache_sync:     activeAndIdByConnection:  id=-2, active=false, currentInterface=/{}, transportType=kDataContextUnknown
+0.933 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+0.933 [I] DATA.ServiceController: updateStateCache_sync: kDataConnectionOTAInternet: idByMask=-2, configuredByMask[BB]=false, configuredByMask[iW]=false, activeByMask=false, networkActive=false, activeOver=kDataContextUnknown
+0.933 [I] DATA.ServiceController: updateStateCache_sync:     activeAndIdByConnection:  id=-2, active=false, currentInterface=/{}, transportType=kDataContextUnknown
+0.933 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+0.933 [I] DATA.ServiceController: updateStateCache_sync: kDataConnectionZeroRated: idByMask=-2, configuredByMask[BB]=false, configuredByMask[iW]=false, activeByMask=false, networkActive=false, activeOver=kDataContextUnknown
+0.933 [I] DATA.ServiceController: updateStateCache_sync:     activeAndIdByConnection:  id=-2, active=false, currentInterface=/{}, transportType=kDataContextUnknown
+0.933 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+0.933 [I] DATA.ServiceController: updateStateCache_sync: kDataConnectionEntitlementTraffic: idByMask=-2, configuredByMask[BB]=false, configuredByMask[iW]=false, activeByMask=false, networkActive=false, activeOver=kDataContextUnknown
+0.934 [I] DATA.ServiceController: updateStateCache_sync:     activeAndIdByConnection:  id=-2, active=false, currentInterface=/{}, transportType=kDataContextUnknown
+0.934 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+0.934 [I] DATA.ServiceController: updateStateCache_sync: kDataConnectionInternalDataProbe: idByMask=-2, configuredByMask[BB]=false, configuredByMask[iW]=false, activeByMask=false, networkActive=false, activeOver=kDataContextUnknown
+0.934 [I] DATA.ServiceController: updateStateCache_sync:     activeAndIdByConnection:  id=-2, active=false, currentInterface=/{}, transportType=kDataContextUnknown
+0.934 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+0.934 [I] DATA.ServiceController: updateStateCache_sync: kDataConnectionIM: idByMask=-2, configuredByMask[BB]=false, configuredByMask[iW]=false, activeByMask=false, networkActive=false, activeOver=kDataContextUnknown
+0.934 [I] DATA.ServiceController: updateStateCache_sync:     activeAndIdByConnection:  id=-2, active=false, currentInterface=/{}, transportType=kDataContextUnknown
+0.934 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+0.934 [I] DATA.ServiceController: updateStateCache_sync: kDataConnectionEm: idByMask=-2, configuredByMask[BB]=false, configuredByMask[iW]=false, activeByMask=false, networkActive=false, activeOver=kDataContextUnknown
+0.934 [I] DATA.ServiceController: updateStateCache_sync:     activeAndIdByConnection:  id=-2, active=false, currentInterface=/{}, transportType=kDataContextUnknown
+0.934 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+0.934 [I] DATA.ServiceController: updateStateCache_sync: kDataConnectionBootstrap: idByMask=-2, configuredByMask[BB]=false, configuredByMask[iW]=false, activeByMask=false, networkActive=false, activeOver=kDataContextUnknown
+0.934 [I] DATA.ServiceController: updateStateCache_sync:     activeAndIdByConnection:  id=-2, active=false, currentInterface=ipsec0/{ipsec0}, transportType=kDataContextUnknown
+0.934 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+0.934 [I] DATA.ServiceController: updateStateCache_sync: kDataConnectionUT: idByMask=-2, configuredByMask[BB]=false, configuredByMask[iW]=false, activeByMask=false, networkActive=false, activeOver=kDataContextUnknown
+0.934 [I] DATA.ServiceController: updateStateCache_sync:     activeAndIdByConnection:  id=-2, active=false, currentInterface=/{}, transportType=kDataContextUnknown
+0.934 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+0.934 [I] DATA.ServiceController: updateStateCache_sync: kDataConnectionBootstrapRoamingInternetBypass: idByMask=0, configuredByMask[BB]=false, configuredByMask[iW]=false, activeByMask=false, networkActive=false, activeOver=kDataContextUnknown
+0.934 [I] DATA.ServiceController: updateStateCache_sync:     activeAndIdByConnection:  id=-2, active=false, currentInterface=ipsec0/{ipsec0}, transportType=kDataContextUnknown
+0.934 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+0.934 [I] DATA.ServiceController: updateStateCache_sync: kDataConnectionEmLoc: idByMask=-2, configuredByMask[BB]=false, configuredByMask[iW]=false, activeByMask=false, networkActive=false, activeOver=kDataContextUnknown
+0.934 [I] DATA.ServiceController: updateStateCache_sync:     activeAndIdByConnection:  id=-2, active=false, currentInterface=/{}, transportType=kDataContextUnknown
+0.934 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+0.934 [I] DATA.ServiceController: updateStateCache_sync: kDataConnectionCellularDataPlanProvisioning2: idByMask=-2, configuredByMask[BB]=false, configuredByMask[iW]=false, activeByMask=false, networkActive=false, activeOver=kDataContextUnknown
+0.934 [I] DATA.ServiceController: updateStateCache_sync:     activeAndIdByConnection:  id=-2, active=false, currentInterface=/{}, transportType=kDataContextUnknown
+0.934 [I] DATA.ServiceController: updateStateCache_sync: pdp_id=0  pdp=0 state=0 dataAtt=1 ind=7 roam=1 mask=[](0x0) tech=7 IPf=0 override=0 p9=0 (num=10)
+0.934 [I] DATA.ServiceController: updateStateCache_sync: pdp_id=1  pdp=1 state=0 dataAtt=1 ind=7 roam=1 mask=[](0x0) tech=7 IPf=0 override=0 p9=0 (num=10)
+0.934 [I] DATA.ServiceController: recalculateConnectionAvailability_sync: Internal event start: ==>>
+0.934 [I] DATA.ServiceController: recalculateConnectionAvailability_sync:      internal event: If(kDataNotSupported{context is not assigned })
+0.934 [I] DATA.ServiceController: recalculateConnectionAvailability_sync:      internal event: Vf(kDataNotSupported{context is not assigned })
+0.934 [I] DATA.ServiceController: recalculateConnectionAvailability_sync:      internal event: Mf(kDataNotSupported{context is not assigned })
+0.934 [I] DATA.ServiceController: recalculateConnectionAvailability_sync:      internal event: Ef(kDataNotSupported{context is not assigned })
+0.934 [I] DATA.ServiceController: recalculateConnectionAvailability_sync:      internal event: Wf(kDataNotSupported{context is not assigned })
+0.934 [I] DATA.ServiceController: recalculateConnectionAvailability_sync:      internal event: wf(kDataNotSupported{context is not assigned })
+0.934 [I] DATA.ServiceController: recalculateConnectionAvailability_sync:      internal event: Pf(kDataNotSupported{context is not assigned })
+0.934 [I] DATA.ServiceController: recalculateConnectionAvailability_sync:      internal event: Df(kDataNotSupported{context is not assigned })
+0.934 [I] DATA.ServiceController: recalculateConnectionAvailability_sync:      internal event: Tf(kDataNotSupported{context is not assigned })
+0.934 [I] DATA.ServiceController: recalculateConnectionAvailability_sync:      internal event: Of(kDataNotSupported{context is not assigned })
+0.934 [I] DATA.ServiceController: recalculateConnectionAvailability_sync:      internal event: Ff(kDataNotSupported{context is not assigned })
+0.934 [I] DATA.ServiceController: recalculateConnectionAvailability_sync:      internal event: ff(kDataNotSupported{context is not assigned })
+0.934 [I] DATA.ServiceController: recalculateConnectionAvailability_sync:      internal event: mf(kDataNotSupported{context is not assigned })
+0.934 [I] DATA.ServiceController: recalculateConnectionAvailability_sync:      internal event: of(kDataNotSupported{context is not assigned })
+0.934 [I] DATA.ServiceController: recalculateConnectionAvailability_sync:      internal event: Zf(kDataNotSupported{context is not assigned })
+0.934 [I] DATA.ServiceController: recalculateConnectionAvailability_sync:      internal event: $f(kDataNotSupported{context is not assigned })
+0.934 [I] DATA.ServiceController: recalculateConnectionAvailability_sync:      internal event: if(kDataNotSupported{context is not assigned })
+0.934 [I] DATA.ServiceController: recalculateConnectionAvailability_sync:      internal event: Sf(kDataNotSupported{context is not assigned })
+0.934 [I] DATA.ServiceController: recalculateConnectionAvailability_sync:      internal event: 9f(kDataNotSupported{context is not assigned })
+0.934 [I] DATA.ServiceController: recalculateConnectionAvailability_sync:      internal event: Bf(kDataNotSupported{context is not assigned })
+0.934 [I] DATA.ServiceController: recalculateConnectionAvailability_sync:      internal event: Uf(kDataNotSupported{context is not assigned })
+0.934 [I] DATA.ServiceController: recalculateConnectionAvailability_sync:      internal event: bf(kDataNotSupported{context is not assigned })
+0.934 [I] DATA.ServiceController: recalculateConnectionAvailability_sync:      internal event: Lf(kDataNotSupported{context is not assigned })
+0.934 [I] DATA.ServiceController: recalculateConnectionAvailability_sync:      internal event: 2f(kDataNotSupported{context is not assigned })
+0.934 [I] DATA.ServiceController: recalculateConnectionAvailability_sync: <<== Internal event end: due to fRadioModuleCreated is true
+0.934 [I] evt: Firing event 'connectionAvailability': with params= 0, {f(kDataNotSupported{context is not assigned}),f(kDataNotSupported{context is not assigned}),f(kDataNotSupported{context is not assigned}),f(kDataNotSupported{context is not assigned}),f(kDataNotSupported{context is not assigned}),f(kDataNotSupported{context is not assigned}),f(kDataNotSupported{context is not assigned}),f(kDataNotSupported{context is not assigned}),f(kDataNotSupported{context is not assigned}),f(kDataNotSupported{context is not assigned}),f(kDataNotSupported{context is not assigned}),f(kDataNotSupported{context is not assigned}),f(kDataNotSupported{context is not assigned}),f(kDataNotSupported{context is not assigned}),f(kDataNotSupported{context is not assigned}),f(kDataNotSupported{context is not assigned}),f(kDataNotSupported{context is not assigned}),f(kDataNotSupported{context is not assigned}),f(kDataNotSupported{context is not assigned}),f(kDataNotSupported{context is not assigned}),f(kDataNotSupported{context is not assigned}),f(kDataNotSupported{context is not assigned}),f(kDataNotSupported{context is not assigned}),f(kDataNotSupported{context is not assigned})}
+0.934 [I] DATA.ServiceController: recalculateConnectionAvailability_sync: sending CT event due to fRadioModuleCreated is true
+0.934 [I] DATA.ServiceController: reactivateAsserted_sync:  due to TetheringAssertion::create force=false
+0.934 [I] xpc.event:   --------------> kCTEventDataServiceAvailability(158) sent to 0 (of 0) clients.
+1.393 [I] pp: Stopping heart beat inactivity timer
+1.393 [N] misc: CommCenter Init: RadioModule created
+1.393 [I] NOBB:NoBBRadioModule_NOSUPPORT:enableFastDormancySupport: 
+1.393 [N] misc: CommCenter Init: starting services
+1.393 [N] svcmgr: Bootstrap 16 services in progress MD[[bootstrap]]
+1.393 [I] svcmgr: Bootstrapping csi
+1.393 [I] svcmgr: Bootstrapping CCRestServer
+1.393 [I] svcmgr: Bootstrapping CCXpcServer
+1.393 [I] xpc: Bootstrapping
+1.393 [I] svcmgr: Bootstrapping BasebandModeManager
+1.393 [I] svcmgr: Bootstrapping SystemObserver
+1.393 [I] sysobs: Bootstrapping
+1.393 [I] svcmgr: Bootstrapping CarrierSettings
+1.393 [I] cs: Bootstrapping
+1.393 [I] svcmgr: Bootstrapping EmergencyNumbers
+1.393 [I] call.EmergencyNumbers: Bootstrapping
+1.393 [I] svcmgr: Bootstrapping WiFiManager
+1.393 [N] rest: Starting XPC listener
+1.393 [I] svcmgr: Bootstrapping KeychainObserver
+1.393 [I] svcmgr: Bootstrapping SDM
+1.393 [I] svcmgr: Bootstrapping CallController
+1.393 [I] call: Bootstrapping
+1.393 [I] xpc: Setting up CT server handlers: 22 to run
+1.393 [I] svcmgr: Bootstrapping ctl
+1.393 [I] svcmgr: Bootstrapping CSIAppInfo
+1.393 [I] svcmgr: Bootstrapping DataServiceController
+1.393 [I] svcmgr: Bootstrapping PowerObserver
+1.393 [I] svcmgr: Bootstrapping StopTelephony
+1.395 [I] xpc: CT server handlers installed: 84 handlers, 140 reply handlers
+1.395 [I] xpc: Done
+1.395 [N] call.provider: ----> handleCallStatusChanged. Num of pending transaction are 0
+1.395 [I] call.provider: Pending Transactions: (
+)
+1.395 [I] call.provider: Updating max calls capabilities: <CXProviderConfiguration 0x7fa6c1c1ce40 localizedName=Telephony ringtoneSoundURL=(null) iconTemplateImageData=0x0 maximumCallGroups=0 maximumCallsPerCallGroup=0 supportsAudioOnly=1 supportsVideo=0 supportsEmergency=1 supportsVoicemail=1 audioSessionID=0 supportedHandleTypes=2>
+1.396 [I] em.EmergencyCallManager: handleIMSClientStateChanged_sync: IMS client remains not ready
+1.396 [I] call: IMS Feature Changed, voLTE:0x0, voWiFi:0x0 -> voice (off), sms (off) ->> fIMSEnabled = false
+1.396 [I] call.CmdDriver.IMS: IMSCallCommandDriver::fillUpDefaultCallCapabilities
+1.397 [I] DATA.ServiceController: handleUserAirplaneModeChange_sync: false->false
+1.397 [I] DATA.Connection:Internet: handleRegistrationStatusState: restEvent: registrationState=0
+1.397 [I] 5wi.CopyIMSConfigValue: IMSConfig.ConferenceCalling.conferenceServer = NULL
+1.397 [I] DATA.Connection:Internet: handleInHomeCountryState: restEvent: inHomeCountry=0
+1.397 [I] DATA.Connection:VVM: handleRegistrationStatusState: restEvent: registrationState=0
+1.397 [I] DATA.Connection:MMS: handleRegistrationStatusState: restEvent: registrationState=0
+1.397 [I] DATA.Connection:MMS: handleInHomeCountryState: restEvent: inHomeCountry=0
+1.397 [I] DATA.Connection:PushEmail: handleRegistrationStatusState: restEvent: registrationState=0
+1.397 [I] DATA.Connection:PushEmail: handleInHomeCountryState: restEvent: inHomeCountry=0
+1.397 [I] DATA.Connection:WirelessModemTraffic: handleRegistrationStatusState: restEvent: registrationState=0
+1.397 [I] DATA.Connection:WirelessModemTraffic: handleInHomeCountryState: restEvent: inHomeCountry=0
+1.397 [I] DATA.Connection:WirelessModemTraffic: handleDCHState: restEvent: dch=0
+1.397 [I] DATA.Connection:WirelessModemAuthentication: handleRegistrationStatusState: restEvent: registrationState=0
+1.397 [I] DATA.Connection:WirelessModemAuthentication: handleInHomeCountryState: restEvent: inHomeCountry=0
+1.397 [I] DATA.Connection:WirelessModemAuthentication: handleDCHState: restEvent: dch=0
+1.397 [I] DATA.Connection:Provisioning: handleRegistrationStatusState: restEvent: registrationState=0
+1.397 [I] DATA.Connection:Provisioning: handleInHomeCountryState: restEvent: inHomeCountry=0
+1.397 [I] DATA.Connection:Provisioning: handleDCHState: restEvent: dch=0
+1.397 [I] DATA.Connection:Provisioning: handleUTBFState: restEvent: utbf=0
+1.397 [I] DATA.Connection:AppleWirelessDiagnostics: handleRegistrationStatusState: restEvent: registrationState=0
+1.397 [I] DATA.Connection:AppleWirelessDiagnostics: handleInHomeCountryState: restEvent: inHomeCountry=0
+1.397 [I] DATA.Connection:AppleWirelessDiagnostics: handleDCHState: restEvent: dch=0
+1.397 [I] DATA.Connection:AppleWirelessDiagnostics: handleUTBFState: restEvent: utbf=0
+1.397 [I] DATA.Connection:DataTest: handleRegistrationStatusState: restEvent: registrationState=0
+1.397 [I] DATA.Connection:DataTest: handleInHomeCountryState: restEvent: inHomeCountry=0
+1.397 [I] DATA.Connection:DataTest: handleDCHState: restEvent: dch=0
+1.398 [I] DATA.Connection:DataTest: handleUTBFState: restEvent: utbf=0
+1.398 [I] DATA.Connection:OTAActivation: handleRegistrationStatusState: restEvent: registrationState=0
+1.398 [I] DATA.Connection:OTAActivation: handleInHomeCountryState: restEvent: inHomeCountry=0
+1.398 [I] DATA.Connection:OTAActivation: handleDCHState: restEvent: dch=0
+1.398 [I] DATA.Connection:OTAActivation: handleUTBFState: restEvent: utbf=0
+1.398 [I] DATA.Connection:3GFaceTimeTraffic: handleRegistrationStatusState: restEvent: registrationState=0
+1.398 [I] DATA.Connection:3GFaceTimeTraffic: handleInHomeCountryState: restEvent: inHomeCountry=0
+1.398 [I] DATA.Connection:3GFaceTimeTraffic: handleDCHState: restEvent: dch=0
+1.398 [I] DATA.Connection:3GFaceTimeTraffic: handleUTBFState: restEvent: utbf=0
+1.398 [I] DATA.Connection:3GFaceTimeAuthentication: handleRegistrationStatusState: restEvent: registrationState=0
+1.398 [I] DATA.Connection:3GFaceTimeAuthentication: handleInHomeCountryState: restEvent: inHomeCountry=0
+1.398 [I] DATA.Connection:3GFaceTimeAuthentication: handleDCHState: restEvent: dch=0
+1.398 [I] DATA.Connection:3GFaceTimeAuthentication: handleUTBFState: restEvent: utbf=0
+1.398 [I] DATA.Connection:OMADM: handleRegistrationStatusState: restEvent: registrationState=0
+1.398 [I] DATA.Connection:OMADM: handleInHomeCountryState: restEvent: inHomeCountry=0
+1.398 [I] DATA.Connection:OMADM: handleDCHState: restEvent: dch=0
+1.398 [I] DATA.Connection:OMADM: handleUTBFState: restEvent: utbf=0
+1.398 [I] DATA.Connection:OTAInternet: handleRegistrationStatusState: restEvent: registrationState=0
+1.398 [I] DATA.Connection:OTAInternet: handleInHomeCountryState: restEvent: inHomeCountry=0
+1.398 [I] DATA.Connection:OTAInternet: handleDCHState: restEvent: dch=0
+1.398 [I] DATA.Connection:OTAInternet: handleUTBFState: restEvent: utbf=0
+1.398 [I] DATA.Connection:ZeroRated: handleRegistrationStatusState: restEvent: registrationState=0
+1.398 [I] DATA.Connection:ZeroRated: handleInHomeCountryState: restEvent: inHomeCountry=0
+1.398 [I] DATA.Connection:ZeroRated: handleDCHState: restEvent: dch=0
+1.398 [I] DATA.Connection:ZeroRated: handleUTBFState: restEvent: utbf=0
+1.398 [I] DATA.Connection:EntitlementTraffic: handleRegistrationStatusState: restEvent: registrationState=0
+1.398 [I] DATA.Connection:EntitlementTraffic: handleInHomeCountryState: restEvent: inHomeCountry=0
+1.398 [I] DATA.Connection:EntitlementTraffic: handleDCHState: restEvent: dch=0
+1.398 [I] DATA.Connection:EntitlementTraffic: handleUTBFState: restEvent: utbf=0
+1.398 [E] call.provider: UUID for call is nil. Not sending frequency data update.
+1.398 [I] call.provider: Thumper call handoff capability changed to false
+1.398 [I] DATA.Connection:InternalDataProbe: handleRegistrationStatusState: restEvent: registrationState=0
+1.398 [I] DATA.Connection:InternalDataProbe: handleInHomeCountryState: restEvent: inHomeCountry=0
+1.398 [I] DATA.Connection:iw5: handleRegistrationStatusState: restEvent: registrationState=0
+1.398 [I] DATA.Connection:iw5: handleInHomeCountryState: restEvent: inHomeCountry=0
+1.398 [I] DATA.Connection:iw5: handleDCHState: restEvent: dch=0
+1.398 [I] DATA.Connection:iw5: handleUTBFState: restEvent: utbf=0
+1.398 [I] DATA.Connection:Em: handleRegistrationStatusState: restEvent: registrationState=0
+1.399 [I] DATA.Connection:Em: handleInHomeCountryState: restEvent: inHomeCountry=0
+1.399 [I] DATA.Connection:Em: handleDCHState: restEvent: dch=0
+1.399 [I] DATA.Connection:Em: handleUTBFState: restEvent: utbf=0
+1.399 [I] DATA.Connection:Bootstrap: handleRegistrationStatusState: restEvent: registrationState=0
+1.399 [I] DATA.Connection:Bootstrap: handleInHomeCountryState: restEvent: inHomeCountry=0
+1.399 [I] DATA.Connection:Bootstrap: handleDCHState: restEvent: dch=0
+1.399 [I] DATA.Connection:Bootstrap: handleUTBFState: restEvent: utbf=0
+1.399 [I] DATA.Connection:InternalDataProbe: handleDCHState: restEvent: dch=0
+1.399 [I] DATA.Connection:InternalDataProbe: handleUTBFState: restEvent: utbf=0
+1.399 [I] DATA.Connection:UT: handleRegistrationStatusState: restEvent: registrationState=0
+1.399 [I] DATA.Connection:UT: handleInHomeCountryState: restEvent: inHomeCountry=0
+1.399 [I] DATA.Connection:UT: handleDCHState: restEvent: dch=0
+1.399 [I] DATA.Connection:UT: handleUTBFState: restEvent: utbf=0
+1.399 [I] DATA.Connection:BootstrapRoamingInternetBypass: handleRegistrationStatusState: restEvent: registrationState=0
+1.399 [I] DATA.Connection:BootstrapRoamingInternetBypass: handleInHomeCountryState: restEvent: inHomeCountry=0
+1.399 [I] DATA.Connection:BootstrapRoamingInternetBypass: handleDCHState: restEvent: dch=0
+1.399 [I] DATA.Connection:BootstrapRoamingInternetBypass: handleUTBFState: restEvent: utbf=0
+1.399 [I] DATA.Connection:EmLoc: handleRegistrationStatusState: restEvent: registrationState=0
+1.399 [I] DATA.Connection:EmLoc: handleInHomeCountryState: restEvent: inHomeCountry=0
+1.399 [I] DATA.Connection:EmLoc: handleDCHState: restEvent: dch=0
+1.399 [I] DATA.Connection:EmLoc: handleUTBFState: restEvent: utbf=0
+1.399 [I] DATA.Connection:Provisioning: handleRegistrationStatusState: restEvent: registrationState=0
+1.399 [I] DATA.Connection:Provisioning: handleInHomeCountryState: restEvent: inHomeCountry=0
+1.399 [I] DATA.Connection:Provisioning: handleDCHState: restEvent: dch=0
+1.399 [I] DATA.Connection:Provisioning: handleUTBFState: restEvent: utbf=0
+1.399 [I] DATA.wifi: handleSimsChanged_sync: empty sim info.
+1.399 [I] DATA.Connection:VVM: handleInHomeCountryState: restEvent: inHomeCountry=0
+1.399 [I] DATA.Connection:VVM: handleDCHState: restEvent: dch=0
+1.399 [I] DATA.Connection:VVM: handleUTBFState: restEvent: utbf=0
+1.399 [I] DATA.ui-apn: refresh: refresh for subscriber:'' (same)
+1.399 [I] DATA.ui-apn: apply: 0 APN(s)
+1.399 [I] DATA.ui-apn: apply: AttachAPN: NULL
+1.399 [I] DATA.dw-apn: refresh: start
+1.399 [I] DATA.cb-apn: refresh: cellularDataBundleName: 
+1.399 [I] DATA.cb-apn: refresh: carrierBundleName: 
+1.399 [I] DATA.cb-apn: refresh: reading APNs from: com.apple.carrier.data
+1.399 [I] DATA.cb-apn: refresh: No APNS in com.apple.carrier.data
+1.399 [I] DATA.cb-apn: refresh: 0 APN(s) in CB.single bundle
+1.399 [I] DATA.ipcu: readAPN: No IPCU profile or missing key 'profile'
+1.399 [I] DATA: old_copyAPNFromManagedPreferences: Pulling APN settings for 0 from profile or carrier settings
+1.399 [I] DATA: old_copyAPNFromManagedPreferences: IPCU file DOES NOT exist - old style profile reading skipped
+1.399 [I] DATA: old_copyAPNFromManagedPreferences: IPCU APN not found (old style)
+1.399 [I] DATA.ipcu: readAttachAPN: No IPCU profile or missing key 'profile'
+1.399 [I] DATA.ui-apn: refresh: refresh for subscriber:'' (same)
+1.399 [I] DATA.ui-apn: apply: 0 APN(s)
+1.399 [I] DATA.ui-apn: apply: AttachAPN: NULL
+1.399 [I] DATA.eu-apn: refresh: no own MCC detected yet - opt-out
+1.399 [I] pkt: ResetAllPacketHandlersAPNs, kVoWiFiConfigSwitch
+1.399 [I] DATA.dw-apn: reconfigure: tech:unknown, forced:true
+1.399 [I] DATA.dw-apn: reconfigure: dropped compatible technologies
+1.400 [I] call.EmergencyNumbers: Not handling fLastVisiblePLMN update since value didn't change or PLMN is empty, []-[]
+1.400 [I] call.EmergencyNumbers: Sim state changed! Reassess operator whitelist order.
+1.400 [E] call.EmergencyNumbers: Didn't find a primary sim, assume SIM is in a bad state
+1.400 [I] DATA.dw-apn: reviseImsApnForThumper: start
+1.400 [I] call.EmergencyNumbers: Primary sim is not able to make normal calls, don't check operator whitelist first
+1.400 [I] DATA.dw-apn: reconfigure: skipped - no changes detected, new compatible technologies: (GSM/UMTS)
+1.400 [N] call.EmergencyNumbers: Do not check operator whitelist values before checking emergency values. Setting up fEmergencyNumbersMap so operator whitelist is checked after...
+1.400 [I] pnr.mgr: Phone number hasn't been read
+1.400 [I] pnr.mgr: Phone number hasn't been read
+1.400 [I] pnr.mgr: Phone number hasn't been read
+1.400 [I] pnr.mgr: Phone number hasn't been read
+1.400 [I] xpc.tracker: Tracker gathering stats = 0 (logged=0, queriable=0)
+1.400 [I] DATA.Connection:iw5: enableBBContext: Cellular context is disabled
+1.400 [I] DATA.Connection:iw5: enableiWLanContext: Wifi context is disabled
+1.400 [N] call.provider: ----> handleCallStatusChanged. Num of pending transaction are 0
+1.400 [I] call.provider: Pending Transactions: (
+)
+1.400 [I] call.provider: Updating max calls capabilities: <CXProviderConfiguration 0x7fa6c1c44750 localizedName=Telephony ringtoneSoundURL=(null) iconTemplateImageData=0x0 maximumCallGroups=0 maximumCallsPerCallGroup=0 supportsAudioOnly=1 supportsVideo=0 supportsEmergency=1 supportsVoicemail=1 audioSessionID=0 supportedHandleTypes=2>
+1.400 [I] DATA: getiWLanSettingDict: no TechSettings dictionary can be found
+1.400 [I] DATA: shouldWifiCallingControlAllIWLanService: no iWLanSettingDict for WiFiCallingControlsAlliWLanServices key
+1.400 [I] evt: Firing event 'recalculateConnectionAvailability': with params= 0, Connection Context Preference Changed.
+1.400 [I] DATA.Connection:iw5: handleCallStateChange: Call State changed from (Active: false, VoIP: false, BlockSingleSimFallBack: false) to (Active: false, VoIP: false, BlockSingleSimFallBack: false)
+1.400 [I] DATA.Connection:iw5: handleCallStateChange: Call State changed from (Active: false, VoIP: false, BlockSingleSimFallBack: false) to (Active: false, VoIP: false, BlockSingleSimFallBack: false)
+1.400 [I] DATA.Connection:Internet: handleDCHState: restEvent: dch=0
+1.400 [I] DATA.Connection:Internet: handleUTBFState: restEvent: utbf=0
+1.400 [I] DATA.Connection:MMS: handleDCHState: restEvent: dch=0
+1.400 [E] call.provider: UUID for call is nil. Not sending frequency data update.
+1.400 [I] DATA.Connection:MMS: handleUTBFState: restEvent: utbf=0
+1.400 [I] DATA.Connection:PushEmail: handleDCHState: restEvent: dch=0
+1.400 [I] call.provider: Thumper call handoff capability changed to false
+1.400 [I] DATA.Connection:PushEmail: handleUTBFState: restEvent: utbf=0
+1.400 [I] DATA.Connection:WirelessModemTraffic: handleUTBFState: restEvent: utbf=0
+1.400 [I] DATA.Connection:WirelessModemAuthentication: handleUTBFState: restEvent: utbf=0
+1.400 [I] DATA.iRatController: handleImsFeatureState_sync: start
+1.400 [I] call.provider: Updating max calls capabilities: <CXProviderConfiguration 0x7fa6c1c44750 localizedName=Telephony ringtoneSoundURL=(null) iconTemplateImageData=0x0 maximumCallGroups=0 maximumCallsPerCallGroup=0 supportsAudioOnly=1 supportsVideo=0 supportsEmergency=1 supportsVoicemail=1 audioSessionID=0 supportedHandleTypes=2>
+1.400 [I] call: Updating registration status from kRegistrationStatusUnknown to kRegistrationStatusUnknown
+1.400 [I] DATA.pkt.0: writeServiceEntryToSystemConfig_sync: pdp0, technology (nothing)
+1.400 [I] call: IMS Feature Changed, voLTE:0x0, voWiFi:0x0 -> voice (off), sms (off) ->> fIMSEnabled = false
+1.400 [I] DATA.pkt.1: writeServiceEntryToSystemConfig_sync: pdp1, technology (nothing)
+1.400 [I] DATA.ServiceController: handleAPNSettingsChange_sync:  kVoWiFiConfigSwitch
+1.401 [I] call.provider: Thumper Account Id is not avaialbe yet. Not sending.
+1.401 [I] call: Current TTY transport set to kNone, evaluating if need to send CTM
+1.401 [I] DATA.wifi: refreshAllDataSettings: start
+1.401 [I] DATA: getiWLanSettingDict: no TechSettings dictionary can be found
+1.401 [I] DATA.wifi: refreshAllDataSettings: for 0
+1.401 [I] DATA.wifi: refreshAllDataSettings: APN info not present
+1.401 [I] DATA.wifi: refreshAllDataSettings: APN info not present or does not support iWLan
+1.401 [I] call: Set TTY as kTTYTypeNone request
+1.401 [E] call: TTY was off before and it is still off. Not submitting metric or sending QMI
+1.401 [I] call.CmdDriver.IMS: IMS Daemon state remains at not ready
+1.401 [I] call.CmdDriver.IMS: IMS client has not changed state from not ready
+1.401 [I] DATA.TechContext:0: stopUsing: s

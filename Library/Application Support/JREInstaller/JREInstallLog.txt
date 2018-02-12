@@ -1,0 +1,171 @@
+---- INSTALL RUN |||| 03-05-2016 01:12:40 +0200 
+Install Log: Type:Network Severity:Debug Message:Get Staged XML from :https://javadl-esd-secure.oracle.com/update/1.8.0/mac-1.8.0_73-b02.xml 
+Install Log: Type:Network Severity:Debug Message:Arguments:(
+    "/Volumes/Java 8 Update 73/Java 8 Update 73.app/Contents/MacOS/MacJREInstaller",
+    "-psn_0_786624",
+    ""
+) 
+Install Log: Type:Other Severity:Debug Message:Dictionary:{
+} 
+Install Log: Type:Network Severity:Debug Message:Current Installed Version:15.0.1 
+Install Log: Type:Ping Severity:Debug Message:Init MacPingEngine. 
+Install Log: Type:Other Severity:Debug Message:Application support directory:/Users/MonaAskary/Library/Application Support 
+Install Log: Type:Other Severity:Debug Message:infoPlist:(null) 
+Install Log: Type:Network Severity:Debug Message:Java 8 Update 73 build 02 
+Install Log: Type:Install Severity:Debug Message:downloadSponsors https://javadl-esd-secure.oracle.com/update/1.8.0/sp-mac-1.8.0_73-b02/Sponsors.framework.tar
+ a2b54180be3e9249c1462b3d049554a6 
+Install Log: Type:Install Severity:Debug Message:Inside begin download 
+Install Log: Type:Install Severity:Debug Message:Download Started 
+Install Log: Type:Other Severity:Debug Message:Application support directory:/Users/MonaAskary/Library/Application Support 
+Install Log: Type:Network Severity:Debug Message:From Welcome Delegate 
+Install Log: Type:Network Severity:Debug Message:From SP Delegate:1 
+Install Log: Type:Network Severity:Debug Message:Locking ContinueButton = <NSButton: 0x7fee02688ae0>: 1 
+Install Log: Type:Install Severity:Debug Message:Destination file created at:/Users/MonaAskary/Library/Application Support/Sponsors.framework.tar 
+Install Log: Type:Install Severity:Debug Message:SPDownloader downloadDidFinish 
+Install Log: Type:Ping Severity:Debug Message:Incoming response: <NSHTTPURLResponse: 0x7fee024eb1d0> { URL: http://rps-svcs.sun.com/services/countrylookup } { status code: 200, headers {
+    Connection = "keep-alive";
+    "Content-Length" = 269;
+    "Content-Type" = "text/html";
+    Country = EG;
+    Date = "Fri, 04 Mar 2016 23:13:23 GMT";
+    Expires = "Fri, 04 Mar 2016 23:13:23 GMT";
+    "Mime-Version" = "1.0";
+    Server = AkamaiGHost;
+} } 
+Install Log: Type:Ping Severity:Debug Message:country in NSString: EG 
+Install Log: Type:Network Severity:Debug Message:Current Step:1 
+Install Log: Type:Network Severity:Debug Message:Unlocking ContinueButton = <NSButton: 0x7fee02688ae0>: 0 
+Install Log: Type:Network Severity:Debug Message:Installing JRE, Lock Continue Button 
+Install Log: Type:Network Severity:Debug Message:ExecCmd:/usr/sbin/installer -pkg "/Volumes/Java 8 Update 73/Java 8 Update 73.app/Contents/Resources/JavaAppletPlugin.pkg" -target / 
+Install Log: Type:Network Severity:Debug Message:Response from Priviledged Helper: 0 
+Install Log: Type:Network Severity:Debug Message:Calling performSelectorOnMainThread to set jre install code as 0 
+Install Log: Type:Network Severity:Debug Message:Calling setJREInstallCode with 0 
+Install Log: Type:Network Severity:Debug Message:Continue Button Clicked 
+Install Log: Type:Network Severity:Debug Message:Checkbox State:1 
+Install Log: Type:Ping Severity:Debug Message:From Ping Delegate 
+Install Log: Type:Network Severity:Debug Message:Unlocking ContinueButton = <NSButton: 0x7fee02688ae0>: 0 
+Install Log: Type:Ping Severity:Debug Message:Incoming response: <NSHTTPURLResponse: 0x7fee02619910> { URL: http://rps-svcs.sun.com/services/countrylookup } { status code: 200, headers {
+    Connection = "keep-alive";
+    "Content-Length" = 269;
+    "Content-Type" = "text/html";
+    Country = EG;
+    Date = "Fri, 04 Mar 2016 23:13:32 GMT";
+    Expires = "Fri, 04 Mar 2016 23:13:32 GMT";
+    "Mime-Version" = "1.0";
+    Server = AkamaiGHost;
+} } 
+Install Log: Type:Ping Severity:Debug Message:country in NSString: EG 
+Install Log: Type:Ping Severity:Debug Message:Installed Browser: Safari.app Safari 
+Install Log: Type:Ping Severity:Debug Message:XMLDocument
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><request><sc_xml_ver>1.0</sc_xml_ver><reportsuiteid>suninstallstat</reportsuiteid><visitorid>9B0AC104367D50DFA86659325A415DAF</visitorid><prop21>9B0AC104367D50DFA86659325A415DAF</prop21><prop20>******</prop20><pagename>ic</pagename><evar2>1.8.73.02</evar2><evar3>15.0.1</evar3><evar6>10.11.2</evar6><evar7>joff</evar7><evar8>EG</evar8><evar24>0</evar24><evar25>0</evar25><evar50>B00010</evar50><events>event6,event7</events><products>;jre|0,;XSP60|-131;;;;event7=1</products></request>  
+Install Log: Type:Ping Severity:Debug Message:Ping return 1 
+Install Log: Type:Network Severity:Debug Message:Curent step 4,Try to open https://java.com/verify/?src=install 
+Install Log: Type:Other Severity:Debug Message:Application support directory:/Users/MonaAskary/Library/Application Support 
+Install Log: Type:Ping Severity:Debug Message:Remove sponsor: (null) 
+---- INSTALL RUN |||| 03-05-2016 01:14:43 +0200 
+Install Log: Type:Network Severity:Debug Message:Get Staged XML from :https://javadl-esd-secure.oracle.com/update/1.8.0/mac-1.8.0_73-b02.xml 
+Install Log: Type:Network Severity:Debug Message:Arguments:(
+    "/Volumes/Java 8 Update 73/Java 8 Update 73.app/Contents/MacOS/MacJREInstaller",
+    "-psn_0_807109",
+    ""
+) 
+Install Log: Type:Other Severity:Debug Message:Dictionary:{
+} 
+Install Log: Type:Network Severity:Debug Message:Current Installed Version:1.8.73.02 
+Install Log: Type:Ping Severity:Debug Message:Init MacPingEngine. 
+Install Log: Type:Network Severity:Debug Message:version to install: 1.8.73.02 
+Install Log: Type:Other Severity:Debug Message:Application support directory:/Users/MonaAskary/Library/Application Support 
+Install Log: Type:Other Severity:Debug Message:infoPlist:(null) 
+Install Log: Type:Network Severity:Debug Message:Java 8 Update 73 build 02 
+Install Log: Type:Install Severity:Debug Message:downloadSponsors https://javadl-esd-secure.oracle.com/update/1.8.0/sp-mac-1.8.0_73-b02/Sponsors.framework.tar
+ a2b54180be3e9249c1462b3d049554a6 
+Install Log: Type:Install Severity:Debug Message:Inside begin download 
+Install Log: Type:Install Severity:Debug Message:Download Started 
+Install Log: Type:Other Severity:Debug Message:Application support directory:/Users/MonaAskary/Library/Application Support 
+Install Log: Type:Network Severity:Debug Message:From Welcome Delegate 
+Install Log: Type:Network Severity:Debug Message:From SP Delegate:1 
+Install Log: Type:Network Severity:Debug Message:Locking ContinueButton = <NSButton: 0x7fd939538080>: 1 
+Install Log: Type:Install Severity:Debug Message:Destination file created at:/Users/MonaAskary/Library/Application Support/Sponsors.framework.tar 
+Install Log: Type:Install Severity:Debug Message:SPDownloader downloadDidFinish 
+Install Log: Type:Ping Severity:Debug Message:Incoming response: <NSHTTPURLResponse: 0x7fd93962d540> { URL: http://rps-svcs.sun.com/services/countrylookup } { status code: 200, headers {
+    Connection = "keep-alive";
+    "Content-Length" = 268;
+    "Content-Type" = "text/html";
+    Country = EG;
+    Date = "Fri, 04 Mar 2016 23:15:46 GMT";
+    Expires = "Fri, 04 Mar 2016 23:15:46 GMT";
+    "Mime-Version" = "1.0";
+    Server = AkamaiGHost;
+} } 
+Install Log: Type:Ping Severity:Debug Message:country in NSString: EG 
+Install Log: Type:Network Severity:Debug Message:Current Step:1 
+Install Log: Type:Network Severity:Debug Message:Unlocking ContinueButton = <NSButton: 0x7fd939538080>: 0 
+Install Log: Type:Network Severity:Debug Message:Installing JRE, Lock Continue Button 
+Install Log: Type:Network Severity:Debug Message:ExecCmd:/usr/sbin/installer -pkg "/Volumes/Java 8 Update 73/Java 8 Update 73.app/Contents/Resources/JavaAppletPlugin.pkg" -target / 
+Install Log: Type:Network Severity:Debug Message:Response from Priviledged Helper: 0 
+Install Log: Type:Ping Severity:Debug Message:From Ping Delegate 
+Install Log: Type:Network Severity:Debug Message:Unlocking ContinueButton = <NSButton: 0x7fd939538080>: 0 
+Install Log: Type:Ping Severity:Debug Message:Incoming response: <NSHTTPURLResponse: 0x7fd93b8249c0> { URL: http://rps-svcs.sun.com/services/countrylookup } { status code: 200, headers {
+    Connection = "keep-alive";
+    "Content-Length" = 268;
+    "Content-Type" = "text/html";
+    Country = EG;
+    Date = "Fri, 04 Mar 2016 23:15:51 GMT";
+    Expires = "Fri, 04 Mar 2016 23:15:51 GMT";
+    "Mime-Version" = "1.0";
+    Server = AkamaiGHost;
+} } 
+Install Log: Type:Ping Severity:Debug Message:country in NSString: EG 
+Install Log: Type:Ping Severity:Debug Message:Installed Browser: Safari.app Safari 
+Install Log: Type:Ping Severity:Debug Message:XMLDocument
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><request><sc_xml_ver>1.0</sc_xml_ver><reportsuiteid>suninstallstat</reportsuiteid><visitorid>9B0AC104367D50DFA86659325A415DAF</visitorid><prop21>9B0AC104367D50DFA86659325A415DAF</prop21><prop20>******</prop20><pagename>ic</pagename><evar2>1.8.73.02</evar2><evar3>1.8.73.02</evar3><evar6>10.11.2</evar6><evar7>joff</evar7><evar8>EG</evar8><evar24>0</evar24><evar25>0</evar25><evar50>B00010</evar50><events>event6,event7</events><products>;jre|0,;XSP60|-131;;;;event7=1</products></request>  
+Install Log: Type:Ping Severity:Debug Message:Ping return 1 
+Install Log: Type:Network Severity:Debug Message:Calling performSelectorOnMainThread to set jre install code as 0 
+Install Log: Type:Network Severity:Debug Message:Calling setJREInstallCode with 0 
+Install Log: Type:Network Severity:Debug Message:Curent step 3,Try to open https://java.com/verify/?src=install 
+Install Log: Type:Other Severity:Debug Message:Application support directory:/Users/MonaAskary/Library/Application Support 
+Install Log: Type:Ping Severity:Debug Message:Remove sponsor: (null) 
+---- INSTALL RUN |||| 04-02-2017 12:04:51 +0200 
+Install Log: Type:Network Severity:Debug Message:Get Staged XML from :https://javadl-esd-secure.oracle.com/update/1.8.0/e9e7ea248e2c4826b92b3f075a80e441/mac-1.8.0_121-b13.xml 
+Install Log: Type:Network Severity:Debug Message:Arguments:(
+    "/var/folders/bq/d2wrx2td5sx723cbb81wv5sm0000gn/T/AppTranslocation/72B1FC6D-7E30-453B-BA07-8A25313F3404/d/Java 8 Update 121.app/Contents/MacOS/MacJREInstaller",
+    "-psn_0_356439",
+    ""
+) 
+Install Log: Type:Other Severity:Debug Message:Dictionary:{
+} 
+Install Log: Type:Network Severity:Debug Message:Current Installed Version:1.8.121.13 
+Install Log: Type:Ping Severity:Debug Message:Init MacPingEngine. 
+Install Log: Type:Network Severity:Debug Message:version to install: 1.8.121.13 
+Install Log: Type:Other Severity:Debug Message:Application support directory:/Users/MonaAskary/Library/Application Support 
+Install Log: Type:Other Severity:Debug Message:infoPlist:(null) 
+Install Log: Type:Other Severity:Debug Message:JDK version string:1.8.0.121 
+Install Log: Type:Network Severity:Debug Message:Java 8 Update 121 build 13 
+Install Log: Type:Network Severity:Debug Message:From Welcome Delegate 
+Install Log: Type:Network Severity:Debug Message:Installing JRE, Lock Continue Button 
+Install Log: Type:Network Severity:Debug Message:ExecCmd:/usr/sbin/installer -pkg "/private/var/folders/bq/d2wrx2td5sx723cbb81wv5sm0000gn/T/AppTranslocation/72B1FC6D-7E30-453B-BA07-8A25313F3404/d/Java 8 Update 121.app/Contents/Resources/JavaAppletPlugin.pkg" -target / 
+Install Log: Type:Network Severity:Debug Message:Response from Priviledged Helper: 0 
+Install Log: Type:Ping Severity:Debug Message:From Ping Delegate 
+Install Log: Type:Network Severity:Debug Message:Unlocking ContinueButton = <NSButton: 0x600000147170>: 0 
+Install Log: Type:Ping Severity:Debug Message:Incoming response: <NSHTTPURLResponse: 0x60000003fd80> { URL: http://rps-svcs.sun.com/services/countrylookup } { status code: 200, headers {
+    Connection = "keep-alive";
+    "Content-Length" = 269;
+    "Content-Type" = "text/html";
+    Country = EG;
+    Date = "Sun, 02 Apr 2017 10:05:18 GMT";
+    Expires = "Sun, 02 Apr 2017 10:05:18 GMT";
+    "Mime-Version" = "1.0";
+    Server = AkamaiGHost;
+} } 
+Install Log: Type:Ping Severity:Debug Message:country in NSString: EG 
+Install Log: Type:Ping Severity:Debug Message:Installed Browser: Safari.app Safari 
+Install Log: Type:Ping Severity:Debug Message:XMLDocument
+<?xml version="1.0" encoding="UTF-8"?><request><sc_xml_ver>1.0</sc_xml_ver><reportsuiteid>suninstallstat</reportsuiteid><visitorid>9B0AC104367D50DFA86659325A415DAF</visitorid><prop21>9B0AC104367D50DFA86659325A415DAF</prop21><prop20>******</prop20><pagename>ic</pagename><evar2>1.8.121.13</evar2><evar3>1.8.121.13</evar3><evar6>10.12.1</evar6><evar7>joff</evar7><evar8>EG</evar8><evar24>0</evar24><evar25>0</evar25><evar50>B00010</evar50><events>event6,event7</events><products>;jre|0,;XSP300|-146;;;;event7=1</products></request>  
+Install Log: Type:Ping Severity:Debug Message:Ping return 1 
+Install Log: Type:Network Severity:Debug Message:Calling performSelectorOnMainThread to set jre install code as 0 
+Install Log: Type:Network Severity:Debug Message:Calling setJREInstallCode with 0 
+Install Log: Type:Network Severity:Debug Message:Curent step 4,Try to open https://java.com/verify/?src=install 
+Install Log: Type:Other Severity:Debug Message:Application support directory:/Users/MonaAskary/Library/Application Support 
+Install Log: Type:Network Severity:Debug Message:Cleaning up AU payload 
+Install Log: Type:Other Severity:Debug Message:Application support directory:/Users/MonaAskary/Library/Application Support 
+Install Log: Type:Network Severity:Debug Message:installed version: 1.8.121.13 

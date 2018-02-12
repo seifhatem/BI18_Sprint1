@@ -1,0 +1,1013 @@
+﻿[2017-12-05 12:32:40.089] [Info] Installation ID: e436c479-c4e8-4a2e-8c32-2e440f4a18e7
+[2017-12-05 12:32:40.092] [Info] Operating system: Mac OS X v10.12.6 (10.12.6; Mac OS X 10.12.6 (10.12.6 build version: 16G29)), 64-bit
+[2017-12-05 12:32:40.093] [Info] Installer product: Visual Studio for Mac
+[2017-12-05 12:32:40.093] [Info] Installer version: 4.0.2.113 (HEAD detached at b8f07706) (b8f07706f77154169468de71675146b8ff85cdb6 on 14/11/2017 22:06:33)
+[2017-12-05 12:32:40.094] [Info] Status: in progress
+[2017-12-05 12:32:40.506] [Debug] Waiting for manifests to finish downloading.
+[2017-12-05 12:32:40.506] [Debug] Initial task executing (WaitingForActivation). Waiting for it to finish.
+[2017-12-05 12:32:41.945] [Info] Retrieving installation manifest.
+[2017-12-05 12:32:41.945] [Info] Downloading from 'https://www.xamarin.com/installer_assets/v3/b8f07706f77154169468de71675146b8ff85cdb6/Mac/Universal/InstallationManifest.xml'.
+[2017-12-05 12:32:41.946] [Debug] Setting download timeout for 'https://www.xamarin.com/installer_assets/v3/b8f07706f77154169468de71675146b8ff85cdb6/Mac/Universal/InstallationManifest.xml' to 60s
+[2017-12-05 12:32:43.768] [Info] Downloading from 'https://www.xamarin.com/installer_assets/v3/Mac/Universal/InstallationManifest.xml'.
+[2017-12-05 12:32:43.768] [Debug] Setting download timeout for 'https://www.xamarin.com/installer_assets/v3/Mac/Universal/InstallationManifest.xml' to 60s
+[2017-12-05 12:32:45.927] [Info] Retrieving installation size manifest.
+[2017-12-05 12:32:45.928] [Info] Downloading from 'https://www.xamarin.com/installer_assets/v3/Mac/Universal/InstallationSizes.xml'.
+[2017-12-05 12:32:45.928] [Debug] Setting download timeout for 'https://www.xamarin.com/installer_assets/v3/Mac/Universal/InstallationSizes.xml' to 60s
+[2017-12-05 12:32:47.153] [Info] Installation size manifest not found online, using the bundled copy
+[2017-12-05 12:32:47.153] [Info] Determining list of software items to install.
+[2017-12-05 12:32:47.154] [Debug] Processing update nodes from the manifest.
+[2017-12-05 12:32:47.154] [Debug] Creating and initializing software item 'Mono Framework'
+[2017-12-05 12:32:49.310] [Debug] Creating and initializing software item 'Java SDK'
+[2017-12-05 12:32:49.411] [Debug] Creating and initializing software item 'Android SDK'
+[2017-12-05 12:32:49.412] [Debug] Creating and initializing software item 'Visual Studio'
+[2017-12-05 12:32:49.413] [Debug] Creating and initializing software item 'Xamarin.Android'
+[2017-12-05 12:32:49.413] [Debug] Creating and initializing software item 'Xamarin.iOS'
+[2017-12-05 12:32:49.413] [Debug] Creating and initializing software item 'Xamarin.Mac'
+[2017-12-05 12:32:49.413] [Debug] Creating and initializing software item 'Intel® HAXM'
+[2017-12-05 12:32:49.513] [Debug] Creating and initializing software item 'Xamarin Profiler'
+[2017-12-05 12:32:49.514] [Debug] Creating and initializing software item 'Xamarin Workbooks & Inspector'
+[2017-12-05 12:32:49.515] [Debug] Creating and initializing software item '.NET Core 2.x'
+[2017-12-05 12:32:49.515] [Debug] Detecting software item 'Mono Framework'
+[2017-12-05 12:32:49.515] [Info] Checking whether Mono needs update/installation
+[2017-12-05 12:32:49.515] [Debug] In IsCurrentMonoNewEnough
+[2017-12-05 12:32:49.515] [Debug] current == /Library/Frameworks/Mono.framework/Versions/Current
+[2017-12-05 12:32:49.619] [Info] Mono 5.4.1.7 needs to be installed.
+[2017-12-05 12:32:49.619] [Info] Status: successful
+[2017-12-05 12:32:49.619] [Info] Software item 'Mono Framework': not up to date
+[2017-12-05 12:32:49.619] [Info] Component 'Mono Framework' v. 5.4.1 absent
+[2017-12-05 12:32:51.047] [Debug] Detecting software item 'Java SDK'
+[2017-12-05 12:32:51.048] [Info] Checking whether Oracle JDK needs update/installation
+[2017-12-05 12:32:51.150] [Info] Failed to parse Oracle JDK version from 1.6.0.65-b14-468. Will reinstall Java blindly.
+[2017-12-05 12:32:51.150] [Info] Oracle JDK Oracle needs to be installed.
+[2017-12-05 12:32:51.151] [Info] Status: successful
+[2017-12-05 12:32:51.151] [Info] Software item 'Java SDK': not up to date
+[2017-12-05 12:32:51.152] [Info] Component 'Java SDK' v. 1.8.0 1.8.0 present but requires update to v. 1.8.0
+[2017-12-05 12:32:52.185] [Debug] Detecting software item 'Android SDK'
+[2017-12-05 12:32:52.185] [Info] Checking if Android SDK needs to be updated/installed
+[2017-12-05 12:32:52.186] [Info] Using default samples:
+[2017-12-05 12:32:52.186] [Info] Downloading from 'http://dl.xamarin.com/Installer/xamarin-android-sdk.xml'.
+[2017-12-05 12:32:52.186] [Debug] Setting download timeout for 'http://dl.xamarin.com/Installer/xamarin-android-sdk.xml' to 60s
+[2017-12-05 12:32:53.311] [Warning] Cannot map element 'lldb' to descriptor type.
+[2017-12-05 12:32:53.311] [Warning] Cannot map element 'lldb' to descriptor type.
+[2017-12-05 12:32:53.312] [Warning] Cannot map element 'lldb' to descriptor type.
+[2017-12-05 12:32:53.312] [Warning] Cannot map element 'lldb' to descriptor type.
+[2017-12-05 12:32:53.313] [Warning] Cannot map element 'lldb' to descriptor type.
+[2017-12-05 12:32:53.313] [Warning] Cannot map element 'licenses' to descriptor type.
+[2017-12-05 12:32:53.414] [Debug] Detecting Android SDK in '/Users/MonaAskary/Library/Developer/Xamarin/android-sdk-macosx'
+[2017-12-05 12:32:53.414] [Debug] Android package 'platform-tools' has no revision defined
+[2017-12-05 12:32:53.415] [Info] File '/Users/MonaAskary/Library/Developer/Xamarin/android-sdk-macosx/platform-tools/adb' not found for 'Component: platform-tools'
+[2017-12-05 12:32:53.415] [Debug] Android package 'platform-tools' has no revision defined
+[2017-12-05 12:32:53.415] [Info] File '/Users/MonaAskary/Library/Developer/Xamarin/android-sdk-macosx/platform-tools/adb' not found for 'Component: platform-tools'
+[2017-12-05 12:32:53.520] [Debug] Android package 'tools' has no revision defined
+[2017-12-05 12:32:53.520] [Info] File '/Users/MonaAskary/Library/Developer/Xamarin/android-sdk-macosx/tools/android' not found for 'Component: tools'
+[2017-12-05 12:32:53.521] [Info] File '/Users/MonaAskary/Library/Developer/Xamarin/android-sdk-macosx/tools/mksdcard' not found for 'Component: tools'
+[2017-12-05 12:32:53.521] [Info] File '/Users/MonaAskary/Library/Developer/Xamarin/android-sdk-macosx/tools/emulator' not found for 'Component: tools'
+[2017-12-05 12:32:53.521] [Debug] Android package 'emulator' has no revision defined
+[2017-12-05 12:32:53.522] [Info] File '/Users/MonaAskary/Library/Developer/Xamarin/android-sdk-macosx/emulator/emulator' not found for 'Component: emulator'
+[2017-12-05 12:32:53.522] [Info] File '/Users/MonaAskary/Library/Developer/Xamarin/android-sdk-macosx/emulator/mksdcard' not found for 'Component: emulator'
+[2017-12-05 12:32:53.522] [Debug] Android package 'patcher' has no revision defined
+[2017-12-05 12:32:53.522] [Info] File '/Users/MonaAskary/Library/Developer/Xamarin/android-sdk-macosx/patcher/v4/patcher.jar' not found for 'Component: patcher'
+[2017-12-05 12:32:53.730] [Debug] Download size for 'http://dl-ssl.google.com/android/repository/android-ndk-r14b-darwin-x86_64.zip': 824705073
+[2017-12-05 12:32:53.730] [Debug] Android package 'android-25' has no revision defined
+[2017-12-05 12:32:53.731] [Info] File '/Users/MonaAskary/Library/Developer/Xamarin/android-sdk-macosx/platforms/android-25/android.jar' not found for 'Component: android-25'
+[2017-12-05 12:32:53.731] [Debug] Android package 'android-24' has no revision defined
+[2017-12-05 12:32:53.731] [Info] File '/Users/MonaAskary/Library/Developer/Xamarin/android-sdk-macosx/platforms/android-24/android.jar' not found for 'Component: android-24'
+[2017-12-05 12:32:53.732] [Debug] Android package 'android-23' has no revision defined
+[2017-12-05 12:32:53.732] [Info] File '/Users/MonaAskary/Library/Developer/Xamarin/android-sdk-macosx/platforms/android-23/android.jar' not found for 'Component: android-23'
+[2017-12-05 12:32:53.732] [Debug] Android package 'android-22' has no revision defined
+[2017-12-05 12:32:53.732] [Info] File '/Users/MonaAskary/Library/Developer/Xamarin/android-sdk-macosx/platforms/android-22/android.jar' not found for 'Component: android-22'
+[2017-12-05 12:32:53.732] [Debug] Android package 'android-21' has no revision defined
+[2017-12-05 12:32:53.732] [Info] File '/Users/MonaAskary/Library/Developer/Xamarin/android-sdk-macosx/platforms/android-21/android.jar' not found for 'Component: android-21'
+[2017-12-05 12:32:53.732] [Debug] Android package 'android-20' has no revision defined
+[2017-12-05 12:32:53.733] [Info] File '/Users/MonaAskary/Library/Developer/Xamarin/android-sdk-macosx/platforms/android-20/android.jar' not found for 'Component: android-20'
+[2017-12-05 12:32:53.733] [Debug] Android package 'android-19' has no revision defined
+[2017-12-05 12:32:53.733] [Info] File '/Users/MonaAskary/Library/Developer/Xamarin/android-sdk-macosx/platforms/android-19/android.jar' not found for 'Component: android-19'
+[2017-12-05 12:32:53.733] [Debug] Android package 'android-18' has no revision defined
+[2017-12-05 12:32:53.733] [Info] File '/Users/MonaAskary/Library/Developer/Xamarin/android-sdk-macosx/platforms/android-18/android.jar' not found for 'Component: android-18'
+[2017-12-05 12:32:53.733] [Debug] Android package 'android-17' has no revision defined
+[2017-12-05 12:32:53.733] [Info] File '/Users/MonaAskary/Library/Developer/Xamarin/android-sdk-macosx/platforms/android-17/android.jar' not found for 'Component: android-17'
+[2017-12-05 12:32:53.733] [Debug] Android package 'android-16' has no revision defined
+[2017-12-05 12:32:53.734] [Info] File '/Users/MonaAskary/Library/Developer/Xamarin/android-sdk-macosx/platforms/android-16/android.jar' not found for 'Component: android-16'
+[2017-12-05 12:32:53.734] [Debug] Android package 'android-15' has no revision defined
+[2017-12-05 12:32:53.734] [Info] File '/Users/MonaAskary/Library/Developer/Xamarin/android-sdk-macosx/platforms/android-15/android.jar' not found for 'Component: android-15'
+[2017-12-05 12:32:53.734] [Debug] Android package 'android-14' has no revision defined
+[2017-12-05 12:32:53.734] [Info] File '/Users/MonaAskary/Library/Developer/Xamarin/android-sdk-macosx/platforms/android-14/android.jar' not found for 'Component: android-14'
+[2017-12-05 12:32:53.734] [Debug] Android package 'android-13' has no revision defined
+[2017-12-05 12:32:53.734] [Info] File '/Users/MonaAskary/Library/Developer/Xamarin/android-sdk-macosx/platforms/android-13/android.jar' not found for 'Component: android-13'
+[2017-12-05 12:32:53.734] [Debug] Android package 'android-12' has no revision defined
+[2017-12-05 12:32:53.734] [Info] File '/Users/MonaAskary/Library/Developer/Xamarin/android-sdk-macosx/platforms/android-12/android.jar' not found for 'Component: android-12'
+[2017-12-05 12:32:53.734] [Debug] Android package 'android-11' has no revision defined
+[2017-12-05 12:32:53.734] [Info] File '/Users/MonaAskary/Library/Developer/Xamarin/android-sdk-macosx/platforms/android-11/android.jar' not found for 'Component: android-11'
+[2017-12-05 12:32:53.735] [Debug] Android package 'android-10' has no revision defined
+[2017-12-05 12:32:53.735] [Info] File '/Users/MonaAskary/Library/Developer/Xamarin/android-sdk-macosx/platforms/android-10/android.jar' not found for 'Component: android-10'
+[2017-12-05 12:32:53.735] [Debug] Android package 'android-9' has no revision defined
+[2017-12-05 12:32:53.735] [Info] File '/Users/MonaAskary/Library/Developer/Xamarin/android-sdk-macosx/platforms/android-9/android.jar' not found for 'Component: android-9'
+[2017-12-05 12:32:53.735] [Debug] Android package 'android-8' has no revision defined
+[2017-12-05 12:32:53.735] [Info] File '/Users/MonaAskary/Library/Developer/Xamarin/android-sdk-macosx/platforms/android-8/android.jar' not found for 'Component: android-8'
+[2017-12-05 12:32:53.735] [Debug] Android package 'android-7' has no revision defined
+[2017-12-05 12:32:53.735] [Info] File '/Users/MonaAskary/Library/Developer/Xamarin/android-sdk-macosx/platforms/android-7/android.jar' not found for 'Component: android-7'
+[2017-12-05 12:32:53.735] [Debug] Android package 'android-6' has no revision defined
+[2017-12-05 12:32:53.735] [Info] File '/Users/MonaAskary/Library/Developer/Xamarin/android-sdk-macosx/platforms/android-6/android.jar' not found for 'Component: android-6'
+[2017-12-05 12:32:53.735] [Debug] Android package 'android-5' has no revision defined
+[2017-12-05 12:32:53.736] [Info] File '/Users/MonaAskary/Library/Developer/Xamarin/android-sdk-macosx/platforms/android-5/android.jar' not found for 'Component: android-5'
+[2017-12-05 12:32:53.736] [Debug] Android package 'android-4' has no revision defined
+[2017-12-05 12:32:53.736] [Info] File '/Users/MonaAskary/Library/Developer/Xamarin/android-sdk-macosx/platforms/android-4/android.jar' not found for 'Component: android-4'
+[2017-12-05 12:32:53.736] [Debug] Android package 'build-tool 25.0.3' has no revision defined
+[2017-12-05 12:32:53.736] [Info] File '/Users/MonaAskary/Library/Developer/Xamarin/android-sdk-macosx/build-tools/25.0.3/aapt' not found for 'Component: build-tool 25.0.3'
+[2017-12-05 12:32:53.736] [Info] File '/Users/MonaAskary/Library/Developer/Xamarin/android-sdk-macosx/build-tools/25.0.3/aidl' not found for 'Component: build-tool 25.0.3'
+[2017-12-05 12:32:53.736] [Debug] Android package 'build-tool 25.0.2' has no revision defined
+[2017-12-05 12:32:53.736] [Info] File '/Users/MonaAskary/Library/Developer/Xamarin/android-sdk-macosx/build-tools/25.0.2/aapt' not found for 'Component: build-tool 25.0.2'
+[2017-12-05 12:32:53.736] [Info] File '/Users/MonaAskary/Library/Developer/Xamarin/android-sdk-macosx/build-tools/25.0.2/aidl' not found for 'Component: build-tool 25.0.2'
+[2017-12-05 12:32:53.736] [Debug] Android package 'build-tool 25.0.1' has no revision defined
+[2017-12-05 12:32:53.736] [Info] File '/Users/MonaAskary/Library/Developer/Xamarin/android-sdk-macosx/build-tools/25.0.1/aapt' not found for 'Component: build-tool 25.0.1'
+[2017-12-05 12:32:53.736] [Info] File '/Users/MonaAskary/Library/Developer/Xamarin/android-sdk-macosx/build-tools/25.0.1/aidl' not found for 'Component: build-tool 25.0.1'
+[2017-12-05 12:32:53.736] [Debug] Android package 'build-tool 25.0.0' has no revision defined
+[2017-12-05 12:32:53.736] [Info] File '/Users/MonaAskary/Library/Developer/Xamarin/android-sdk-macosx/build-tools/25.0.0/aapt' not found for 'Component: build-tool 25.0.0'
+[2017-12-05 12:32:53.736] [Info] File '/Users/MonaAskary/Library/Developer/Xamarin/android-sdk-macosx/build-tools/25.0.0/aidl' not found for 'Component: build-tool 25.0.0'
+[2017-12-05 12:32:53.737] [Debug] Android package 'build-tool 24.0.3' has no revision defined
+[2017-12-05 12:32:53.737] [Info] File '/Users/MonaAskary/Library/Developer/Xamarin/android-sdk-macosx/build-tools/24.0.3/aapt' not found for 'Component: build-tool 24.0.3'
+[2017-12-05 12:32:53.737] [Info] File '/Users/MonaAskary/Library/Developer/Xamarin/android-sdk-macosx/build-tools/24.0.3/aidl' not found for 'Component: build-tool 24.0.3'
+[2017-12-05 12:32:53.737] [Debug] Android package 'build-tool 24.0.2' has no revision defined
+[2017-12-05 12:32:53.737] [Info] File '/Users/MonaAskary/Library/Developer/Xamarin/android-sdk-macosx/build-tools/24.0.2/aapt' not found for 'Component: build-tool 24.0.2'
+[2017-12-05 12:32:53.737] [Info] File '/Users/MonaAskary/Library/Developer/Xamarin/android-sdk-macosx/build-tools/24.0.2/aidl' not found for 'Component: build-tool 24.0.2'
+[2017-12-05 12:32:53.737] [Debug] Android package 'build-tool 24.0.1' has no revision defined
+[2017-12-05 12:32:53.737] [Info] File '/Users/MonaAskary/Library/Developer/Xamarin/android-sdk-macosx/build-tools/24.0.1/aapt' not found for 'Component: build-tool 24.0.1'
+[2017-12-05 12:32:53.737] [Info] File '/Users/MonaAskary/Library/Developer/Xamarin/android-sdk-macosx/build-tools/24.0.1/aidl' not found for 'Component: build-tool 24.0.1'
+[2017-12-05 12:32:53.737] [Debug] Android package 'build-tool 24.0.0' has no revision defined
+[2017-12-05 12:32:53.737] [Info] File '/Users/MonaAskary/Library/Developer/Xamarin/android-sdk-macosx/build-tools/24.0.0/aapt' not found for 'Component: build-tool 24.0.0'
+[2017-12-05 12:32:53.737] [Info] File '/Users/MonaAskary/Library/Developer/Xamarin/android-sdk-macosx/build-tools/24.0.0/aidl' not found for 'Component: build-tool 24.0.0'
+[2017-12-05 12:32:53.737] [Debug] Android package 'build-tool 23.0.2' has no revision defined
+[2017-12-05 12:32:53.737] [Info] File '/Users/MonaAskary/Library/Developer/Xamarin/android-sdk-macosx/build-tools/23.0.2/aapt' not found for 'Component: build-tool 23.0.2'
+[2017-12-05 12:32:53.738] [Info] File '/Users/MonaAskary/Library/Developer/Xamarin/android-sdk-macosx/build-tools/23.0.2/aidl' not found for 'Component: build-tool 23.0.2'
+[2017-12-05 12:32:53.738] [Debug] Android package 'build-tool 23.0.3' has no revision defined
+[2017-12-05 12:32:53.738] [Info] File '/Users/MonaAskary/Library/Developer/Xamarin/android-sdk-macosx/build-tools/23.0.3/aapt' not found for 'Component: build-tool 23.0.3'
+[2017-12-05 12:32:53.738] [Info] File '/Users/MonaAskary/Library/Developer/Xamarin/android-sdk-macosx/build-tools/23.0.3/aidl' not found for 'Component: build-tool 23.0.3'
+[2017-12-05 12:32:53.738] [Debug] Android package 'build-tool 23.0.1' has no revision defined
+[2017-12-05 12:32:53.738] [Info] File '/Users/MonaAskary/Library/Developer/Xamarin/android-sdk-macosx/build-tools/23.0.1/aapt' not found for 'Component: build-tool 23.0.1'
+[2017-12-05 12:32:53.738] [Info] File '/Users/MonaAskary/Library/Developer/Xamarin/android-sdk-macosx/build-tools/23.0.1/aidl' not found for 'Component: build-tool 23.0.1'
+[2017-12-05 12:32:53.738] [Debug] Android package 'build-tool 22.0.1' has no revision defined
+[2017-12-05 12:32:53.738] [Info] File '/Users/MonaAskary/Library/Developer/Xamarin/android-sdk-macosx/build-tools/22.0.1/aapt' not found for 'Component: build-tool 22.0.1'
+[2017-12-05 12:32:53.738] [Info] File '/Users/MonaAskary/Library/Developer/Xamarin/android-sdk-macosx/build-tools/22.0.1/aidl' not found for 'Component: build-tool 22.0.1'
+[2017-12-05 12:32:53.738] [Debug] Android package 'build-tool 21.1.2' has no revision defined
+[2017-12-05 12:32:53.738] [Info] File '/Users/MonaAskary/Library/Developer/Xamarin/android-sdk-macosx/build-tools/21.1.2/aapt' not found for 'Component: build-tool 21.1.2'
+[2017-12-05 12:32:53.738] [Info] File '/Users/MonaAskary/Library/Developer/Xamarin/android-sdk-macosx/build-tools/21.1.2/aidl' not found for 'Component: build-tool 21.1.2'
+[2017-12-05 12:32:53.739] [Debug] Android package 'build-tool 20.0.0' has no revision defined
+[2017-12-05 12:32:53.739] [Info] File '/Users/MonaAskary/Library/Developer/Xamarin/android-sdk-macosx/build-tools/20.0.0/aapt' not found for 'Component: build-tool 20.0.0'
+[2017-12-05 12:32:53.739] [Info] File '/Users/MonaAskary/Library/Developer/Xamarin/android-sdk-macosx/build-tools/20.0.0/aidl' not found for 'Component: build-tool 20.0.0'
+[2017-12-05 12:32:53.739] [Debug] Android package 'build-tool 19.1.0' has no revision defined
+[2017-12-05 12:32:53.739] [Info] File '/Users/MonaAskary/Library/Developer/Xamarin/android-sdk-macosx/build-tools/19.1.0/aapt' not found for 'Component: build-tool 19.1.0'
+[2017-12-05 12:32:53.739] [Info] File '/Users/MonaAskary/Library/Developer/Xamarin/android-sdk-macosx/build-tools/19.1.0/aidl' not found for 'Component: build-tool 19.1.0'
+[2017-12-05 12:32:53.739] [Debug] Android package has no revision defined
+[2017-12-05 12:32:53.739] [Info] Could not retrieve Pkg.Revision from /Users/MonaAskary/Library/Developer/Xamarin/android-sdk-macosx/tools/source.properties, r0 assumed
+[2017-12-05 12:32:53.739] [Debug] Android Emulator paths: base: /Users/MonaAskary/.android/avd; AVD: /Users/MonaAskary/.android/avd
+[2017-12-05 12:32:53.739] [Debug] Checking whether Android Emulator exists at /Users/MonaAskary/.android/avd/Android_Accelerated_Nougat.avd
+[2017-12-05 12:32:53.739] [Debug] Android Emulator directory does not exist
+[2017-12-05 12:32:53.739] [Info] Android Emulator 'Android Accelerated Nougat' needs to be created.
+[2017-12-05 12:32:53.739] [Debug] Android Emulator paths: base: /Users/MonaAskary/.android/avd; AVD: /Users/MonaAskary/.android/avd
+[2017-12-05 12:32:53.739] [Debug] Checking whether Android Emulator exists at /Users/MonaAskary/.android/avd/Android_ARMv7a_Nougat.avd
+[2017-12-05 12:32:53.739] [Debug] Android Emulator directory does not exist
+[2017-12-05 12:32:53.740] [Info] Android Emulator 'Android ARMv7a Nougat' needs to be created.
+[2017-12-05 12:32:53.740] [Info] Android SDK needs to be updated/installed
+[2017-12-05 12:32:53.740] [Info] Asking user to select the Android SDK to update
+[2017-12-05 12:32:53.740] [Info] Status: successful
+[2017-12-05 12:32:53.740] [Info] Software item 'Android SDK': not up to date
+[2017-12-05 12:32:53.740] [Info] Component 'Android SDK' v. 24.4.1 absent
+[2017-12-05 12:32:53.840] [Debug] Detecting software item 'Visual Studio'
+[2017-12-05 12:32:53.840] [Info] Checking whether Visual Studio needs installation/updating
+[2017-12-05 12:32:53.842] [Info] Visual Studio installation check: app directory does not exist.
+[2017-12-05 12:32:53.842] [Info] Visual Studio not detected.
+[2017-12-05 12:32:53.842] [Info] Visual Studio 7.3.0.797 needs to be installed.
+[2017-12-05 12:32:53.842] [Info] Status: successful
+[2017-12-05 12:32:53.842] [Info] Software item 'Visual Studio': not up to date
+[2017-12-05 12:32:53.842] [Info] Component 'Visual Studio' v. 7.3.0 absent
+[2017-12-05 12:32:54.968] [Debug] Detecting software item 'Xamarin.Android'
+[2017-12-05 12:32:54.968] [Info] Checking whether Xamarin.Android SDK needs installation/updating
+[2017-12-05 12:32:54.970] [Info] Xamarin.Android build files not found.
+[2017-12-05 12:32:54.970] [Info] Base Xamarin.Android directory not found.
+[2017-12-05 12:32:54.970] [Info] Xamarin.Android SDK 8.1.0 requires installation.
+[2017-12-05 12:32:54.970] [Info] Status: successful
+[2017-12-05 12:32:54.970] [Info] Software item 'Xamarin.Android': not up to date
+[2017-12-05 12:32:54.971] [Info] Component 'Xamarin.Android' v. 8.1.0 absent
+[2017-12-05 12:32:56.199] [Debug] Detecting software item 'Xamarin.iOS'
+[2017-12-05 12:32:56.200] [Info] Checking whether Xamarin.iOS needs update/installation
+[2017-12-05 12:32:56.201] [Info] Xamarin.iOS base directory not found.
+[2017-12-05 12:32:56.201] [Info] Xamarin.iOS base directory not found.
+[2017-12-05 12:32:56.201] [Info] Xamarin.iOS 11.4.0.214 needs to be installed.
+[2017-12-05 12:32:56.201] [Info] Status: successful
+[2017-12-05 12:32:56.201] [Info] Software item 'Xamarin.iOS': not up to date
+[2017-12-05 12:32:56.202] [Info] Component 'Xamarin.iOS' v. 11.4.0 absent
+[2017-12-05 12:32:57.629] [Debug] Detecting software item 'Xamarin.Mac'
+[2017-12-05 12:32:57.629] [Info] Checking whether Xamarin.Mac needs update/installation
+[2017-12-05 12:32:57.630] [Info] Xamarin.Mac base directory not found.
+[2017-12-05 12:32:57.631] [Info] Xamarin.Mac 4.0.0.214 needs to be installed.
+[2017-12-05 12:32:57.631] [Info] Status: successful
+[2017-12-05 12:32:57.631] [Info] Software item 'Xamarin.Mac': not up to date
+[2017-12-05 12:32:57.631] [Info] Component 'Xamarin.Mac' v. 4.0.0 absent
+[2017-12-05 12:32:58.555] [Debug] Detecting software item 'Intel® HAXM'
+[2017-12-05 12:32:58.557] [Info] Checking whether HAXM needs to be installed/updated
+[2017-12-05 12:32:59.068] [Info] HAXM info sheet doesn't exist at
+[2017-12-05 12:32:59.068] [Debug] Detecting CPU and its capabilities
+[2017-12-05 12:32:59.069] [Debug] CPU Manufacturer: GenuineIntel
+[2017-12-05 12:32:59.069] [Debug] CPU Name: Intel(R) Core(TM) i5-5257U CPU @ 2.70GHz
+[2017-12-05 12:32:59.172] [Info] Status: successful
+[2017-12-05 12:32:59.172] [Info] Software item 'Intel® HAXM': not up to date
+[2017-12-05 12:32:59.173] [Info] Component 'Intel® HAXM' v. 6.2.1 absent
+[2017-12-05 12:33:00.296] [Debug] Detecting software item 'Xamarin Profiler'
+[2017-12-05 12:33:00.296] [Info] Checking whether Xamarin Profiler needs to be installed/update
+[2017-12-05 12:33:00.297] [Info] Xamarin Profiler app directory not found at '/Applications/Xamarin Profiler.app'
+[2017-12-05 12:33:00.297] [Info] Xamarin Profiler 1.6.0 needs to be installed.
+[2017-12-05 12:33:00.298] [Info] Status: successful
+[2017-12-05 12:33:00.298] [Info] Software item 'Xamarin Profiler': not up to date
+[2017-12-05 12:33:00.298] [Info] Component 'Xamarin Profiler' v. 1.6.0 absent
+[2017-12-05 12:33:01.523] [Debug] Detecting software item 'Xamarin Workbooks & Inspector'
+[2017-12-05 12:33:01.523] [Info] Checking whether Xamarin Workbooks & Inspector needs to be installed/update
+[2017-12-05 12:33:01.524] [Info] Xamarin Workbooks & Inspector app directory not found at '/Applications/Xamarin Workbooks.app'
+[2017-12-05 12:33:01.525] [Info] Xamarin Workbooks & Inspector 1.3.2 needs to be installed.
+[2017-12-05 12:33:01.525] [Info] Status: successful
+[2017-12-05 12:33:01.525] [Info] Software item 'Xamarin Workbooks & Inspector': not up to date
+[2017-12-05 12:33:01.525] [Info] Component 'Xamarin Workbooks & Inspector' v. 1.3.2 absent
+[2017-12-05 12:33:02.757] [Debug] Detecting software item '.NET Core 2.x'
+[2017-12-05 12:33:02.757] [Info] Checking whether .NET Core 2.x needs to be installed/update
+[2017-12-05 12:33:02.858] [Debug] .NET Core 2.x package with ID com.microsoft.dotnet.sharedhost.component.osx.x64 not found. Assuming .NET Core 2.x is not installed
+[2017-12-05 12:33:02.858] [Info] .NET Core 2.x 2.0.0 needs to be installed.
+[2017-12-05 12:33:02.859] [Info] Status: successful
+[2017-12-05 12:33:02.859] [Info] Software item '.NET Core 2.x': not up to date
+[2017-12-05 12:33:02.860] [Info] Component '.NET Core 2.x' v. 2.0.0 absent
+[2017-12-05 12:33:03.788] [Info] Detection complete
+[2017-12-05 12:33:03.788] [Info] Initial task completed successfully
+[2017-12-05 12:33:06.949] [Debug] Detection complete on the introduction page, determining the next steps.
+[2017-12-05 12:33:06.950] [Debug] Starting Xcode detection
+[2017-12-05 12:33:06.950] [Info] No Xcode detected.
+[2017-12-05 12:33:06.950] [Info] Xcode must be installed.
+[2017-12-05 12:33:06.950] [Debug] Xcode not found, need to remind
+[2017-12-05 12:47:24.074] [Info] Component 'Mono Framework' selected by user for installation
+[2017-12-05 12:47:24.076] [Info] Component 'Java SDK' selected by user for installation
+[2017-12-05 12:47:24.076] [Info] Component 'Android SDK' selected by user for installation
+[2017-12-05 12:47:24.076] [Info] Component 'Visual Studio' selected by user for installation
+[2017-12-05 12:47:24.076] [Info] Component 'Xamarin.Android' selected by user for installation
+[2017-12-05 12:47:24.076] [Info] Component 'Xamarin.iOS' selected by user for installation
+[2017-12-05 12:47:24.076] [Info] Component 'Xamarin.Mac' selected by user for installation
+[2017-12-05 12:47:24.076] [Info] Component 'Intel® HAXM' selected by user for installation
+[2017-12-05 12:47:24.077] [Info] Component 'Xamarin Profiler' selected by user for installation
+[2017-12-05 12:47:24.077] [Info] Component 'Xamarin Workbooks & Inspector' selected by user for installation
+[2017-12-05 12:47:24.077] [Info] Component '.NET Core 2.x' selected by user for installation
+[2017-12-05 12:47:24.077] [Info] Enqueueuing and starting downloads.
+[2017-12-05 12:47:24.077] [Debug] Enqueueuing downloads for Mono Framework
+[2017-12-05 12:47:24.077] [Debug] Component Mono Framework enqueuing URL https://dl.xamarin.com/MonoFrameworkMDK/Macx86/MonoFramework-MDK-5.4.1.7.macos10.xamarin.universal.pkg
+[2017-12-05 12:47:25.312] [Debug] Enqueueuing downloads for Java SDK
+[2017-12-05 12:47:25.312] [Debug] Component Java SDK enqueuing URL http://download.oracle.com/otn-pub/java/jdk/8u131-b11/d54c1d3a095b4ff2b6607d096fa80163/jdk-8u131-macosx-x64.dmg
+[2017-12-05 12:47:26.424] [Debug] Enqueueuing downloads for Android SDK
+[2017-12-05 12:47:26.424] [Debug] Android SDK component 'http://dl-ssl.google.com/android/repository/tools_r25.2.5-macosx.zip' download URL: http://dl-ssl.google.com/android/repository/tools_r25.2.5-macosx.zip
+[2017-12-05 12:47:26.424] [Debug] Android SDK component 'http://dl-ssl.google.com/android/repository/build-tools_r25.0.3-macosx.zip' download URL: http://dl-ssl.google.com/android/repository/build-tools_r25.0.3-macosx.zip
+[2017-12-05 12:47:26.424] [Debug] Android SDK component 'http://dl-ssl.google.com/android/repository/platform-tools_r25.0.5-darwin.zip' download URL: http://dl-ssl.google.com/android/repository/platform-tools_r25.0.5-darwin.zip
+[2017-12-05 12:47:26.424] [Debug] Android SDK component 'http://dl-ssl.google.com/android/repository/platform-25_r03.zip' download URL: http://dl-ssl.google.com/android/repository/platform-25_r03.zip
+[2017-12-05 12:47:26.425] [Debug] Android SDK component 'http://dl-ssl.google.com/android/repository/sys-img/google_apis/x86-25_r04.zip' download URL: http://dl-ssl.google.com/android/repository/sys-img/google_apis/x86-25_r04.zip
+[2017-12-05 12:47:26.425] [Debug] Android SDK component 'http://dl-ssl.google.com/android/repository/sys-img/google_apis/armeabi-v7a-25_r04.zip' download URL: http://dl-ssl.google.com/android/repository/sys-img/google_apis/armeabi-v7a-25_r04.zip
+[2017-12-05 12:47:26.425] [Debug] Android SDK component 'http://dl-ssl.google.com/android/repository/tools_r25.2.5-macosx.zip' download URL: http://dl-ssl.google.com/android/repository/tools_r25.2.5-macosx.zip
+[2017-12-05 12:47:26.425] [Debug] Android SDK component 'http://dl-ssl.google.com/android/repository/emulator-darwin-3833124.zip' download URL: http://dl-ssl.google.com/android/repository/emulator-darwin-3833124.zip
+[2017-12-05 12:47:26.425] [Debug] Android NDK download URL: http://dl-ssl.google.com/android/repository/android-ndk-r14b-darwin-x86_64.zip
+[2017-12-05 12:47:26.425] [Info] 8 Android SDK components need to be downloaded.
+[2017-12-05 12:47:26.425] [Debug] Enqueueing Android SDK component: tools ("tools")
+[2017-12-05 12:47:26.426] [Debug] Enqueueing Android SDK component: build-tool 25.0.3 ("Android Build Tools r25.0.3")
+[2017-12-05 12:47:26.426] [Debug] Enqueueing Android SDK component: platform-tools ("platform tools")
+[2017-12-05 12:47:26.426] [Debug] Enqueueing Android SDK component: android-25 ("Android SDK Platform 25")
+[2017-12-05 12:47:26.426] [Debug] Enqueueing Android SDK component: system-image-25-x86-google ("Google APIs Intel x86 Atom System Image")
+[2017-12-05 12:47:26.426] [Debug] Enqueueing Android SDK component: system-image-25-armeabi-v7a-google ("Google APIs ARM EABI v7a System Image")
+[2017-12-05 12:47:26.426] [Debug] Enqueueing Android SDK component: emulator ("Android Emulator")
+[2017-12-05 12:47:26.426] [Debug] Enqueueing Android SDK component: Android NDK ("Android NDK Installer")
+[2017-12-05 12:47:28.060] [Debug] Enqueueuing downloads for Visual Studio
+[2017-12-05 12:47:28.060] [Debug] Component Visual Studio enqueuing URL https://dl.xamarin.com/VsMac/VisualStudioForMac-7.3.0.797.dmg
+[2017-12-05 12:47:29.399] [Debug] Enqueueuing downloads for Xamarin.Android
+[2017-12-05 12:47:29.399] [Debug] Component Xamarin.Android enqueuing URL https://dl.xamarin.com/MonoforAndroid/Mac/xamarin.android-8.1.0-24.pkg
+[2017-12-05 12:47:30.531] [Debug] Enqueueuing downloads for Xamarin.iOS
+[2017-12-05 12:47:30.531] [Debug] Component Xamarin.iOS enqueuing URL https://dl.xamarin.com/MonoTouch/Mac/xamarin.ios-11.4.0.214.pkg
+[2017-12-05 12:47:31.765] [Debug] Enqueueuing downloads for Xamarin.Mac
+[2017-12-05 12:47:31.766] [Debug] Component Xamarin.Mac enqueuing URL https://dl.xamarin.com/XamarinforMac/Mac/xamarin.mac-4.0.0.214.pkg
+[2017-12-05 12:47:33.003] [Debug] Enqueueuing downloads for Intel® HAXM
+[2017-12-05 12:47:33.003] [Debug] Component Intel® HAXM enqueuing URL https://dl.xamarin.com/Installer/haxm-macosx_v6_2_1.zip
+[2017-12-05 12:47:34.236] [Debug] Enqueueuing downloads for Xamarin Profiler
+[2017-12-05 12:47:34.236] [Debug] Component Xamarin Profiler enqueuing URL https://dl.xamarin.com/profiler/profiler-mac-1.6.0-25.pkg
+[2017-12-05 12:47:35.466] [Debug] Enqueueuing downloads for Xamarin Workbooks & Inspector
+[2017-12-05 12:47:35.467] [Debug] Component Xamarin Workbooks & Inspector enqueuing URL https://dl.xamarin.com/interactive/XamarinInteractive-1.3.2.pkg
+[2017-12-05 12:47:36.705] [Debug] Enqueueuing downloads for .NET Core 2.x
+[2017-12-05 12:47:36.707] [Debug] Component .NET Core 2.x enqueuing URL https://download.microsoft.com/download/5/6/B/56BFEF92-9045-4414-970C-AB31E0FC07EC/dotnet-runtime-2.0.0-osx-x64.pkg
+[2017-12-05 12:47:36.707] [Debug] Component .NET Core 2.x enqueuing additional URL https://download.microsoft.com/download/0/F/D/0FD852A4-7EA1-4E2A-983A-0484AC19B92C/dotnet-sdk-2.0.0-osx-x64.pkg
+[2017-12-05 12:47:36.913] [Debug] Download service starting.
+[2017-12-05 12:47:37.014] [Info] Installation of software items is starting.
+[2017-12-05 12:47:37.014] [Debug] Checking software item 'Mono Framework'
+[2017-12-05 12:47:37.015] [Debug] Checking software item 'Java SDK'
+[2017-12-05 12:47:37.015] [Debug] Checking software item 'Android SDK'
+[2017-12-05 12:47:37.015] [Debug] Checking software item 'Visual Studio'
+[2017-12-05 12:47:37.015] [Debug] Checking software item 'Xamarin.Android'
+[2017-12-05 12:47:37.016] [Debug] Checking software item 'Xamarin.iOS'
+[2017-12-05 12:47:37.016] [Debug] Checking software item 'Xamarin.Mac'
+[2017-12-05 12:47:37.016] [Debug] Checking software item 'Intel® HAXM'
+[2017-12-05 12:47:37.016] [Debug] Checking software item 'Xamarin Profiler'
+[2017-12-05 12:47:37.016] [Debug] Checking software item 'Xamarin Workbooks & Inspector'
+[2017-12-05 12:47:37.016] [Debug] Checking software item '.NET Core 2.x'
+[2017-12-05 12:47:37.016] [Debug] Starting installation task.
+[2017-12-05 12:47:37.016] [Info] Background installation worker called.
+[2017-12-05 12:47:37.016] [Info] Processing software items
+[2017-12-05 12:47:37.017] [Info] Installing software item 'Mono Framework'
+[2017-12-05 12:47:37.017] [Info] Mono Framework is waiting for download to finish.
+[2017-12-05 12:47:38.140] [Debug] Download size for 'https://dl.xamarin.com/MonoFrameworkMDK/Macx86/MonoFramework-MDK-5.4.1.7.macos10.xamarin.universal.pkg': 493676379
+[2017-12-05 12:47:38.961] [Debug] Download size for 'http://download.oracle.com/otn-pub/java/jdk/8u131-b11/d54c1d3a095b4ff2b6607d096fa80163/jdk-8u131-macosx-x64.dmg': 237576493
+[2017-12-05 12:47:39.061] [Debug] Download size for 'http://dl.google.com/android/android-sdk_r24.4.1-macosx.zip': 102781947
+[2017-12-05 12:47:39.268] [Debug] Download size for 'http://dl-ssl.google.com/android/repository/tools_r25.2.5-macosx.zip': 200529982
+[2017-12-05 12:47:39.369] [Debug] Download size for 'http://dl-ssl.google.com/android/repository/build-tools_r25.0.3-macosx.zip': 50545085
+[2017-12-05 12:47:39.576] [Debug] Download size for 'http://dl-ssl.google.com/android/repository/platform-tools_r25.0.5-darwin.zip': 7545723
+[2017-12-05 12:47:39.778] [Debug] Download size for 'http://dl-ssl.google.com/android/repository/platform-25_r03.zip': 85424763
+[2017-12-05 12:47:39.883] [Debug] Download size for 'http://dl-ssl.google.com/android/repository/sys-img/google_apis/x86-25_r04.zip': 708283026
+[2017-12-05 12:47:40.086] [Debug] Download size for 'http://dl-ssl.google.com/android/repository/sys-img/google_apis/armeabi-v7a-25_r04.zip': 661603943
+[2017-12-05 12:47:40.289] [Debug] Download size for 'http://dl-ssl.google.com/android/repository/emulator-darwin-3833124.zip': 123120803
+[2017-12-05 12:47:40.391] [Debug] Download size for 'http://dl-ssl.google.com/android/repository/android-ndk-r14b-darwin-x86_64.zip': 824705073
+[2017-12-05 12:47:41.723] [Debug] Download size for 'https://dl.xamarin.com/VsMac/VisualStudioForMac-7.3.0.797.dmg': 426860443
+[2017-12-05 12:47:43.558] [Debug] Download size for 'https://dl.xamarin.com/MonoforAndroid/Mac/xamarin.android-8.1.0-24.pkg': 279443253
+[2017-12-05 12:47:44.669] [Debug] Download size for 'https://dl.xamarin.com/MonoTouch/Mac/xamarin.ios-11.4.0.214.pkg': 494454985
+[2017-12-05 12:47:45.893] [Debug] Download size for 'https://dl.xamarin.com/XamarinforMac/Mac/xamarin.mac-4.0.0.214.pkg': 107403569
+[2017-12-05 12:47:47.123] [Debug] Download size for 'https://dl.xamarin.com/Installer/haxm-macosx_v6_2_1.zip': 222319
+[2017-12-05 12:47:48.046] [Debug] Download size for 'https://dl.xamarin.com/profiler/profiler-mac-1.6.0-25.pkg': 44832659
+[2017-12-05 12:47:49.175] [Debug] Download size for 'https://dl.xamarin.com/interactive/XamarinInteractive-1.3.2.pkg': 176175116
+[2017-12-05 12:47:49.279] [Debug] Download size for 'https://download.microsoft.com/download/5/6/B/56BFEF92-9045-4414-970C-AB31E0FC07EC/dotnet-runtime-2.0.0-osx-x64.pkg': 24931388
+[2017-12-05 12:47:49.383] [Debug] Download size for 'https://download.microsoft.com/download/0/F/D/0FD852A4-7EA1-4E2A-983A-0484AC19B92C/dotnet-sdk-2.0.0-osx-x64.pkg': 139976149
+[2017-12-05 12:47:49.383] [Info] Downloading from 'https://dl.xamarin.com/MonoFrameworkMDK/Macx86/MonoFramework-MDK-5.4.1.7.macos10.xamarin.universal.pkg'.
+[2017-12-05 12:47:49.385] [Debug] Setting download timeout for 'https://dl.xamarin.com/MonoFrameworkMDK/Macx86/MonoFramework-MDK-5.4.1.7.macos10.xamarin.universal.pkg' to 60s
+[2017-12-05 13:02:13.946] [Exception] Failed to retrieve response for URL 'https://dl.xamarin.com/MonoFrameworkMDK/Macx86/MonoFramework-MDK-5.4.1.7.macos10.xamarin.universal.pkg'
+[2017-12-05 13:02:13.946] [Exception] System.Net.WebException: The operation has timed out.
+[2017-12-05 13:02:13.946] [Exception] at System.Net.WebConnectionStream.Read (System.Byte[] buffer, System.Int32 offset, System.Int32 size) [0x00055] in /Library/Frameworks/Xamarin.Mac.framework/Versions/2.10.0.113/src/mono/mcs/class/System/System.Net/WebConnectionStream.cs:338
+[2017-12-05 13:02:13.946] [Exception] at Xamarin.Web.Installer.DownloadService.DoDownload (System.Int64 totalBytes, System.IO.Stream responseStream, System.IO.Stream outputStream, System.Object state) [0x00087] in /Users/builder/data/lanes/5644/b8f07706/source/installer/Xamarin.Web.Installer/DownloadService.cs:285
+[2017-12-05 13:02:13.946] [Exception] at Xamarin.Web.Installer.Utilities.DownloadUrl (System.Net.WebResponse response, System.String url, System.Action`4[T1,T2,T3,T4] doDownload, System.Action`1[T] reportProgress, System.Boolean noCache, System.Object state, System.IO.Stream outputStream, System.String targetFileName) [0x000c7] in /Users/builder/data/lanes/5644/b8f07706/source/installer/Xamarin.Web.Installer/Utilities.cs:1065
+[2017-12-05 13:02:13.947] [Info] Validating PKG archive '/Users/MonaAskary/Library/Caches/XamarinInstaller/Universal/downloads/MonoFramework-MDK-5.4.1.7.macos10.xamarin.universal.pkg'
+[2017-12-05 13:02:13.947] [Error] Failed to verify PKG archive '/Users/MonaAskary/Library/Caches/XamarinInstaller/Universal/downloads/MonoFramework-MDK-5.4.1.7.macos10.xamarin.universal.pkg'. Error code 1.
+[2017-12-05 13:02:13.947] [Info] Archive '/Users/MonaAskary/Library/Caches/XamarinInstaller/Universal/downloads/MonoFramework-MDK-5.4.1.7.macos10.xamarin.universal.pkg' is invalid.
+[2017-12-05 13:02:13.947] [Exception] Error downloading URL 'https://dl.xamarin.com/MonoFrameworkMDK/Macx86/MonoFramework-MDK-5.4.1.7.macos10.xamarin.universal.pkg' requested by 'Mono Framework', web exception was thrown: Connection timed out
+[2017-12-05 13:02:13.947] [Exception] System.Net.WebException: The operation has timed out.
+[2017-12-05 13:02:13.947] [Exception] at System.Net.WebConnectionStream.Read (System.Byte[] buffer, System.Int32 offset, System.Int32 size) [0x00055] in /Library/Frameworks/Xamarin.Mac.framework/Versions/2.10.0.113/src/mono/mcs/class/System/System.Net/WebConnectionStream.cs:338
+[2017-12-05 13:02:13.947] [Exception] at Xamarin.Web.Installer.DownloadService.DoDownload (System.Int64 totalBytes, System.IO.Stream responseStream, System.IO.Stream outputStream, System.Object state) [0x00087] in /Users/builder/data/lanes/5644/b8f07706/source/installer/Xamarin.Web.Installer/DownloadService.cs:285
+[2017-12-05 13:02:13.947] [Exception] at Xamarin.Web.Installer.Utilities.DownloadUrl (System.Net.WebResponse response, System.String url, System.Action`4[T1,T2,T3,T4] doDownload, System.Action`1[T] reportProgress, System.Boolean noCache, System.Object state, System.IO.Stream outputStream, System.String targetFileName) [0x000c7] in /Users/builder/data/lanes/5644/b8f07706/source/installer/Xamarin.Web.Installer/Utilities.cs:1065
+[2017-12-05 13:02:13.947] [Info] Please run the installer again, or try downloading from the URL directly
+[2017-12-05 13:02:13.947] [Info] If this fails, please file a bug report: https://go.microsoft.com/fwlink?linkid=852416
+[2017-12-05 13:02:13.947] [Info] Downloading from 'http://download.oracle.com/otn-pub/java/jdk/8u131-b11/d54c1d3a095b4ff2b6607d096fa80163/jdk-8u131-macosx-x64.dmg'.
+[2017-12-05 13:02:13.947] [Debug] Setting download timeout for 'http://download.oracle.com/otn-pub/java/jdk/8u131-b11/d54c1d3a095b4ff2b6607d096fa80163/jdk-8u131-macosx-x64.dmg' to 60s
+[2017-12-05 13:02:13.947] [Exception] Mono Framework: download failed with exception.
+[2017-12-05 13:02:13.947] [Exception] System.Net.WebException: The operation has timed out.
+[2017-12-05 13:02:13.947] [Exception] at System.Net.WebConnectionStream.Read (System.Byte[] buffer, System.Int32 offset, System.Int32 size) [0x00055] in /Library/Frameworks/Xamarin.Mac.framework/Versions/2.10.0.113/src/mono/mcs/class/System/System.Net/WebConnectionStream.cs:338
+[2017-12-05 13:02:13.947] [Exception] at Xamarin.Web.Installer.DownloadService.DoDownload (System.Int64 totalBytes, System.IO.Stream responseStream, System.IO.Stream outputStream, System.Object state) [0x00087] in /Users/builder/data/lanes/5644/b8f07706/source/installer/Xamarin.Web.Installer/DownloadService.cs:285
+[2017-12-05 13:02:13.947] [Exception] at Xamarin.Web.Installer.Utilities.DownloadUrl (System.Net.WebResponse response, System.String url, System.Action`4[T1,T2,T3,T4] doDownload, System.Action`1[T] reportProgress, System.Boolean noCache, System.Object state, System.IO.Stream outputStream, System.String targetFileName) [0x000c7] in /Users/builder/data/lanes/5644/b8f07706/source/installer/Xamarin.Web.Installer/Utilities.cs:1065
+[2017-12-05 13:02:13.947] [Info] Status: failed.
+[2017-12-05 13:02:14.050] [Exception] Installation of software item 'Mono Framework' failed with exception.
+[2017-12-05 13:02:14.050] [Exception] Xamarin.Web.Installer.InstallException: Download failed. ---> System.Net.WebException: The operation has timed out.
+[2017-12-05 13:02:14.050] [Exception] at System.Net.WebConnectionStream.Read (System.Byte[] buffer, System.Int32 offset, System.Int32 size) [0x00055] in /Library/Frameworks/Xamarin.Mac.framework/Versions/2.10.0.113/src/mono/mcs/class/System/System.Net/WebConnectionStream.cs:338
+[2017-12-05 13:02:14.050] [Exception] at Xamarin.Web.Installer.DownloadService.DoDownload (System.Int64 totalBytes, System.IO.Stream responseStream, System.IO.Stream outputStream, System.Object state) [0x00087] in /Users/builder/data/lanes/5644/b8f07706/source/installer/Xamarin.Web.Installer/DownloadService.cs:285
+[2017-12-05 13:02:14.050] [Exception] at Xamarin.Web.Installer.Utilities.DownloadUrl (System.Net.WebResponse response, System.String url, System.Action`4[T1,T2,T3,T4] doDownload, System.Action`1[T] reportProgress, System.Boolean noCache, System.Object state, System.IO.Stream outputStream, System.String targetFileName) [0x000c7] in /Users/builder/data/lanes/5644/b8f07706/source/installer/Xamarin.Web.Installer/Utilities.cs:1065
+[2017-12-05 13:02:14.050] [Exception] --- End of inner exception stack trace ---
+[2017-12-05 13:02:14.050] [Exception] at Xamarin.Web.Installer.Installer.BaseSoftwareItem.ValidateDownloadItem () [0x0008f] in /Users/builder/data/lanes/5644/b8f07706/source/installer/Xamarin.Web.Installer/Installer/BaseSoftwareItem.cs:501
+[2017-12-05 13:02:14.050] [Exception] at Xamarin.Web.Installer.Installer.BaseSoftwareItem.Install (System.UInt32 tryNumber) [0x0003e] in /Users/builder/data/lanes/5644/b8f07706/source/installer/Xamarin.Web.Installer/Installer/BaseSoftwareItem.cs:289
+[2017-12-05 13:02:14.050] [Exception] at MacInstaller.WizardPageInstallationController.InstallationWorker () [0x00145] in /Users/builder/data/lanes/5644/b8f07706/source/installer/MacInstaller.Universal/WizardPageInstallationController.cs:541
+[2017-12-05 13:02:14.050] [Info] Please run the installer again, and file a bug: https://go.microsoft.com/fwlink?linkid=852416
+[2017-12-05 13:02:14.050] [Info] Retrying installation (attempt #2, 1 to go)
+[2017-12-05 13:02:14.050] [Exception] Mono Framework: download failed with exception.
+[2017-12-05 13:02:14.050] [Exception] System.Net.WebException: The operation has timed out.
+[2017-12-05 13:02:14.050] [Exception] at System.Net.WebConnectionStream.Read (System.Byte[] buffer, System.Int32 offset, System.Int32 size) [0x00055] in /Library/Frameworks/Xamarin.Mac.framework/Versions/2.10.0.113/src/mono/mcs/class/System/System.Net/WebConnectionStream.cs:338
+[2017-12-05 13:02:14.050] [Exception] at Xamarin.Web.Installer.DownloadService.DoDownload (System.Int64 totalBytes, System.IO.Stream responseStream, System.IO.Stream outputStream, System.Object state) [0x00087] in /Users/builder/data/lanes/5644/b8f07706/source/installer/Xamarin.Web.Installer/DownloadService.cs:285
+[2017-12-05 13:02:14.050] [Exception] at Xamarin.Web.Installer.Utilities.DownloadUrl (System.Net.WebResponse response, System.String url, System.Action`4[T1,T2,T3,T4] doDownload, System.Action`1[T] reportProgress, System.Boolean noCache, System.Object state, System.IO.Stream outputStream, System.String targetFileName) [0x000c7] in /Users/builder/data/lanes/5644/b8f07706/source/installer/Xamarin.Web.Installer/Utilities.cs:1065
+[2017-12-05 13:02:14.051] [Info] Status: failed.
+[2017-12-05 13:02:14.051] [Exception] Installation of software item 'Mono Framework' failed with exception.
+[2017-12-05 13:02:14.051] [Exception] Xamarin.Web.Installer.InstallException: Download failed. ---> System.Net.WebException: The operation has timed out.
+[2017-12-05 13:02:14.051] [Exception] at System.Net.WebConnectionStream.Read (System.Byte[] buffer, System.Int32 offset, System.Int32 size) [0x00055] in /Library/Frameworks/Xamarin.Mac.framework/Versions/2.10.0.113/src/mono/mcs/class/System/System.Net/WebConnectionStream.cs:338
+[2017-12-05 13:02:14.051] [Exception] at Xamarin.Web.Installer.DownloadService.DoDownload (System.Int64 totalBytes, System.IO.Stream responseStream, System.IO.Stream outputStream, System.Object state) [0x00087] in /Users/builder/data/lanes/5644/b8f07706/source/installer/Xamarin.Web.Installer/DownloadService.cs:285
+[2017-12-05 13:02:14.051] [Exception] at Xamarin.Web.Installer.Utilities.DownloadUrl (System.Net.WebResponse response, System.String url, System.Action`4[T1,T2,T3,T4] doDownload, System.Action`1[T] reportProgress, System.Boolean noCache, System.Object state, System.IO.Stream outputStream, System.String targetFileName) [0x000c7] in /Users/builder/data/lanes/5644/b8f07706/source/installer/Xamarin.Web.Installer/Utilities.cs:1065
+[2017-12-05 13:02:14.051] [Exception] --- End of inner exception stack trace ---
+[2017-12-05 13:02:14.051] [Exception] at Xamarin.Web.Installer.Installer.BaseSoftwareItem.ValidateDownloadItem () [0x0008f] in /Users/builder/data/lanes/5644/b8f07706/source/installer/Xamarin.Web.Installer/Installer/BaseSoftwareItem.cs:501
+[2017-12-05 13:02:14.051] [Exception] at Xamarin.Web.Installer.Installer.BaseSoftwareItem.Install (System.UInt32 tryNumber) [0x0003e] in /Users/builder/data/lanes/5644/b8f07706/source/installer/Xamarin.Web.Installer/Installer/BaseSoftwareItem.cs:289
+[2017-12-05 13:02:14.051] [Exception] at MacInstaller.WizardPageInstallationController.InstallationWorker () [0x00145] in /Users/builder/data/lanes/5644/b8f07706/source/installer/MacInstaller.Universal/WizardPageInstallationController.cs:541
+[2017-12-05 13:02:14.059] [Info] Please run the installer again, and file a bug: https://go.microsoft.com/fwlink?linkid=852416
+[2017-12-05 13:02:14.059] [Info] Retrying installation (attempt #3, 0 to go)
+[2017-12-05 13:02:14.059] [Exception] Mono Framework: download failed with exception.
+[2017-12-05 13:02:14.059] [Exception] System.Net.WebException: The operation has timed out.
+[2017-12-05 13:02:14.059] [Exception] at System.Net.WebConnectionStream.Read (System.Byte[] buffer, System.Int32 offset, System.Int32 size) [0x00055] in /Library/Frameworks/Xamarin.Mac.framework/Versions/2.10.0.113/src/mono/mcs/class/System/System.Net/WebConnectionStream.cs:338
+[2017-12-05 13:02:14.059] [Exception] at Xamarin.Web.Installer.DownloadService.DoDownload (System.Int64 totalBytes, System.IO.Stream responseStream, System.IO.Stream outputStream, System.Object state) [0x00087] in /Users/builder/data/lanes/5644/b8f07706/source/installer/Xamarin.Web.Installer/DownloadService.cs:285
+[2017-12-05 13:02:14.059] [Exception] at Xamarin.Web.Installer.Utilities.DownloadUrl (System.Net.WebResponse response, System.String url, System.Action`4[T1,T2,T3,T4] doDownload, System.Action`1[T] reportProgress, System.Boolean noCache, System.Object state, System.IO.Stream outputStream, System.String targetFileName) [0x000c7] in /Users/builder/data/lanes/5644/b8f07706/source/installer/Xamarin.Web.Installer/Utilities.cs:1065
+[2017-12-05 13:02:14.059] [Info] Status: failed.
+[2017-12-05 13:02:14.059] [Exception] Installation of software item 'Mono Framework' failed with exception.
+[2017-12-05 13:02:14.060] [Exception] Xamarin.Web.Installer.InstallException: Download failed. ---> System.Net.WebException: The operation has timed out.
+[2017-12-05 13:02:14.060] [Exception] at System.Net.WebConnectionStream.Read (System.Byte[] buffer, System.Int32 offset, System.Int32 size) [0x00055] in /Library/Frameworks/Xamarin.Mac.framework/Versions/2.10.0.113/src/mono/mcs/class/System/System.Net/WebConnectionStream.cs:338
+[2017-12-05 13:02:14.060] [Exception] at Xamarin.Web.Installer.DownloadService.DoDownload (System.Int64 totalBytes, System.IO.Stream responseStream, System.IO.Stream outputStream, System.Object state) [0x00087] in /Users/builder/data/lanes/5644/b8f07706/source/installer/Xamarin.Web.Installer/DownloadService.cs:285
+[2017-12-05 13:02:14.060] [Exception] at Xamarin.Web.Installer.Utilities.DownloadUrl (System.Net.WebResponse response, System.String url, System.Action`4[T1,T2,T3,T4] doDownload, System.Action`1[T] reportProgress, System.Boolean noCache, System.Object state, System.IO.Stream outputStream, System.String targetFileName) [0x000c7] in /Users/builder/data/lanes/5644/b8f07706/source/installer/Xamarin.Web.Installer/Utilities.cs:1065
+[2017-12-05 13:02:14.060] [Exception] --- End of inner exception stack trace ---
+[2017-12-05 13:02:14.060] [Exception] at Xamarin.Web.Installer.Installer.BaseSoftwareItem.ValidateDownloadItem () [0x0008f] in /Users/builder/data/lanes/5644/b8f07706/source/installer/Xamarin.Web.Installer/Installer/BaseSoftwareItem.cs:501
+[2017-12-05 13:02:14.060] [Exception] at Xamarin.Web.Installer.Installer.BaseSoftwareItem.Install (System.UInt32 tryNumber) [0x0003e] in /Users/builder/data/lanes/5644/b8f07706/source/installer/Xamarin.Web.Installer/Installer/BaseSoftwareItem.cs:289
+[2017-12-05 13:02:14.060] [Exception] at MacInstaller.WizardPageInstallationController.InstallationWorker () [0x00145] in /Users/builder/data/lanes/5644/b8f07706/source/installer/MacInstaller.Universal/WizardPageInstallationController.cs:541
+[2017-12-05 13:02:14.060] [Info] Please run the installer again, and file a bug: https://go.microsoft.com/fwlink?linkid=852416
+[2017-12-05 13:02:14.060] [Info] Status: failed.
+[2017-12-05 13:02:14.060] [Debug] Starting installation complete task.
+[2017-12-05 13:02:14.060] [Info] Background installation worker completed.
+[2017-12-05 13:02:14.060] [Info] Installation completed with failure
+[2017-12-05 13:02:14.060] [Info] Please run the installer again, and file a bug: https://go.microsoft.com/fwlink?linkid=852416
+[2017-12-05 13:02:14.060] [Info] Status: failed.
+[2017-12-05 13:02:20.233] [Debug] Enqueueuing downloads for Mono Framework
+[2017-12-05 13:02:20.233] [Debug] Component Mono Framework enqueuing URL https://dl.xamarin.com/MonoFrameworkMDK/Macx86/MonoFramework-MDK-5.4.1.7.macos10.xamarin.universal.pkg
+[2017-12-05 13:02:21.655] [Debug] Download service starting.
+[2017-12-05 13:02:21.655] [Info] Downloading from 'https://dl.xamarin.com/MonoFrameworkMDK/Macx86/MonoFramework-MDK-5.4.1.7.macos10.xamarin.universal.pkg'.
+[2017-12-05 13:02:21.656] [Debug] Setting download timeout for 'https://dl.xamarin.com/MonoFrameworkMDK/Macx86/MonoFramework-MDK-5.4.1.7.macos10.xamarin.universal.pkg' to 60s
+[2017-12-05 13:02:21.656] [Info] Installation of software items is starting.
+[2017-12-05 13:02:21.760] [Debug] Checking software item 'Mono Framework'
+[2017-12-05 13:02:21.760] [Error] Component 'Mono Framework' installation was attempted and failed. Will try again.
+[2017-12-05 13:02:21.761] [Debug] Checking software item 'Java SDK'
+[2017-12-05 13:02:21.761] [Debug] Checking software item 'Android SDK'
+[2017-12-05 13:02:21.761] [Debug] Checking software item 'Visual Studio'
+[2017-12-05 13:02:21.761] [Debug] Checking software item 'Xamarin.Android'
+[2017-12-05 13:02:21.762] [Debug] Checking software item 'Xamarin.iOS'
+[2017-12-05 13:02:21.762] [Debug] Checking software item 'Xamarin.Mac'
+[2017-12-05 13:02:21.762] [Debug] Checking software item 'Intel® HAXM'
+[2017-12-05 13:02:21.762] [Debug] Checking software item 'Xamarin Profiler'
+[2017-12-05 13:02:21.762] [Debug] Checking software item 'Xamarin Workbooks & Inspector'
+[2017-12-05 13:02:21.763] [Debug] Checking software item '.NET Core 2.x'
+[2017-12-05 13:02:21.763] [Debug] Starting installation task.
+[2017-12-05 13:02:21.763] [Info] Background installation worker called.
+[2017-12-05 13:02:21.763] [Info] Processing software items
+[2017-12-05 13:02:21.763] [Info] Installing software item 'Mono Framework'
+[2017-12-05 13:02:21.763] [Info] Mono Framework is waiting for download to finish.
+[2017-12-05 13:07:29.780] [Info] Downloading from 'http://dl.google.com/android/android-sdk_r24.4.1-macosx.zip'.
+[2017-12-05 13:07:29.782] [Debug] Setting download timeout for 'http://dl.google.com/android/android-sdk_r24.4.1-macosx.zip' to 60s
+[2017-12-05 13:09:32.267] [Info] Downloading from 'http://dl-ssl.google.com/android/repository/tools_r25.2.5-macosx.zip'.
+[2017-12-05 13:09:32.269] [Debug] Setting download timeout for 'http://dl-ssl.google.com/android/repository/tools_r25.2.5-macosx.zip' to 60s
+[2017-12-05 13:13:10.359] [Info] Downloading from 'http://dl-ssl.google.com/android/repository/build-tools_r25.0.3-macosx.zip'.
+[2017-12-05 13:13:10.361] [Debug] Setting download timeout for 'http://dl-ssl.google.com/android/repository/build-tools_r25.0.3-macosx.zip' to 60s
+[2017-12-05 13:14:06.423] [Info] Downloading from 'http://dl-ssl.google.com/android/repository/platform-tools_r25.0.5-darwin.zip'.
+[2017-12-05 13:14:06.424] [Debug] Setting download timeout for 'http://dl-ssl.google.com/android/repository/platform-tools_r25.0.5-darwin.zip' to 60s
+[2017-12-05 13:14:16.525] [Info] Downloading from 'http://dl-ssl.google.com/android/repository/platform-25_r03.zip'.
+[2017-12-05 13:14:16.526] [Debug] Setting download timeout for 'http://dl-ssl.google.com/android/repository/platform-25_r03.zip' to 60s
+[2017-12-05 13:15:51.067] [Info] Downloading from 'http://dl-ssl.google.com/android/repository/sys-img/google_apis/x86-25_r04.zip'.
+[2017-12-05 13:15:51.068] [Debug] Setting download timeout for 'http://dl-ssl.google.com/android/repository/sys-img/google_apis/x86-25_r04.zip' to 60s
+[2017-12-05 13:20:06.464] [Exception] Failed to retrieve response for URL 'https://dl.xamarin.com/MonoFrameworkMDK/Macx86/MonoFramework-MDK-5.4.1.7.macos10.xamarin.universal.pkg'
+[2017-12-05 13:20:06.464] [Exception] System.Net.WebException: The operation has timed out.
+[2017-12-05 13:20:06.464] [Exception] at System.Net.WebConnectionStream.Read (System.Byte[] buffer, System.Int32 offset, System.Int32 size) [0x00055] in /Library/Frameworks/Xamarin.Mac.framework/Versions/2.10.0.113/src/mono/mcs/class/System/System.Net/WebConnectionStream.cs:338
+[2017-12-05 13:20:06.464] [Exception] at Xamarin.Web.Installer.DownloadService.DoDownload (System.Int64 totalBytes, System.IO.Stream responseStream, System.IO.Stream outputStream, System.Object state) [0x00087] in /Users/builder/data/lanes/5644/b8f07706/source/installer/Xamarin.Web.Installer/DownloadService.cs:285
+[2017-12-05 13:20:06.464] [Exception] at Xamarin.Web.Installer.Utilities.DownloadUrl (System.Net.WebResponse response, System.String url, System.Action`4[T1,T2,T3,T4] doDownload, System.Action`1[T] reportProgress, System.Boolean noCache, System.Object state, System.IO.Stream outputStream, System.String targetFileName) [0x000c7] in /Users/builder/data/lanes/5644/b8f07706/source/installer/Xamarin.Web.Installer/Utilities.cs:1065
+[2017-12-05 13:20:06.486] [Info] Validating PKG archive '/Users/MonaAskary/Library/Caches/XamarinInstaller/Universal/downloads/MonoFramework-MDK-5.4.1.7.macos10.xamarin.universal.pkg'
+[2017-12-05 13:20:06.492] [Error] Failed to verify PKG archive '/Users/MonaAskary/Library/Caches/XamarinInstaller/Universal/downloads/MonoFramework-MDK-5.4.1.7.macos10.xamarin.universal.pkg'. Error code 1.
+[2017-12-05 13:20:06.493] [Info] Archive '/Users/MonaAskary/Library/Caches/XamarinInstaller/Universal/downloads/MonoFramework-MDK-5.4.1.7.macos10.xamarin.universal.pkg' is invalid.
+[2017-12-05 13:20:06.496] [Exception] Error downloading URL 'https://dl.xamarin.com/MonoFrameworkMDK/Macx86/MonoFramework-MDK-5.4.1.7.macos10.xamarin.universal.pkg' requested by 'Mono Framework', web exception was thrown: Connection timed out
+[2017-12-05 13:20:06.496] [Exception] System.Net.WebException: The operation has timed out.
+[2017-12-05 13:20:06.496] [Exception] at System.Net.WebConnectionStream.Read (System.Byte[] buffer, System.Int32 offset, System.Int32 size) [0x00055] in /Library/Frameworks/Xamarin.Mac.framework/Versions/2.10.0.113/src/mono/mcs/class/System/System.Net/WebConnectionStream.cs:338
+[2017-12-05 13:20:06.496] [Exception] at Xamarin.Web.Installer.DownloadService.DoDownload (System.Int64 totalBytes, System.IO.Stream responseStream, System.IO.Stream outputStream, System.Object state) [0x00087] in /Users/builder/data/lanes/5644/b8f07706/source/installer/Xamarin.Web.Installer/DownloadService.cs:285
+[2017-12-05 13:20:06.496] [Exception] at Xamarin.Web.Installer.Utilities.DownloadUrl (System.Net.WebResponse response, System.String url, System.Action`4[T1,T2,T3,T4] doDownload, System.Action`1[T] reportProgress, System.Boolean noCache, System.Object state, System.IO.Stream outputStream, System.String targetFileName) [0x000c7] in /Users/builder/data/lanes/5644/b8f07706/source/installer/Xamarin.Web.Installer/Utilities.cs:1065
+[2017-12-05 13:20:06.496] [Info] Please run the installer again, or try downloading from the URL directly
+[2017-12-05 13:20:06.496] [Info] If this fails, please file a bug report: https://go.microsoft.com/fwlink?linkid=852416
+[2017-12-05 13:20:06.496] [Exception] Mono Framework: download failed with exception.
+[2017-12-05 13:20:06.496] [Exception] System.Net.WebException: The operation has timed out.
+[2017-12-05 13:20:06.496] [Exception] at System.Net.WebConnectionStream.Read (System.Byte[] buffer, System.Int32 offset, System.Int32 size) [0x00055] in /Library/Frameworks/Xamarin.Mac.framework/Versions/2.10.0.113/src/mono/mcs/class/System/System.Net/WebConnectionStream.cs:338
+[2017-12-05 13:20:06.496] [Exception] at Xamarin.Web.Installer.DownloadService.DoDownload (System.Int64 totalBytes, System.IO.Stream responseStream, System.IO.Stream outputStream, System.Object state) [0x00087] in /Users/builder/data/lanes/5644/b8f07706/source/installer/Xamarin.Web.Installer/DownloadService.cs:285
+[2017-12-05 13:20:06.496] [Exception] at Xamarin.Web.Installer.Utilities.DownloadUrl (System.Net.WebResponse response, System.String url, System.Action`4[T1,T2,T3,T4] doDownload, System.Action`1[T] reportProgress, System.Boolean noCache, System.Object state, System.IO.Stream outputStream, System.String targetFileName) [0x000c7] in /Users/builder/data/lanes/5644/b8f07706/source/installer/Xamarin.Web.Installer/Utilities.cs:1065
+[2017-12-05 13:20:06.496] [Info] Status: failed.
+[2017-12-05 13:20:06.497] [Exception] Installation of software item 'Mono Framework' failed with exception.
+[2017-12-05 13:20:06.497] [Exception] Xamarin.Web.Installer.InstallException: Download failed. ---> System.Net.WebException: The operation has timed out.
+[2017-12-05 13:20:06.497] [Exception] at System.Net.WebConnectionStream.Read (System.Byte[] buffer, System.Int32 offset, System.Int32 size) [0x00055] in /Library/Frameworks/Xamarin.Mac.framework/Versions/2.10.0.113/src/mono/mcs/class/System/System.Net/WebConnectionStream.cs:338
+[2017-12-05 13:20:06.497] [Exception] at Xamarin.Web.Installer.DownloadService.DoDownload (System.Int64 totalBytes, System.IO.Stream responseStream, System.IO.Stream outputStream, System.Object state) [0x00087] in /Users/builder/data/lanes/5644/b8f07706/source/installer/Xamarin.Web.Installer/DownloadService.cs:285
+[2017-12-05 13:20:06.497] [Exception] at Xamarin.Web.Installer.Utilities.DownloadUrl (System.Net.WebResponse response, System.String url, System.Action`4[T1,T2,T3,T4] doDownload, System.Action`1[T] reportProgress, System.Boolean noCache, System.Object state, System.IO.Stream outputStream, System.String targetFileName) [0x000c7] in /Users/builder/data/lanes/5644/b8f07706/source/installer/Xamarin.Web.Installer/Utilities.cs:1065
+[2017-12-05 13:20:06.497] [Exception] --- End of inner exception stack trace ---
+[2017-12-05 13:20:06.497] [Exception] at Xamarin.Web.Installer.Installer.BaseSoftwareItem.ValidateDownloadItem () [0x0008f] in /Users/builder/data/lanes/5644/b8f07706/source/installer/Xamarin.Web.Installer/Installer/BaseSoftwareItem.cs:501
+[2017-12-05 13:20:06.497] [Exception] at Xamarin.Web.Installer.Installer.BaseSoftwareItem.Install (System.UInt32 tryNumber) [0x0003e] in /Users/builder/data/lanes/5644/b8f07706/source/installer/Xamarin.Web.Installer/Installer/BaseSoftwareItem.cs:289
+[2017-12-05 13:20:06.497] [Exception] at MacInstaller.WizardPageInstallationController.InstallationWorker () [0x00145] in /Users/builder/data/lanes/5644/b8f07706/source/installer/MacInstaller.Universal/WizardPageInstallationController.cs:541
+[2017-12-05 13:20:06.497] [Info] Please run the installer again, and file a bug: https://go.microsoft.com/fwlink?linkid=852416
+[2017-12-05 13:20:06.499] [Info] Retrying installation (attempt #2, 1 to go)
+[2017-12-05 13:20:06.499] [Exception] Mono Framework: download failed with exception.
+[2017-12-05 13:20:06.500] [Exception] System.Net.WebException: The operation has timed out.
+[2017-12-05 13:20:06.500] [Exception] at System.Net.WebConnectionStream.Read (System.Byte[] buffer, System.Int32 offset, System.Int32 size) [0x00055] in /Library/Frameworks/Xamarin.Mac.framework/Versions/2.10.0.113/src/mono/mcs/class/System/System.Net/WebConnectionStream.cs:338
+[2017-12-05 13:20:06.500] [Exception] at Xamarin.Web.Installer.DownloadService.DoDownload (System.Int64 totalBytes, System.IO.Stream responseStream, System.IO.Stream outputStream, System.Object state) [0x00087] in /Users/builder/data/lanes/5644/b8f07706/source/installer/Xamarin.Web.Installer/DownloadService.cs:285
+[2017-12-05 13:20:06.500] [Exception] at Xamarin.Web.Installer.Utilities.DownloadUrl (System.Net.WebResponse response, System.String url, System.Action`4[T1,T2,T3,T4] doDownload, System.Action`1[T] reportProgress, System.Boolean noCache, System.Object state, System.IO.Stream outputStream, System.String targetFileName) [0x000c7] in /Users/builder/data/lanes/5644/b8f07706/source/installer/Xamarin.Web.Installer/Utilities.cs:1065
+[2017-12-05 13:20:06.500] [Info] Status: failed.
+[2017-12-05 13:20:06.501] [Exception] Installation of software item 'Mono Framework' failed with exception.
+[2017-12-05 13:20:06.501] [Exception] Xamarin.Web.Installer.InstallException: Download failed. ---> System.Net.WebException: The operation has timed out.
+[2017-12-05 13:20:06.501] [Exception] at System.Net.WebConnectionStream.Read (System.Byte[] buffer, System.Int32 offset, System.Int32 size) [0x00055] in /Library/Frameworks/Xamarin.Mac.framework/Versions/2.10.0.113/src/mono/mcs/class/System/System.Net/WebConnectionStream.cs:338
+[2017-12-05 13:20:06.501] [Exception] at Xamarin.Web.Installer.DownloadService.DoDownload (System.Int64 totalBytes, System.IO.Stream responseStream, System.IO.Stream outputStream, System.Object state) [0x00087] in /Users/builder/data/lanes/5644/b8f07706/source/installer/Xamarin.Web.Installer/DownloadService.cs:285
+[2017-12-05 13:20:06.501] [Exception] at Xamarin.Web.Installer.Utilities.DownloadUrl (System.Net.WebResponse response, System.String url, System.Action`4[T1,T2,T3,T4] doDownload, System.Action`1[T] reportProgress, System.Boolean noCache, System.Object state, System.IO.Stream outputStream, System.String targetFileName) [0x000c7] in /Users/builder/data/lanes/5644/b8f07706/source/installer/Xamarin.Web.Installer/Utilities.cs:1065
+[2017-12-05 13:20:06.501] [Exception] --- End of inner exception stack trace ---
+[2017-12-05 13:20:06.501] [Exception] at Xamarin.Web.Installer.Installer.BaseSoftwareItem.ValidateDownloadItem () [0x0008f] in /Users/builder/data/lanes/5644/b8f07706/source/installer/Xamarin.Web.Installer/Installer/BaseSoftwareItem.cs:501
+[2017-12-05 13:20:06.501] [Exception] at Xamarin.Web.Installer.Installer.BaseSoftwareItem.Install (System.UInt32 tryNumber) [0x0003e] in /Users/builder/data/lanes/5644/b8f07706/source/installer/Xamarin.Web.Installer/Installer/BaseSoftwareItem.cs:289
+[2017-12-05 13:20:06.501] [Exception] at MacInstaller.WizardPageInstallationController.InstallationWorker () [0x00145] in /Users/builder/data/lanes/5644/b8f07706/source/installer/MacInstaller.Universal/WizardPageInstallationController.cs:541
+[2017-12-05 13:20:06.501] [Info] Please run the installer again, and file a bug: https://go.microsoft.com/fwlink?linkid=852416
+[2017-12-05 13:20:06.501] [Info] Retrying installation (attempt #3, 0 to go)
+[2017-12-05 13:20:06.502] [Exception] Mono Framework: download failed with exception.
+[2017-12-05 13:20:06.502] [Exception] System.Net.WebException: The operation has timed out.
+[2017-12-05 13:20:06.502] [Exception] at System.Net.WebConnectionStream.Read (System.Byte[] buffer, System.Int32 offset, System.Int32 size) [0x00055] in /Library/Frameworks/Xamarin.Mac.framework/Versions/2.10.0.113/src/mono/mcs/class/System/System.Net/WebConnectionStream.cs:338
+[2017-12-05 13:20:06.502] [Exception] at Xamarin.Web.Installer.DownloadService.DoDownload (System.Int64 totalBytes, System.IO.Stream responseStream, System.IO.Stream outputStream, System.Object state) [0x00087] in /Users/builder/data/lanes/5644/b8f07706/source/installer/Xamarin.Web.Installer/DownloadService.cs:285
+[2017-12-05 13:20:06.502] [Exception] at Xamarin.Web.Installer.Utilities.DownloadUrl (System.Net.WebResponse response, System.String url, System.Action`4[T1,T2,T3,T4] doDownload, System.Action`1[T] reportProgress, System.Boolean noCache, System.Object state, System.IO.Stream outputStream, System.String targetFileName) [0x000c7] in /Users/builder/data/lanes/5644/b8f07706/source/installer/Xamarin.Web.Installer/Utilities.cs:1065
+[2017-12-05 13:20:06.502] [Info] Status: failed.
+[2017-12-05 13:20:06.503] [Exception] Installation of software item 'Mono Framework' failed with exception.
+[2017-12-05 13:20:06.503] [Exception] Xamarin.Web.Installer.InstallException: Download failed. ---> System.Net.WebException: The operation has timed out.
+[2017-12-05 13:20:06.503] [Exception] at System.Net.WebConnectionStream.Read (System.Byte[] buffer, System.Int32 offset, System.Int32 size) [0x00055] in /Library/Frameworks/Xamarin.Mac.framework/Versions/2.10.0.113/src/mono/mcs/class/System/System.Net/WebConnectionStream.cs:338
+[2017-12-05 13:20:06.503] [Exception] at Xamarin.Web.Installer.DownloadService.DoDownload (System.Int64 totalBytes, System.IO.Stream responseStream, System.IO.Stream outputStream, System.Object state) [0x00087] in /Users/builder/data/lanes/5644/b8f07706/source/installer/Xamarin.Web.Installer/DownloadService.cs:285
+[2017-12-05 13:20:06.503] [Exception] at Xamarin.Web.Installer.Utilities.DownloadUrl (System.Net.WebResponse response, System.String url, System.Action`4[T1,T2,T3,T4] doDownload, System.Action`1[T] reportProgress, System.Boolean noCache, System.Object state, System.IO.Stream outputStream, System.String targetFileName) [0x000c7] in /Users/builder/data/lanes/5644/b8f07706/source/installer/Xamarin.Web.Installer/Utilities.cs:1065
+[2017-12-05 13:20:06.503] [Exception] --- End of inner exception stack trace ---
+[2017-12-05 13:20:06.503] [Exception] at Xamarin.Web.Installer.Installer.BaseSoftwareItem.ValidateDownloadItem () [0x0008f] in /Users/builder/data/lanes/5644/b8f07706/source/installer/Xamarin.Web.Installer/Installer/BaseSoftwareItem.cs:501
+[2017-12-05 13:20:06.503] [Exception] at Xamarin.Web.Installer.Installer.BaseSoftwareItem.Install (System.UInt32 tryNumber) [0x0003e] in /Users/builder/data/lanes/5644/b8f07706/source/installer/Xamarin.Web.Installer/Installer/BaseSoftwareItem.cs:289
+[2017-12-05 13:20:06.503] [Exception] at MacInstaller.WizardPageInstallationController.InstallationWorker () [0x00145] in /Users/builder/data/lanes/5644/b8f07706/source/installer/MacInstaller.Universal/WizardPageInstallationController.cs:541
+[2017-12-05 13:20:06.503] [Info] Please run the installer again, and file a bug: https://go.microsoft.com/fwlink?linkid=852416
+[2017-12-05 13:20:06.503] [Info] Status: failed.
+[2017-12-05 13:20:06.503] [Debug] Starting installation complete task.
+[2017-12-05 13:20:06.503] [Info] Background installation worker completed.
+[2017-12-05 13:20:06.504] [Info] Installation completed with failure
+[2017-12-05 13:20:06.504] [Info] Please run the installer again, and file a bug: https://go.microsoft.com/fwlink?linkid=852416
+[2017-12-05 13:20:06.504] [Info] Status: failed.
+[2017-12-05 13:20:06.504] [Exception] Failed to retrieve response for URL 'http://dl-ssl.google.com/android/repository/sys-img/google_apis/x86-25_r04.zip'
+[2017-12-05 13:20:06.504] [Exception] System.Net.WebException: The operation has timed out.
+[2017-12-05 13:20:06.504] [Exception] at System.Net.WebConnectionStream.Read (System.Byte[] buffer, System.Int32 offset, System.Int32 size) [0x00055] in /Library/Frameworks/Xamarin.Mac.framework/Versions/2.10.0.113/src/mono/mcs/class/System/System.Net/WebConnectionStream.cs:338
+[2017-12-05 13:20:06.504] [Exception] at Xamarin.Web.Installer.DownloadService.DoDownload (System.Int64 totalBytes, System.IO.Stream responseStream, System.IO.Stream outputStream, System.Object state) [0x00087] in /Users/builder/data/lanes/5644/b8f07706/source/installer/Xamarin.Web.Installer/DownloadService.cs:285
+[2017-12-05 13:20:06.504] [Exception] at Xamarin.Web.Installer.Utilities.DownloadUrl (System.Net.WebResponse response, System.String url, System.Action`4[T1,T2,T3,T4] doDownload, System.Action`1[T] reportProgress, System.Boolean noCache, System.Object state, System.IO.Stream outputStream, System.String targetFileName) [0x000c7] in /Users/builder/data/lanes/5644/b8f07706/source/installer/Xamarin.Web.Installer/Utilities.cs:1065
+[2017-12-05 13:20:06.504] [Exception] Zip verification exception
+[2017-12-05 13:20:06.504] [Exception] Ionic.Zip.BadReadException: Could not read block - no data!  (position 0x29096D6B)
+[2017-12-05 13:20:06.504] [Exception] at Ionic.Zip.SharedUtilities._ReadFourBytes (System.IO.Stream s, System.String message) [0x00031] in <bbd9aba337974e5db8c5a361e0f7ec0c>:0
+[2017-12-05 13:20:06.504] [Exception] at Ionic.Zip.SharedUtilities.ReadInt (System.IO.Stream s) [0x00000] in <bbd9aba337974e5db8c5a361e0f7ec0c>:0
+[2017-12-05 13:20:06.504] [Exception] at Ionic.Zip.ZipEntry.HandleUnexpectedDataDescriptor (Ionic.Zip.ZipEntry entry) [0x00007] in <bbd9aba337974e5db8c5a361e0f7ec0c>:0
+[2017-12-05 13:20:06.504] [Exception] at Ionic.Zip.ZipEntry.ReadEntry (Ionic.Zip.ZipContainer zc, System.Boolean first) [0x00076] in <bbd9aba337974e5db8c5a361e0f7ec0c>:0
+[2017-12-05 13:20:06.504] [Exception] at Ionic.Zip.ZipInputStream.GetNextEntry () [0x0004d] in <bbd9aba337974e5db8c5a361e0f7ec0c>:0
+[2017-12-05 13:20:06.504] [Exception] at (wrapper remoting-invoke-with-check) Ionic.Zip.ZipInputStream:GetNextEntry ()
+[2017-12-05 13:20:06.504] [Exception] at Xamarin.Web.Installer.Utilities.IsValidFile (System.String path) [0x00041] in /Users/builder/data/lanes/5644/b8f07706/source/installer/Xamarin.Web.Installer/Utilities.cs:1148
+[2017-12-05 13:20:06.504] [Info] Please try running the installer again, and file a bug: https://go.microsoft.com/fwlink?linkid=852416
+[2017-12-05 13:20:06.504] [Exception] Error downloading URL 'http://dl-ssl.google.com/android/repository/sys-img/google_apis/x86-25_r04.zip' requested by 'Android SDK', web exception was thrown: Connection timed out
+[2017-12-05 13:20:06.504] [Exception] System.Net.WebException: The operation has timed out.
+[2017-12-05 13:20:06.504] [Exception] at System.Net.WebConnectionStream.Read (System.Byte[] buffer, System.Int32 offset, System.Int32 size) [0x00055] in /Library/Frameworks/Xamarin.Mac.framework/Versions/2.10.0.113/src/mono/mcs/class/System/System.Net/WebConnectionStream.cs:338
+[2017-12-05 13:20:06.504] [Exception] at Xamarin.Web.Installer.DownloadService.DoDownload (System.Int64 totalBytes, System.IO.Stream responseStream, System.IO.Stream outputStream, System.Object state) [0x00087] in /Users/builder/data/lanes/5644/b8f07706/source/installer/Xamarin.Web.Installer/DownloadService.cs:285
+[2017-12-05 13:20:06.504] [Exception] at Xamarin.Web.Installer.Utilities.DownloadUrl (System.Net.WebResponse response, System.String url, System.Action`4[T1,T2,T3,T4] doDownload, System.Action`1[T] reportProgress, System.Boolean noCache, System.Object state, System.IO.Stream outputStream, System.String targetFileName) [0x000c7] in /Users/builder/data/lanes/5644/b8f07706/source/installer/Xamarin.Web.Installer/Utilities.cs:1065
+[2017-12-05 13:20:06.505] [Info] Please run the installer again, or try downloading from the URL directly
+[2017-12-05 13:20:06.505] [Info] If this fails, please file a bug report: https://go.microsoft.com/fwlink?linkid=852416
+[2017-12-05 13:20:06.505] [Info] Downloading from 'https://dl.xamarin.com/VsMac/VisualStudioForMac-7.3.0.797.dmg'.
+[2017-12-05 13:20:06.505] [Debug] Setting download timeout for 'https://dl.xamarin.com/VsMac/VisualStudioForMac-7.3.0.797.dmg' to 60s
+[2017-12-05 13:30:51.727] [Info] Downloading from 'https://dl.xamarin.com/MonoforAndroid/Mac/xamarin.android-8.1.0-24.pkg'.
+[2017-12-05 13:30:51.728] [Debug] Setting download timeout for 'https://dl.xamarin.com/MonoforAndroid/Mac/xamarin.android-8.1.0-24.pkg' to 60s
+[2017-12-05 13:32:08.755] [Debug] Enqueueuing downloads for Mono Framework
+[2017-12-05 13:32:08.755] [Debug] Component Mono Framework enqueuing URL https://dl.xamarin.com/MonoFrameworkMDK/Macx86/MonoFramework-MDK-5.4.1.7.macos10.xamarin.universal.pkg
+[2017-12-05 13:32:08.756] [Debug] Download service terminating.
+[2017-12-05 13:32:09.873] [Debug] Enqueueuing downloads for Android SDK
+[2017-12-05 13:32:09.874] [Debug] Android SDK component 'http://dl-ssl.google.com/android/repository/tools_r25.2.5-macosx.zip' download URL: http://dl-ssl.google.com/android/repository/tools_r25.2.5-macosx.zip
+[2017-12-05 13:32:09.874] [Debug] Android SDK component 'http://dl-ssl.google.com/android/repository/build-tools_r25.0.3-macosx.zip' download URL: http://dl-ssl.google.com/android/repository/build-tools_r25.0.3-macosx.zip
+[2017-12-05 13:32:09.874] [Debug] Android SDK component 'http://dl-ssl.google.com/android/repository/platform-tools_r25.0.5-darwin.zip' download URL: http://dl-ssl.google.com/android/repository/platform-tools_r25.0.5-darwin.zip
+[2017-12-05 13:32:09.874] [Debug] Android SDK component 'http://dl-ssl.google.com/android/repository/platform-25_r03.zip' download URL: http://dl-ssl.google.com/android/repository/platform-25_r03.zip
+[2017-12-05 13:32:09.874] [Debug] Android SDK component 'http://dl-ssl.google.com/android/repository/sys-img/google_apis/x86-25_r04.zip' download URL: http://dl-ssl.google.com/android/repository/sys-img/google_apis/x86-25_r04.zip
+[2017-12-05 13:32:09.874] [Debug] Android SDK component 'http://dl-ssl.google.com/android/repository/sys-img/google_apis/armeabi-v7a-25_r04.zip' download URL: http://dl-ssl.google.com/android/repository/sys-img/google_apis/armeabi-v7a-25_r04.zip
+[2017-12-05 13:32:09.874] [Debug] Android SDK component 'http://dl-ssl.google.com/android/repository/tools_r25.2.5-macosx.zip' download URL: http://dl-ssl.google.com/android/repository/tools_r25.2.5-macosx.zip
+[2017-12-05 13:32:09.875] [Debug] Android SDK component 'http://dl-ssl.google.com/android/repository/emulator-darwin-3833124.zip' download URL: http://dl-ssl.google.com/android/repository/emulator-darwin-3833124.zip
+[2017-12-05 13:32:09.875] [Debug] Android NDK download URL: http://dl-ssl.google.com/android/repository/android-ndk-r14b-darwin-x86_64.zip
+[2017-12-05 13:32:09.875] [Info] 8 Android SDK components need to be downloaded.
+[2017-12-05 13:32:09.875] [Debug] Enqueueing Android SDK component: tools ("tools")
+[2017-12-05 13:32:09.875] [Debug] Enqueueing Android SDK component: build-tool 25.0.3 ("Android Build Tools r25.0.3")
+[2017-12-05 13:32:09.875] [Debug] Enqueueing Android SDK component: platform-tools ("platform tools")
+[2017-12-05 13:32:09.875] [Debug] Enqueueing Android SDK component: android-25 ("Android SDK Platform 25")
+[2017-12-05 13:32:09.875] [Debug] Enqueueing Android SDK component: system-image-25-x86-google ("Google APIs Intel x86 Atom System Image")
+[2017-12-05 13:32:09.875] [Debug] Enqueueing Android SDK component: system-image-25-armeabi-v7a-google ("Google APIs ARM EABI v7a System Image")
+[2017-12-05 13:32:09.876] [Debug] Enqueueing Android SDK component: emulator ("Android Emulator")
+[2017-12-05 13:32:09.876] [Debug] Enqueueing Android SDK component: Android NDK ("Android NDK Installer")
+[2017-12-05 13:32:11.801] [Debug] Download service starting.
+[2017-12-05 13:32:11.802] [Info] Downloading from 'https://dl.xamarin.com/MonoFrameworkMDK/Macx86/MonoFramework-MDK-5.4.1.7.macos10.xamarin.universal.pkg'.
+[2017-12-05 13:32:11.803] [Debug] Setting download timeout for 'https://dl.xamarin.com/MonoFrameworkMDK/Macx86/MonoFramework-MDK-5.4.1.7.macos10.xamarin.universal.pkg' to 60s
+[2017-12-05 13:32:11.803] [Info] Installation of software items is starting.
+[2017-12-05 13:32:11.803] [Debug] Checking software item 'Mono Framework'
+[2017-12-05 13:32:11.803] [Error] Component 'Mono Framework' installation was attempted and failed. Will try again.
+[2017-12-05 13:32:11.804] [Debug] Checking software item 'Java SDK'
+[2017-12-05 13:32:11.804] [Debug] Checking software item 'Android SDK'
+[2017-12-05 13:32:11.804] [Debug] Checking software item 'Visual Studio'
+[2017-12-05 13:32:11.804] [Debug] Checking software item 'Xamarin.Android'
+[2017-12-05 13:32:11.804] [Debug] Checking software item 'Xamarin.iOS'
+[2017-12-05 13:32:11.804] [Debug] Checking software item 'Xamarin.Mac'
+[2017-12-05 13:32:11.804] [Debug] Checking software item 'Intel® HAXM'
+[2017-12-05 13:32:11.804] [Debug] Checking software item 'Xamarin Profiler'
+[2017-12-05 13:32:11.805] [Debug] Checking software item 'Xamarin Workbooks & Inspector'
+[2017-12-05 13:32:11.805] [Debug] Checking software item '.NET Core 2.x'
+[2017-12-05 13:32:11.805] [Debug] Starting installation task.
+[2017-12-05 13:32:11.805] [Info] Background installation worker called.
+[2017-12-05 13:32:11.805] [Info] Processing software items
+[2017-12-05 13:32:11.805] [Info] Installing software item 'Mono Framework'
+[2017-12-05 13:32:11.805] [Info] Mono Framework is waiting for download to finish.
+[2017-12-05 13:40:19.073] [Info] Downloading from 'https://dl.xamarin.com/MonoTouch/Mac/xamarin.ios-11.4.0.214.pkg'.
+[2017-12-05 13:40:19.074] [Debug] Setting download timeout for 'https://dl.xamarin.com/MonoTouch/Mac/xamarin.ios-11.4.0.214.pkg' to 60s
+[2017-12-05 13:50:24.601] [Info] Downloading from 'http://dl.google.com/android/android-sdk_r24.4.1-macosx.zip'.
+[2017-12-05 13:50:24.602] [Debug] Setting download timeout for 'http://dl.google.com/android/android-sdk_r24.4.1-macosx.zip' to 60s
+[2017-12-05 13:50:24.602] [Debug] Running '/usr/sbin/installer -pkg /Users/MonaAskary/Library/Caches/XamarinInstaller/Universal/downloads/MonoFramework-MDK-5.4.1.7.macos10.xamarin.universal.pkg -target / -verboseR' with privileges
+[2017-12-05 13:50:24.602] [Debug] Preauthenticating the command
+[2017-12-05 13:50:25.013] [Debug] File /Users/MonaAskary/Library/Caches/XamarinInstaller/Universal/downloads/android-sdk_r24.4.1-macosx.zip is a valid ZIP archive
+[2017-12-05 13:50:25.013] [Debug] URL http://dl.google.com/android/android-sdk_r24.4.1-macosx.zip already fully downloaded.
+[2017-12-05 13:50:25.014] [Info] Downloading from 'http://dl-ssl.google.com/android/repository/tools_r25.2.5-macosx.zip'.
+[2017-12-05 13:50:25.014] [Debug] Setting download timeout for 'http://dl-ssl.google.com/android/repository/tools_r25.2.5-macosx.zip' to 60s
+[2017-12-05 13:50:25.421] [Debug] File /Users/MonaAskary/Library/Caches/XamarinInstaller/Universal/downloads/tools_r25.2.5-macosx.zip is a valid ZIP archive
+[2017-12-05 13:50:25.422] [Debug] URL http://dl-ssl.google.com/android/repository/tools_r25.2.5-macosx.zip already fully downloaded.
+[2017-12-05 13:50:25.423] [Info] Downloading from 'http://dl-ssl.google.com/android/repository/build-tools_r25.0.3-macosx.zip'.
+[2017-12-05 13:50:25.423] [Debug] Setting download timeout for 'http://dl-ssl.google.com/android/repository/build-tools_r25.0.3-macosx.zip' to 60s
+[2017-12-05 13:50:25.626] [Debug] File /Users/MonaAskary/Library/Caches/XamarinInstaller/Universal/downloads/build-tools_r25.0.3-macosx.zip is a valid ZIP archive
+[2017-12-05 13:50:25.626] [Debug] URL http://dl-ssl.google.com/android/repository/build-tools_r25.0.3-macosx.zip already fully downloaded.
+[2017-12-05 13:50:25.626] [Info] Downloading from 'http://dl-ssl.google.com/android/repository/platform-tools_r25.0.5-darwin.zip'.
+[2017-12-05 13:50:25.627] [Debug] Setting download timeout for 'http://dl-ssl.google.com/android/repository/platform-tools_r25.0.5-darwin.zip' to 60s
+[2017-12-05 13:50:25.929] [Debug] File /Users/MonaAskary/Library/Caches/XamarinInstaller/Universal/downloads/platform-tools_r25.0.5-darwin.zip is a valid ZIP archive
+[2017-12-05 13:50:25.929] [Debug] URL http://dl-ssl.google.com/android/repository/platform-tools_r25.0.5-darwin.zip already fully downloaded.
+[2017-12-05 13:50:25.930] [Info] Downloading from 'http://dl-ssl.google.com/android/repository/platform-25_r03.zip'.
+[2017-12-05 13:50:25.930] [Debug] Setting download timeout for 'http://dl-ssl.google.com/android/repository/platform-25_r03.zip' to 60s
+[2017-12-05 13:50:26.537] [Debug] File /Users/MonaAskary/Library/Caches/XamarinInstaller/Universal/downloads/platform-25_r03.zip is a valid ZIP archive
+[2017-12-05 13:50:26.537] [Debug] URL http://dl-ssl.google.com/android/repository/platform-25_r03.zip already fully downloaded.
+[2017-12-05 13:50:26.538] [Info] Downloading from 'http://dl-ssl.google.com/android/repository/sys-img/google_apis/x86-25_r04.zip'.
+[2017-12-05 13:50:26.538] [Debug] Setting download timeout for 'http://dl-ssl.google.com/android/repository/sys-img/google_apis/x86-25_r04.zip' to 60s
+[2017-12-05 13:50:59.258] [Warning] Installer passed unexpected string: installer: Package name is Mono Framework
+[2017-12-05 13:50:59.259] [Warning] Installer passed unexpected string: installer: Installing at base path /
+[2017-12-05 13:52:39.637] [Warning] Installer passed unexpected string: installer: The install was successful.
+[2017-12-05 13:52:39.638] [Info] Waiting for the child process to finish running with root privileges.
+[2017-12-05 13:52:39.638] [Debug] Installer finished with success. Exit code was 0
+[2017-12-05 13:52:39.638] [Info] Software item 'Mono Framework' installed successfully.
+[2017-12-05 13:52:39.638] [Info] Status: successful
+[2017-12-05 13:52:39.639] [Info] Status: successful
+[2017-12-05 13:52:39.639] [Info] Installing software item 'Java SDK'
+[2017-12-05 13:52:48.649] [Debug] Running '/usr/sbin/installer -pkg /private/tmp/dmg.9l1XwP/JDK 8 Update 131.pkg -target / -verboseR' with privileges
+[2017-12-05 13:52:48.650] [Warning] Installer passed unexpected string: installer: Package name is JDK 8 Update 131
+[2017-12-05 13:52:48.650] [Warning] Installer passed unexpected string: installer: Upgrading at base path /
+[2017-12-05 13:52:48.650] [Info] Waiting for the child process to finish running with root privileges.
+[2017-12-05 13:52:48.650] [Debug] Installer finished with success. Exit code was 0
+[2017-12-05 13:52:48.651] [Info] Software item 'Java SDK' installed successfully.
+[2017-12-05 13:52:48.651] [Info] Status: successful
+[2017-12-05 13:52:48.651] [Info] Status: successful
+[2017-12-05 13:52:48.651] [Info] Installing software item 'Android SDK'
+[2017-12-05 13:52:48.651] [Debug] Android SDK component 'http://dl-ssl.google.com/android/repository/tools_r25.2.5-macosx.zip' download URL: http://dl-ssl.google.com/android/repository/tools_r25.2.5-macosx.zip
+[2017-12-05 13:52:48.652] [Debug] Android SDK component 'http://dl-ssl.google.com/android/repository/build-tools_r25.0.3-macosx.zip' download URL: http://dl-ssl.google.com/android/repository/build-tools_r25.0.3-macosx.zip
+[2017-12-05 13:52:48.652] [Debug] Android SDK component 'http://dl-ssl.google.com/android/repository/platform-tools_r25.0.5-darwin.zip' download URL: http://dl-ssl.google.com/android/repository/platform-tools_r25.0.5-darwin.zip
+[2017-12-05 13:52:48.652] [Debug] Android SDK component 'http://dl-ssl.google.com/android/repository/platform-25_r03.zip' download URL: http://dl-ssl.google.com/android/repository/platform-25_r03.zip
+[2017-12-05 13:52:48.652] [Debug] Android SDK component 'http://dl-ssl.google.com/android/repository/sys-img/google_apis/x86-25_r04.zip' download URL: http://dl-ssl.google.com/android/repository/sys-img/google_apis/x86-25_r04.zip
+[2017-12-05 13:52:48.652] [Debug] Android SDK component 'http://dl-ssl.google.com/android/repository/sys-img/google_apis/armeabi-v7a-25_r04.zip' download URL: http://dl-ssl.google.com/android/repository/sys-img/google_apis/armeabi-v7a-25_r04.zip
+[2017-12-05 13:52:48.652] [Debug] Android SDK component 'http://dl-ssl.google.com/android/repository/tools_r25.2.5-macosx.zip' download URL: http://dl-ssl.google.com/android/repository/tools_r25.2.5-macosx.zip
+[2017-12-05 13:52:48.652] [Debug] Android SDK component 'http://dl-ssl.google.com/android/repository/emulator-darwin-3833124.zip' download URL: http://dl-ssl.google.com/android/repository/emulator-darwin-3833124.zip
+[2017-12-05 13:52:48.652] [Debug] Android NDK download URL: http://dl-ssl.google.com/android/repository/android-ndk-r14b-darwin-x86_64.zip
+[2017-12-05 13:52:48.653] [Info] Android SDK is waiting for download to finish.
+[2017-12-05 14:04:50.138] [Info] Downloading from 'http://dl-ssl.google.com/android/repository/sys-img/google_apis/armeabi-v7a-25_r04.zip'.
+[2017-12-05 14:04:50.139] [Debug] Setting download timeout for 'http://dl-ssl.google.com/android/repository/sys-img/google_apis/armeabi-v7a-25_r04.zip' to 60s
+[2017-12-05 14:21:45.837] [Info] Downloading from 'http://dl-ssl.google.com/android/repository/emulator-darwin-3833124.zip'.
+[2017-12-05 14:21:45.838] [Debug] Setting download timeout for 'http://dl-ssl.google.com/android/repository/emulator-darwin-3833124.zip' to 60s
+[2017-12-05 14:24:34.181] [Info] Downloading from 'http://dl-ssl.google.com/android/repository/android-ndk-r14b-darwin-x86_64.zip'.
+[2017-12-05 14:24:34.183] [Debug] Setting download timeout for 'http://dl-ssl.google.com/android/repository/android-ndk-r14b-darwin-x86_64.zip' to 60s
+[2017-12-05 14:41:47.024] [Exception] Failed to retrieve response for URL 'https://dl.xamarin.com/MonoTouch/Mac/xamarin.ios-11.4.0.214.pkg'
+[2017-12-05 14:41:47.024] [Exception] System.Net.WebException: The operation has timed out.
+[2017-12-05 14:41:47.024] [Exception] at System.Net.WebConnectionStream.Read (System.Byte[] buffer, System.Int32 offset, System.Int32 size) [0x00055] in /Library/Frameworks/Xamarin.Mac.framework/Versions/2.10.0.113/src/mono/mcs/class/System/System.Net/WebConnectionStream.cs:338
+[2017-12-05 14:41:47.024] [Exception] at Xamarin.Web.Installer.DownloadService.DoDownload (System.Int64 totalBytes, System.IO.Stream responseStream, System.IO.Stream outputStream, System.Object state) [0x00087] in /Users/builder/data/lanes/5644/b8f07706/source/installer/Xamarin.Web.Installer/DownloadService.cs:285
+[2017-12-05 14:41:47.024] [Exception] at Xamarin.Web.Installer.Utilities.DownloadUrl (System.Net.WebResponse response, System.String url, System.Action`4[T1,T2,T3,T4] doDownload, System.Action`1[T] reportProgress, System.Boolean noCache, System.Object state, System.IO.Stream outputStream, System.String targetFileName) [0x000c7] in /Users/builder/data/lanes/5644/b8f07706/source/installer/Xamarin.Web.Installer/Utilities.cs:1065
+[2017-12-05 14:41:47.025] [Info] Validating PKG archive '/Users/MonaAskary/Library/Caches/XamarinInstaller/Universal/downloads/xamarin.ios-11.4.0.214.pkg'
+[2017-12-05 14:41:47.026] [Error] Failed to verify PKG archive '/Users/MonaAskary/Library/Caches/XamarinInstaller/Universal/downloads/xamarin.ios-11.4.0.214.pkg'. Error code 1.
+[2017-12-05 14:41:47.026] [Info] Archive '/Users/MonaAskary/Library/Caches/XamarinInstaller/Universal/downloads/xamarin.ios-11.4.0.214.pkg' is invalid.
+[2017-12-05 14:41:47.026] [Exception] Error downloading URL 'https://dl.xamarin.com/MonoTouch/Mac/xamarin.ios-11.4.0.214.pkg' requested by 'Xamarin.iOS', web exception was thrown: Connection timed out
+[2017-12-05 14:41:47.026] [Exception] System.Net.WebException: The operation has timed out.
+[2017-12-05 14:41:47.026] [Exception] at System.Net.WebConnectionStream.Read (System.Byte[] buffer, System.Int32 offset, System.Int32 size) [0x00055] in /Library/Frameworks/Xamarin.Mac.framework/Versions/2.10.0.113/src/mono/mcs/class/System/System.Net/WebConnectionStream.cs:338
+[2017-12-05 14:41:47.026] [Exception] at Xamarin.Web.Installer.DownloadService.DoDownload (System.Int64 totalBytes, System.IO.Stream responseStream, System.IO.Stream outputStream, System.Object state) [0x00087] in /Users/builder/data/lanes/5644/b8f07706/source/installer/Xamarin.Web.Installer/DownloadService.cs:285
+[2017-12-05 14:41:47.026] [Exception] at Xamarin.Web.Installer.Utilities.DownloadUrl (System.Net.WebResponse response, System.String url, System.Action`4[T1,T2,T3,T4] doDownload, System.Action`1[T] reportProgress, System.Boolean noCache, System.Object state, System.IO.Stream outputStream, System.String targetFileName) [0x000c7] in /Users/builder/data/lanes/5644/b8f07706/source/installer/Xamarin.Web.Installer/Utilities.cs:1065
+[2017-12-05 14:41:47.026] [Info] Please run the installer again, or try downloading from the URL directly
+[2017-12-05 14:41:47.026] [Info] If this fails, please file a bug report: https://go.microsoft.com/fwlink?linkid=852416
+[2017-12-05 14:41:47.027] [Info] Downloading from 'https://dl.xamarin.com/XamarinforMac/Mac/xamarin.mac-4.0.0.214.pkg'.
+[2017-12-05 14:41:47.027] [Debug] Setting download timeout for 'https://dl.xamarin.com/XamarinforMac/Mac/xamarin.mac-4.0.0.214.pkg' to 60s
+[2017-12-05 14:42:07.228] [Info] Installing Android SDK and components.
+[2017-12-05 14:42:07.228] [Info] Installing Android archive 'Android SDK'
+[2017-12-05 14:42:07.228] [Info] Unzipping file '/Users/MonaAskary/Library/Caches/XamarinInstaller/Universal/downloads/android-sdk_r24.4.1-macosx.zip' to directory '/var/folders/bq/d2wrx2td5sx723cbb81wv5sm0000gn/T/25a1ecba
+[2017-12-05 14:42:07.228] [Debug] Processing ZIP archive with external utility
+[2017-12-05 14:42:07.228] [Info] Archive unzipped to '/var/folders/bq/d2wrx2td5sx723cbb81wv5sm0000gn/T/25a1ecba/android-sdk-macosx'
+[2017-12-05 14:42:07.228] [Debug] Android archive 'Android SDK' unpacked in directory '/var/folders/bq/d2wrx2td5sx723cbb81wv5sm0000gn/T/25a1ecba/android-sdk-macosx'
+[2017-12-05 14:42:07.229] [Debug] Archive's destination path: /Users/MonaAskary/Library/Developer/Xamarin/android-sdk-macosx
+[2017-12-05 14:42:07.229] [Info] Creating Android component's parent path '/Users/MonaAskary/Library/Developer/Xamarin'
+[2017-12-05 14:42:07.229] [Info] Moving component to its destination path.
+[2017-12-05 14:42:17.109] [Info] Installing component: tools ("tools")
+[2017-12-05 14:42:17.110] [Info] Installing Android SDK Tools
+[2017-12-05 14:42:17.111] [Info] Installing Android archive 'tools'
+[2017-12-05 14:42:17.111] [Info] Unzipping file '/Users/MonaAskary/Library/Caches/XamarinInstaller/Universal/downloads/tools_r25.2.5-macosx.zip' to directory '/var/folders/bq/d2wrx2td5sx723cbb81wv5sm0000gn/T/70d1e0be
+[2017-12-05 14:42:17.112] [Debug] Processing ZIP archive with external utility
+[2017-12-05 14:42:17.112] [Info] Archive unzipped to '/var/folders/bq/d2wrx2td5sx723cbb81wv5sm0000gn/T/70d1e0be/tools'
+[2017-12-05 14:42:17.112] [Debug] Android archive 'tools' unpacked in directory '/var/folders/bq/d2wrx2td5sx723cbb81wv5sm0000gn/T/70d1e0be/tools'
+[2017-12-05 14:42:17.112] [Debug] Archive's destination path: /Users/MonaAskary/Library/Developer/Xamarin/android-sdk-macosx/tools
+[2017-12-05 14:42:17.112] [Info] Moving old directory '/Users/MonaAskary/Library/Developer/Xamarin/android-sdk-macosx/tools' to '/Users/MonaAskary/Library/Developer/Xamarin/android-sdk-macosx/tools.old1676161718'
+[2017-12-05 14:42:17.112] [Info] Moving component to its destination path.
+[2017-12-05 14:42:17.112] [Info] Installing component: build-tool 25.0.3 ("Android Build Tools r25.0.3")
+[2017-12-05 14:42:17.112] [Info] Installing Android SDK Build Tools component
+[2017-12-05 14:42:17.113] [Info] Installing Android archive 'build-tool 25.0.3'
+[2017-12-05 14:42:17.113] [Info] Unzipping file '/Users/MonaAskary/Library/Caches/XamarinInstaller/Universal/downloads/build-tools_r25.0.3-macosx.zip' to directory '/var/folders/bq/d2wrx2td5sx723cbb81wv5sm0000gn/T/f4b85ce
+[2017-12-05 14:42:17.113] [Debug] Processing ZIP archive with external utility
+[2017-12-05 14:42:17.113] [Info] Archive unzipped to '/var/folders/bq/d2wrx2td5sx723cbb81wv5sm0000gn/T/f4b85ce/android-7.1.1'
+[2017-12-05 14:42:17.114] [Debug] Android archive 'build-tool 25.0.3' unpacked in directory '/var/folders/bq/d2wrx2td5sx723cbb81wv5sm0000gn/T/f4b85ce/android-7.1.1'
+[2017-12-05 14:42:17.114] [Debug] Archive's destination path: /Users/MonaAskary/Library/Developer/Xamarin/android-sdk-macosx/build-tools/25.0.3
+[2017-12-05 14:42:17.115] [Info] Creating Android component's parent path '/Users/MonaAskary/Library/Developer/Xamarin/android-sdk-macosx/build-tools'
+[2017-12-05 14:42:17.115] [Info] Moving component to its destination path.
+[2017-12-05 14:42:27.216] [Info] Installing component: platform-tools ("platform tools")
+[2017-12-05 14:42:27.217] [Info] Installing Android SDK Platform Tools component
+[2017-12-05 14:42:27.217] [Info] Installing Android archive 'platform-tools'
+[2017-12-05 14:42:27.217] [Info] Unzipping file '/Users/MonaAskary/Library/Caches/XamarinInstaller/Universal/downloads/platform-tools_r25.0.5-darwin.zip' to directory '/var/folders/bq/d2wrx2td5sx723cbb81wv5sm0000gn/T/3b1bd9bd
+[2017-12-05 14:42:27.217] [Debug] Processing ZIP archive with external utility
+[2017-12-05 14:42:27.217] [Info] Archive unzipped to '/var/folders/bq/d2wrx2td5sx723cbb81wv5sm0000gn/T/3b1bd9bd/platform-tools'
+[2017-12-05 14:42:27.217] [Debug] Android archive 'platform-tools' unpacked in directory '/var/folders/bq/d2wrx2td5sx723cbb81wv5sm0000gn/T/3b1bd9bd/platform-tools'
+[2017-12-05 14:42:27.218] [Debug] Archive's destination path: /Users/MonaAskary/Library/Developer/Xamarin/android-sdk-macosx/platform-tools
+[2017-12-05 14:42:27.218] [Info] Moving component to its destination path.
+[2017-12-05 14:42:27.218] [Info] Installing component: emulator ("Android Emulator")
+[2017-12-05 14:42:27.218] [Info] Installing Android Emulator
+[2017-12-05 14:42:27.218] [Info] Installing Android archive 'emulator'
+[2017-12-05 14:42:27.218] [Info] Unzipping file '/Users/MonaAskary/Library/Caches/XamarinInstaller/Universal/downloads/emulator-darwin-3833124.zip' to directory '/var/folders/bq/d2wrx2td5sx723cbb81wv5sm0000gn/T/35465786
+[2017-12-05 14:42:27.218] [Debug] Processing ZIP archive with external utility
+[2017-12-05 14:42:27.218] [Info] Archive unzipped to '/var/folders/bq/d2wrx2td5sx723cbb81wv5sm0000gn/T/35465786/emulator'
+[2017-12-05 14:42:27.219] [Debug] Android archive 'emulator' unpacked in directory '/var/folders/bq/d2wrx2td5sx723cbb81wv5sm0000gn/T/35465786/emulator'
+[2017-12-05 14:42:27.219] [Debug] Archive's destination path: /Users/MonaAskary/Library/Developer/Xamarin/android-sdk-macosx/emulator
+[2017-12-05 14:42:27.219] [Info] Moving component to its destination path.
+[2017-12-05 14:42:27.219] [Info] Installing component: android-25 ("Android SDK Platform 25")
+[2017-12-05 14:42:27.219] [Info] Installing Android SDK Platform API level 25 component
+[2017-12-05 14:42:27.219] [Info] Installing Android archive 'android-25'
+[2017-12-05 14:42:27.219] [Info] Unzipping file '/Users/MonaAskary/Library/Caches/XamarinInstaller/Universal/downloads/platform-25_r03.zip' to directory '/var/folders/bq/d2wrx2td5sx723cbb81wv5sm0000gn/T/28a8849d
+[2017-12-05 14:42:27.219] [Debug] Processing ZIP archive with external utility
+[2017-12-05 14:42:27.220] [Info] Archive unzipped to '/var/folders/bq/d2wrx2td5sx723cbb81wv5sm0000gn/T/28a8849d/android-7.1.1'
+[2017-12-05 14:42:27.220] [Debug] Android archive 'android-25' unpacked in directory '/var/folders/bq/d2wrx2td5sx723cbb81wv5sm0000gn/T/28a8849d/android-7.1.1'
+[2017-12-05 14:42:27.220] [Debug] Archive's destination path: /Users/MonaAskary/Library/Developer/Xamarin/android-sdk-macosx/platforms/android-25
+[2017-12-05 14:42:27.220] [Info] Moving component to its destination path.
+[2017-12-05 14:42:37.321] [Info] Installing component: system-image-25-x86-google ("Google APIs Intel x86 Atom System Image")
+[2017-12-05 14:42:37.332] [Info] Installing Android SDK Platform API level 25, ABI x86, tag google_apis system image.
+[2017-12-05 14:42:37.338] [Info] Installing Android archive 'system-image-25-x86-google'
+[2017-12-05 14:42:37.347] [Info] Unzipping file '/Users/MonaAskary/Library/Caches/XamarinInstaller/Universal/downloads/x86-25_r04.zip' to directory '/var/folders/bq/d2wrx2td5sx723cbb81wv5sm0000gn/T/c8cc147
+[2017-12-05 14:42:37.353] [Debug] Processing ZIP archive with external utility
+[2017-12-05 14:42:47.459] [Debug] Enqueueuing downloads for Xamarin.iOS
+[2017-12-05 14:42:47.470] [Debug] Component Xamarin.iOS enqueuing URL https://dl.xamarin.com/MonoTouch/Mac/xamarin.ios-11.4.0.214.pkg
+[2017-12-05 14:42:57.576] [Info] Downloading from 'https://dl.xamarin.com/MonoTouch/Mac/xamarin.ios-11.4.0.214.pkg'.
+[2017-12-05 14:42:57.580] [Debug] Setting download timeout for 'https://dl.xamarin.com/MonoTouch/Mac/xamarin.ios-11.4.0.214.pkg' to 60s
+[2017-12-05 14:42:57.580] [Info] Archive unzipped to '/var/folders/bq/d2wrx2td5sx723cbb81wv5sm0000gn/T/c8cc147/x86'
+[2017-12-05 14:42:57.580] [Debug] Android archive 'system-image-25-x86-google' unpacked in directory '/var/folders/bq/d2wrx2td5sx723cbb81wv5sm0000gn/T/c8cc147/x86'
+[2017-12-05 14:42:57.581] [Debug] Archive's destination path: /Users/MonaAskary/Library/Developer/Xamarin/android-sdk-macosx/system-images/android-25/google_apis/x86
+[2017-12-05 14:42:57.581] [Info] Creating Android component's parent path '/Users/MonaAskary/Library/Developer/Xamarin/android-sdk-macosx/system-images/android-25/google_apis'
+[2017-12-05 14:42:57.581] [Info] Moving component to its destination path.
+[2017-12-05 14:43:07.682] [Info] Installing component: system-image-25-armeabi-v7a-google ("Google APIs ARM EABI v7a System Image")
+[2017-12-05 14:43:07.687] [Info] Installing Android SDK Platform API level 25, ABI armeabi-v7a, tag google_apis system image.
+[2017-12-05 14:43:07.693] [Info] Installing Android archive 'system-image-25-armeabi-v7a-google'
+[2017-12-05 14:43:07.698] [Info] Unzipping file '/Users/MonaAskary/Library/Caches/XamarinInstaller/Universal/downloads/armeabi-v7a-25_r04.zip' to directory '/var/folders/bq/d2wrx2td5sx723cbb81wv5sm0000gn/T/4e2a9ba7
+[2017-12-05 14:43:07.704] [Debug] Processing ZIP archive with external utility
+[2017-12-05 14:43:17.811] [Info] Archive unzipped to '/var/folders/bq/d2wrx2td5sx723cbb81wv5sm0000gn/T/4e2a9ba7/armeabi-v7a'
+[2017-12-05 14:43:17.813] [Debug] Android archive 'system-image-25-armeabi-v7a-google' unpacked in directory '/var/folders/bq/d2wrx2td5sx723cbb81wv5sm0000gn/T/4e2a9ba7/armeabi-v7a'
+[2017-12-05 14:43:17.814] [Debug] Archive's destination path: /Users/MonaAskary/Library/Developer/Xamarin/android-sdk-macosx/system-images/android-25/google_apis/armeabi-v7a
+[2017-12-05 14:43:17.814] [Info] Moving component to its destination path.
+[2017-12-05 14:43:32.064] [Info] Instaling Android NDK r14b
+[2017-12-05 14:43:32.075] [Info] Installing Android NDK r14b
+[2017-12-05 14:43:32.081] [Info] Installing Android archive 'NDK r14b'
+[2017-12-05 14:43:32.086] [Info] Unzipping file '/Users/MonaAskary/Library/Caches/XamarinInstaller/Universal/downloads/android-ndk-r14b-darwin-x86_64.zip' to directory '/var/folders/bq/d2wrx2td5sx723cbb81wv5sm0000gn/T/2b330f7a
+[2017-12-05 14:43:32.092] [Debug] Processing ZIP archive with external utility
+[2017-12-05 14:44:20.721] [Info] Archive unzipped to '/var/folders/bq/d2wrx2td5sx723cbb81wv5sm0000gn/T/2b330f7a/android-ndk-r14b'
+[2017-12-05 14:44:20.722] [Debug] Android archive 'NDK r14b' unpacked in directory '/var/folders/bq/d2wrx2td5sx723cbb81wv5sm0000gn/T/2b330f7a/android-ndk-r14b'
+[2017-12-05 14:44:20.722] [Debug] Archive's destination path: /Users/MonaAskary/Library/Developer/Xamarin/android-ndk/android-ndk-r14b
+[2017-12-05 14:44:20.722] [Info] Creating Android component's parent path '/Users/MonaAskary/Library/Developer/Xamarin/android-ndk'
+[2017-12-05 14:44:20.722] [Info] Moving component to its destination path.
+[2017-12-05 14:44:38.902] [Info] Resetting IDE's Android SDK location to '/Users/MonaAskary/Library/Developer/Xamarin/android-sdk-macosx'
+[2017-12-05 14:44:38.909] [Debug] Creating AVDs
+[2017-12-05 14:44:38.919] [Debug] Creating Android Emulator Android_Accelerated_Nougat
+[2017-12-05 14:44:38.922] [Debug] Checking whether Android Emulator exists at /Users/MonaAskary/.android/avd/Android_Accelerated_Nougat.avd
+[2017-12-05 14:44:38.922] [Debug] Android Emulator directory does not exist
+[2017-12-05 14:44:38.922] [Debug] Generating Android Emulator configuration file /Users/MonaAskary/.android/avd/Android_Accelerated_Nougat.ini
+[2017-12-05 14:44:38.922] [Debug] System image in /Users/MonaAskary/Library/Developer/Xamarin/android-sdk-macosx/system-images/android-25/google_apis/x86 appears to be an add-on. Using three-elemment target
+[2017-12-05 14:44:38.922] [Debug] Generating emulator configuration file /Users/MonaAskary/.android/avd/Android_Accelerated_Nougat.avd/config.ini
+[2017-12-05 14:44:38.922] [Debug] Copying user data image from /Users/MonaAskary/Library/Developer/Xamarin/android-sdk-macosx/system-images/android-25/google_apis/x86/userdata.img to /Users/MonaAskary/.android/avd/Android_Accelerated_Nougat.avd/userdata.img
+[2017-12-05 14:44:49.023] [Debug] Generating SD card image /Users/MonaAskary/.android/avd/Android_Accelerated_Nougat.avd/sdcard.img
+[2017-12-05 14:44:49.024] [Debug] Android Emulator 'Android_Accelerated_Nougat' created in '/Users/MonaAskary/.android/avd/Android_Accelerated_Nougat.avd'.
+[2017-12-05 14:44:49.024] [Info] You can create the emulator manually using the emulator manager
+[2017-12-05 14:44:49.025] [Debug] Creating Android Emulator Android_ARMv7a_Nougat
+[2017-12-05 14:44:49.025] [Debug] Checking whether Android Emulator exists at /Users/MonaAskary/.android/avd/Android_ARMv7a_Nougat.avd
+[2017-12-05 14:44:49.025] [Debug] Android Emulator directory does not exist
+[2017-12-05 14:44:49.025] [Debug] Generating Android Emulator configuration file /Users/MonaAskary/.android/avd/Android_ARMv7a_Nougat.ini
+[2017-12-05 14:44:49.025] [Debug] System image in /Users/MonaAskary/Library/Developer/Xamarin/android-sdk-macosx/system-images/android-25/google_apis/armeabi-v7a appears to be an add-on. Using three-elemment target
+[2017-12-05 14:44:49.025] [Debug] Generating emulator configuration file /Users/MonaAskary/.android/avd/Android_ARMv7a_Nougat.avd/config.ini
+[2017-12-05 14:44:49.025] [Debug] Copying user data image from /Users/MonaAskary/Library/Developer/Xamarin/android-sdk-macosx/system-images/android-25/google_apis/armeabi-v7a/userdata.img to /Users/MonaAskary/.android/avd/Android_ARMv7a_Nougat.avd/userdata.img
+[2017-12-05 14:44:49.026] [Debug] Generating SD card image /Users/MonaAskary/.android/avd/Android_ARMv7a_Nougat.avd/sdcard.img
+[2017-12-05 14:44:49.026] [Debug] Android Emulator 'Android_ARMv7a_Nougat' created in '/Users/MonaAskary/.android/avd/Android_ARMv7a_Nougat.avd'.
+[2017-12-05 14:44:49.026] [Info] You can create the emulator manually using the emulator manager
+[2017-12-05 14:44:49.026] [Info] Software item 'Android SDK' installed successfully.
+[2017-12-05 14:44:49.026] [Info] Status: successful
+[2017-12-05 14:44:49.026] [Info] Status: successful
+[2017-12-05 14:44:49.026] [Info] Installing software item 'Visual Studio'
+[2017-12-05 14:45:55.016] [Info] Downloading from 'https://dl.xamarin.com/Installer/haxm-macosx_v6_2_1.zip'.
+[2017-12-05 14:45:55.033] [Debug] Setting download timeout for 'https://dl.xamarin.com/Installer/haxm-macosx_v6_2_1.zip' to 60s
+[2017-12-05 14:45:55.045] [Info] Downloading from 'https://dl.xamarin.com/profiler/profiler-mac-1.6.0-25.pkg'.
+[2017-12-05 14:45:55.051] [Debug] Setting download timeout for 'https://dl.xamarin.com/profiler/profiler-mac-1.6.0-25.pkg' to 60s
+[2017-12-05 14:46:05.162] [Debug] Path /Applications writable? True
+[2017-12-05 14:46:05.172] [Debug] Installing application
+[2017-12-05 14:46:05.178] [Debug] Running '/bin/cp -r /private/tmp/dmg.ZhIQ4E/Visual Studio.app /Applications' without root privileges
+[2017-12-05 14:47:06.558] [Debug] Running '/usr/bin/touch /Applications/Visual Studio.app' without root privileges
+[2017-12-05 14:47:06.576] [Debug] Running '/usr/bin/chflags uchg /Applications/Visual Studio.app' without root privileges
+[2017-12-05 14:47:06.582] [Debug] Running '/usr/bin/chflags nouchg /Applications/Visual Studio.app' without root privileges
+[2017-12-05 14:47:06.593] [Debug] Running '/usr/bin/touch /Applications/Visual Studio.app/Contents/Info.plist' without root privileges
+[2017-12-05 14:47:06.599] [Info] Software item 'Visual Studio' installed successfully.
+[2017-12-05 14:47:06.610] [Info] Status: successful
+[2017-12-05 14:47:06.615] [Info] Status: successful
+[2017-12-05 14:47:06.626] [Info] Installing software item 'Xamarin.Android'
+[2017-12-05 14:47:06.632] [Debug] Running '/usr/sbin/installer -pkg /Users/MonaAskary/Library/Caches/XamarinInstaller/Universal/downloads/xamarin.android-8.1.0-24.pkg -target / -verboseR' with privileges
+[2017-12-05 14:47:47.486] [Info] Downloading from 'https://dl.xamarin.com/interactive/XamarinInteractive-1.3.2.pkg'.
+[2017-12-05 14:47:47.486] [Debug] Setting download timeout for 'https://dl.xamarin.com/interactive/XamarinInteractive-1.3.2.pkg' to 60s
+[2017-12-05 14:50:15.451] [Warning] Installer passed unexpected string: installer: Package name is Xamarin.Android 8.1.0
+[2017-12-05 14:50:15.463] [Warning] Installer passed unexpected string: installer: Installing at base path /
+[2017-12-05 14:50:25.065] [Warning] Installer passed unexpected string: installer: The install was successful.
+[2017-12-05 14:50:25.070] [Info] Waiting for the child process to finish running with root privileges.
+[2017-12-05 14:50:25.076] [Debug] Installer finished with success. Exit code was 0
+[2017-12-05 14:50:25.090] [Info] Software item 'Xamarin.Android' installed successfully.
+[2017-12-05 14:50:25.094] [Info] Status: successful
+[2017-12-05 14:50:25.095] [Info] Status: successful
+[2017-12-05 14:50:25.103] [Info] Installing software item 'Xamarin.iOS'
+[2017-12-05 14:50:25.115] [Info] Xamarin.iOS is waiting for download to finish.
+[2017-12-05 14:56:16.895] [Info] Downloading from 'https://download.microsoft.com/download/5/6/B/56BFEF92-9045-4414-970C-AB31E0FC07EC/dotnet-runtime-2.0.0-osx-x64.pkg'.
+[2017-12-05 14:56:16.896] [Debug] Setting download timeout for 'https://download.microsoft.com/download/5/6/B/56BFEF92-9045-4414-970C-AB31E0FC07EC/dotnet-runtime-2.0.0-osx-x64.pkg' to 60s
+[2017-12-05 14:56:55.184] [Info] Downloading from 'https://download.microsoft.com/download/0/F/D/0FD852A4-7EA1-4E2A-983A-0484AC19B92C/dotnet-sdk-2.0.0-osx-x64.pkg'.
+[2017-12-05 14:56:55.187] [Debug] Setting download timeout for 'https://download.microsoft.com/download/0/F/D/0FD852A4-7EA1-4E2A-983A-0484AC19B92C/dotnet-sdk-2.0.0-osx-x64.pkg' to 60s
+[2017-12-05 15:41:25.029] [Debug] Download service terminating.
+[2017-12-05 15:42:24.003] [Exception] Failed to retrieve response for URL 'https://dl.xamarin.com/MonoTouch/Mac/xamarin.ios-11.4.0.214.pkg'
+[2017-12-05 15:42:24.006] [Exception] System.Net.WebException: The operation has timed out.
+[2017-12-05 15:42:24.006] [Exception] at System.Net.WebConnectionStream.Read (System.Byte[] buffer, System.Int32 offset, System.Int32 size) [0x00055] in /Library/Frameworks/Xamarin.Mac.framework/Versions/2.10.0.113/src/mono/mcs/class/System/System.Net/WebConnectionStream.cs:338
+[2017-12-05 15:42:24.006] [Exception] at Xamarin.Web.Installer.DownloadService.DoDownload (System.Int64 totalBytes, System.IO.Stream responseStream, System.IO.Stream outputStream, System.Object state) [0x00087] in /Users/builder/data/lanes/5644/b8f07706/source/installer/Xamarin.Web.Installer/DownloadService.cs:285
+[2017-12-05 15:42:24.006] [Exception] at Xamarin.Web.Installer.Utilities.DownloadUrl (System.Net.WebResponse response, System.String url, System.Action`4[T1,T2,T3,T4] doDownload, System.Action`1[T] reportProgress, System.Boolean noCache, System.Object state, System.IO.Stream outputStream, System.String targetFileName) [0x000c7] in /Users/builder/data/lanes/5644/b8f07706/source/installer/Xamarin.Web.Installer/Utilities.cs:1065
+[2017-12-05 15:42:24.042] [Info] Validating PKG archive '/Users/MonaAskary/Library/Caches/XamarinInstaller/Universal/downloads/xamarin.ios-11.4.0.214.pkg'
+[2017-12-05 15:42:24.058] [Error] Failed to verify PKG archive '/Users/MonaAskary/Library/Caches/XamarinInstaller/Universal/downloads/xamarin.ios-11.4.0.214.pkg'. Error code 1.
+[2017-12-05 15:42:24.073] [Info] Archive '/Users/MonaAskary/Library/Caches/XamarinInstaller/Universal/downloads/xamarin.ios-11.4.0.214.pkg' is invalid.
+[2017-12-05 15:42:24.090] [Exception] Error downloading URL 'https://dl.xamarin.com/MonoTouch/Mac/xamarin.ios-11.4.0.214.pkg' requested by 'Xamarin.iOS', web exception was thrown: Connection timed out
+[2017-12-05 15:42:24.090] [Exception] System.Net.WebException: The operation has timed out.
+[2017-12-05 15:42:24.090] [Exception] at System.Net.WebConnectionStream.Read (System.Byte[] buffer, System.Int32 offset, System.Int32 size) [0x00055] in /Library/Frameworks/Xamarin.Mac.framework/Versions/2.10.0.113/src/mono/mcs/class/System/System.Net/WebConnectionStream.cs:338
+[2017-12-05 15:42:24.090] [Exception] at Xamarin.Web.Installer.DownloadService.DoDownload (System.Int64 totalBytes, System.IO.Stream responseStream, System.IO.Stream outputStream, System.Object state) [0x00087] in /Users/builder/data/lanes/5644/b8f07706/source/installer/Xamarin.Web.Installer/DownloadService.cs:285
+[2017-12-05 15:42:24.090] [Exception] at Xamarin.Web.Installer.Utilities.DownloadUrl (System.Net.WebResponse response, System.String url, System.Action`4[T1,T2,T3,T4] doDownload, System.Action`1[T] reportProgress, System.Boolean noCache, System.Object state, System.IO.Stream outputStream, System.String targetFileName) [0x000c7] in /Users/builder/data/lanes/5644/b8f07706/source/installer/Xamarin.Web.Installer/Utilities.cs:1065
+[2017-12-05 15:42:24.090] [Info] Please run the installer again, or try downloading from the URL directly
+[2017-12-05 15:42:24.092] [Info] If this fails, please file a bug report: https://go.microsoft.com/fwlink?linkid=852416
+[2017-12-05 15:42:24.092] [Exception] Xamarin.iOS: download failed with exception.
+[2017-12-05 15:42:24.092] [Exception] System.Net.WebException: The operation has timed out.
+[2017-12-05 15:42:24.092] [Exception] at System.Net.WebConnectionStream.Read (System.Byte[] buffer, System.Int32 offset, System.Int32 size) [0x00055] in /Library/Frameworks/Xamarin.Mac.framework/Versions/2.10.0.113/src/mono/mcs/class/System/System.Net/WebConnectionStream.cs:338
+[2017-12-05 15:42:24.092] [Exception] at Xamarin.Web.Installer.DownloadService.DoDownload (System.Int64 totalBytes, System.IO.Stream responseStream, System.IO.Stream outputStream, System.Object state) [0x00087] in /Users/builder/data/lanes/5644/b8f07706/source/installer/Xamarin.Web.Installer/DownloadService.cs:285
+[2017-12-05 15:42:24.092] [Exception] at Xamarin.Web.Installer.Utilities.DownloadUrl (System.Net.WebResponse response, System.String url, System.Action`4[T1,T2,T3,T4] doDownload, System.Action`1[T] reportProgress, System.Boolean noCache, System.Object state, System.IO.Stream outputStream, System.String targetFileName) [0x000c7] in /Users/builder/data/lanes/5644/b8f07706/source/installer/Xamarin.Web.Installer/Utilities.cs:1065
+[2017-12-05 15:42:24.092] [Info] Status: failed.
+[2017-12-05 15:42:28.059] [Info] Status: failed.
+[2017-12-05 15:42:28.060] [Exception] Installation of software item 'Xamarin.iOS' failed with exception.
+[2017-12-05 15:42:28.060] [Exception] Xamarin.Web.Installer.InstallException: Download failed. ---> System.Net.WebException: The operation has timed out.
+[2017-12-05 15:42:28.060] [Exception] at System.Net.WebConnectionStream.Read (System.Byte[] buffer, System.Int32 offset, System.Int32 size) [0x00055] in /Library/Frameworks/Xamarin.Mac.framework/Versions/2.10.0.113/src/mono/mcs/class/System/System.Net/WebConnectionStream.cs:338
+[2017-12-05 15:42:28.060] [Exception] at Xamarin.Web.Installer.DownloadService.DoDownload (System.Int64 totalBytes, System.IO.Stream responseStream, System.IO.Stream outputStream, System.Object state) [0x00087] in /Users/builder/data/lanes/5644/b8f07706/source/installer/Xamarin.Web.Installer/DownloadService.cs:285
+[2017-12-05 15:42:28.060] [Exception] at Xamarin.Web.Installer.Utilities.DownloadUrl (System.Net.WebResponse response, System.String url, System.Action`4[T1,T2,T3,T4] doDownload, System.Action`1[T] reportProgress, System.Boolean noCache, System.Object state, System.IO.Stream outputStream, System.String targetFileName) [0x000c7] in /Users/builder/data/lanes/5644/b8f07706/source/installer/Xamarin.Web.Installer/Utilities.cs:1065
+[2017-12-05 15:42:28.060] [Exception] --- End of inner exception stack trace ---
+[2017-12-05 15:42:28.060] [Exception] at Xamarin.Web.Installer.Installer.BaseSoftwareItem.ValidateDownloadItem () [0x0008f] in /Users/builder/data/lanes/5644/b8f07706/source/installer/Xamarin.Web.Installer/Installer/BaseSoftwareItem.cs:501
+[2017-12-05 15:42:28.060] [Exception] at Xamarin.Web.Installer.Installer.BaseSoftwareItem.Install (System.UInt32 tryNumber) [0x0003e] in /Users/builder/data/lanes/5644/b8f07706/source/installer/Xamarin.Web.Installer/Installer/BaseSoftwareItem.cs:289
+[2017-12-05 15:42:28.060] [Exception] at Xamarin.Web.Installer.MonoTouchSoftwareItem.Install (System.UInt32 tryNumber) [0x00056] in /Users/builder/data/lanes/5644/b8f07706/source/installer/Xamarin.Web.Installer/MonoTouchSoftwareItem.Mac.cs:147
+[2017-12-05 15:42:28.060] [Exception] at MacInstaller.WizardPageInstallationController.InstallationWorker () [0x00145] in /Users/builder/data/lanes/5644/b8f07706/source/installer/MacInstaller.Universal/WizardPageInstallationController.cs:541
+[2017-12-05 15:42:28.061] [Info] Please run the installer again, and file a bug: https://go.microsoft.com/fwlink?linkid=852416
+[2017-12-05 15:42:28.061] [Info] Retrying installation (attempt #2, 1 to go)
+[2017-12-05 15:42:28.061] [Exception] Xamarin.iOS: download failed with exception.
+[2017-12-05 15:42:28.061] [Exception] System.Net.WebException: The operation has timed out.
+[2017-12-05 15:42:28.061] [Exception] at System.Net.WebConnectionStream.Read (System.Byte[] buffer, System.Int32 offset, System.Int32 size) [0x00055] in /Library/Frameworks/Xamarin.Mac.framework/Versions/2.10.0.113/src/mono/mcs/class/System/System.Net/WebConnectionStream.cs:338
+[2017-12-05 15:42:28.061] [Exception] at Xamarin.Web.Installer.DownloadService.DoDownload (System.Int64 totalBytes, System.IO.Stream responseStream, System.IO.Stream outputStream, System.Object state) [0x00087] in /Users/builder/data/lanes/5644/b8f07706/source/installer/Xamarin.Web.Installer/DownloadService.cs:285
+[2017-12-05 15:42:28.061] [Exception] at Xamarin.Web.Installer.Utilities.DownloadUrl (System.Net.WebResponse response, System.String url, System.Action`4[T1,T2,T3,T4] doDownload, System.Action`1[T] reportProgress, System.Boolean noCache, System.Object state, System.IO.Stream outputStream, System.String targetFileName) [0x000c7] in /Users/builder/data/lanes/5644/b8f07706/source/installer/Xamarin.Web.Installer/Utilities.cs:1065
+[2017-12-05 15:42:28.061] [Info] Status: failed.
+[2017-12-05 15:42:28.062] [Exception] Installation of software item 'Xamarin.iOS' failed with exception.
+[2017-12-05 15:42:28.062] [Exception] Xamarin.Web.Installer.InstallException: Download failed. ---> System.Net.WebException: The operation has timed out.
+[2017-12-05 15:42:28.062] [Exception] at System.Net.WebConnectionStream.Read (System.Byte[] buffer, System.Int32 offset, System.Int32 size) [0x00055] in /Library/Frameworks/Xamarin.Mac.framework/Versions/2.10.0.113/src/mono/mcs/class/System/System.Net/WebConnectionStream.cs:338
+[2017-12-05 15:42:28.062] [Exception] at Xamarin.Web.Installer.DownloadService.DoDownload (System.Int64 totalBytes, System.IO.Stream responseStream, System.IO.Stream outputStream, System.Object state) [0x00087] in /Users/builder/data/lanes/5644/b8f07706/source/installer/Xamarin.Web.Installer/DownloadService.cs:285
+[2017-12-05 15:42:28.062] [Exception] at Xamarin.Web.Installer.Utilities.DownloadUrl (System.Net.WebResponse response, System.String url, System.Action`4[T1,T2,T3,T4] doDownload, System.Action`1[T] reportProgress, System.Boolean noCache, System.Object state, System.IO.Stream outputStream, System.String targetFileName) [0x000c7] in /Users/builder/data/lanes/5644/b8f07706/source/installer/Xamarin.Web.Installer/Utilities.cs:1065
+[2017-12-05 15:42:28.062] [Exception] --- End of inner exception stack trace ---
+[2017-12-05 15:42:28.062] [Exception] at Xamarin.Web.Installer.Installer.BaseSoftwareItem.ValidateDownloadItem () [0x0008f] in /Users/builder/data/lanes/5644/b8f07706/source/installer/Xamarin.Web.Installer/Installer/BaseSoftwareItem.cs:501
+[2017-12-05 15:42:28.062] [Exception] at Xamarin.Web.Installer.Installer.BaseSoftwareItem.Install (System.UInt32 tryNumber) [0x0003e] in /Users/builder/data/lanes/5644/b8f07706/source/installer/Xamarin.Web.Installer/Installer/BaseSoftwareItem.cs:289
+[2017-12-05 15:42:28.062] [Exception] at Xamarin.Web.Installer.MonoTouchSoftwareItem.Install (System.UInt32 tryNumber) [0x00056] in /Users/builder/data/lanes/5644/b8f07706/source/installer/Xamarin.Web.Installer/MonoTouchSoftwareItem.Mac.cs:147
+[2017-12-05 15:42:28.062] [Exception] at MacInstaller.WizardPageInstallationController.InstallationWorker () [0x00145] in /Users/builder/data/lanes/5644/b8f07706/source/installer/MacInstaller.Universal/WizardPageInstallationController.cs:541
+[2017-12-05 15:42:28.062] [Info] Please run the installer again, and file a bug: https://go.microsoft.com/fwlink?linkid=852416
+[2017-12-05 15:42:28.062] [Info] Retrying installation (attempt #3, 0 to go)
+[2017-12-05 15:42:28.062] [Exception] Xamarin.iOS: download failed with exception.
+[2017-12-05 15:42:28.062] [Exception] System.Net.WebException: The operation has timed out.
+[2017-12-05 15:42:28.062] [Exception] at System.Net.WebConnectionStream.Read (System.Byte[] buffer, System.Int32 offset, System.Int32 size) [0x00055] in /Library/Frameworks/Xamarin.Mac.framework/Versions/2.10.0.113/src/mono/mcs/class/System/System.Net/WebConnectionStream.cs:338
+[2017-12-05 15:42:28.062] [Exception] at Xamarin.Web.Installer.DownloadService.DoDownload (System.Int64 totalBytes, System.IO.Stream responseStream, System.IO.Stream outputStream, System.Object state) [0x00087] in /Users/builder/data/lanes/5644/b8f07706/source/installer/Xamarin.Web.Installer/DownloadService.cs:285
+[2017-12-05 15:42:28.062] [Exception] at Xamarin.Web.Installer.Utilities.DownloadUrl (System.Net.WebResponse response, System.String url, System.Action`4[T1,T2,T3,T4] doDownload, System.Action`1[T] reportProgress, System.Boolean noCache, System.Object state, System.IO.Stream outputStream, System.String targetFileName) [0x000c7] in /Users/builder/data/lanes/5644/b8f07706/source/installer/Xamarin.Web.Installer/Utilities.cs:1065
+[2017-12-05 15:42:28.062] [Info] Status: failed.
+[2017-12-05 15:42:28.063] [Exception] Installation of software item 'Xamarin.iOS' failed with exception.
+[2017-12-05 15:42:28.063] [Exception] Xamarin.Web.Installer.InstallException: Download failed. ---> System.Net.WebException: The operation has timed out.
+[2017-12-05 15:42:28.063] [Exception] at System.Net.WebConnectionStream.Read (System.Byte[] buffer, System.Int32 offset, System.Int32 size) [0x00055] in /Library/Frameworks/Xamarin.Mac.framework/Versions/2.10.0.113/src/mono/mcs/class/System/System.Net/WebConnectionStream.cs:338
+[2017-12-05 15:42:28.063] [Exception] at Xamarin.Web.Installer.DownloadService.DoDownload (System.Int64 totalBytes, System.IO.Stream responseStream, System.IO.Stream outputStream, System.Object state) [0x00087] in /Users/builder/data/lanes/5644/b8f07706/source/installer/Xamarin.Web.Installer/DownloadService.cs:285
+[2017-12-05 15:42:28.063] [Exception] at Xamarin.Web.Installer.Utilities.DownloadUrl (System.Net.WebResponse response, System.String url, System.Action`4[T1,T2,T3,T4] doDownload, System.Action`1[T] reportProgress, System.Boolean noCache, System.Object state, System.IO.Stream outputStream, System.String targetFileName) [0x000c7] in /Users/builder/data/lanes/5644/b8f07706/source/installer/Xamarin.Web.Installer/Utilities.cs:1065
+[2017-12-05 15:42:28.063] [Exception] --- End of inner exception stack trace ---
+[2017-12-05 15:42:28.063] [Exception] at Xamarin.Web.Installer.Installer.BaseSoftwareItem.ValidateDownloadItem () [0x0008f] in /Users/builder/data/lanes/5644/b8f07706/source/installer/Xamarin.Web.Installer/Installer/BaseSoftwareItem.cs:501
+[2017-12-05 15:42:28.063] [Exception] at Xamarin.Web.Installer.Installer.BaseSoftwareItem.Install (System.UInt32 tryNumber) [0x0003e] in /Users/builder/data/lanes/5644/b8f07706/source/installer/Xamarin.Web.Installer/Installer/BaseSoftwareItem.cs:289
+[2017-12-05 15:42:28.063] [Exception] at Xamarin.Web.Installer.MonoTouchSoftwareItem.Install (System.UInt32 tryNumber) [0x00056] in /Users/builder/data/lanes/5644/b8f07706/source/installer/Xamarin.Web.Installer/MonoTouchSoftwareItem.Mac.cs:147
+[2017-12-05 15:42:28.063] [Exception] at MacInstaller.WizardPageInstallationController.InstallationWorker () [0x00145] in /Users/builder/data/lanes/5644/b8f07706/source/installer/MacInstaller.Universal/WizardPageInstallationController.cs:541
+[2017-12-05 15:42:28.063] [Info] Please run the installer again, and file a bug: https://go.microsoft.com/fwlink?linkid=852416
+[2017-12-05 15:42:28.063] [Info] Status: failed.
+[2017-12-05 15:42:28.063] [Debug] Starting installation complete task.
+[2017-12-05 15:42:28.063] [Info] Background installation worker completed.
+[2017-12-05 15:42:28.064] [Info] Installation completed with failure
+[2017-12-05 15:42:28.064] [Info] Please run the installer again, and file a bug: https://go.microsoft.com/fwlink?linkid=852416
+[2017-12-05 15:42:28.064] [Info] Status: failed.
+[2017-12-05 15:42:28.064] [Exception] Download task failed.
+[2017-12-05 15:42:28.064] [Exception] System.AggregateException: One or more errors occurred. ---> System.NullReferenceException: Object reference not set to an instance of an object
+[2017-12-05 15:42:28.064] [Exception] at Xamarin.Web.Installer.DownloadService.Run () [0x000fa] in /Users/builder/data/lanes/5644/b8f07706/source/installer/Xamarin.Web.Installer/DownloadService.cs:165
+[2017-12-05 15:42:28.064] [Exception] at Xamarin.Web.Installer.TasksManager+<StartDownloads>c__AnonStorey1.<>m__0 () [0x00021] in /Users/builder/data/lanes/5644/b8f07706/source/installer/Xamarin.Web.Installer/TasksManager.cs:259
+[2017-12-05 15:42:28.064] [Exception] at System.Threading.Tasks.Task.InnerInvoke () [0x00012] in /Library/Frameworks/Xamarin.Mac.framework/Versions/2.10.0.113/src/mono/mcs/class/referencesource/mscorlib/system/threading/Tasks/Task.cs:2879
+[2017-12-05 15:42:28.064] [Exception] at System.Threading.Tasks.Task.Execute () [0x00016] in /Library/Frameworks/Xamarin.Mac.framework/Versions/2.10.0.113/src/mono/mcs/class/referencesource/mscorlib/system/threading/Tasks/Task.cs:2502
+[2017-12-05 15:42:28.064] [Exception] --- End of inner exception stack trace ---
+[2017-12-05 15:42:28.064] [Exception] ---> (Inner Exception #0) System.NullReferenceException: Object reference not set to an instance of an object
+[2017-12-05 15:42:28.064] [Exception] at Xamarin.Web.Installer.DownloadService.Run () [0x000fa] in /Users/builder/data/lanes/5644/b8f07706/source/installer/Xamarin.Web.Installer/DownloadService.cs:165
+[2017-12-05 15:42:28.064] [Exception] at Xamarin.Web.Installer.TasksManager+<StartDownloads>c__AnonStorey1.<>m__0 () [0x00021] in /Users/builder/data/lanes/5644/b8f07706/source/installer/Xamarin.Web.Installer/TasksManager.cs:259
+[2017-12-05 15:42:28.064] [Exception] at System.Threading.Tasks.Task.InnerInvoke () [0x00012] in /Library/Frameworks/Xamarin.Mac.framework/Versions/2.10.0.113/src/mono/mcs/class/referencesource/mscorlib/system/threading/Tasks/Task.cs:2879
+[2017-12-05 15:42:28.064] [Exception] at System.Threading.Tasks.Task.Execute () [0x00016] in /Library/Frameworks/Xamarin.Mac.framework/Versions/2.10.0.113/src/mono/mcs/class/referencesource/mscorlib/system/threading/Tasks/Task.cs:2502 <---
+[2017-12-05 15:42:47.146] [Debug] Enqueueuing downloads for Xamarin.iOS
+[2017-12-05 15:42:47.147] [Debug] Component Xamarin.iOS enqueuing URL https://dl.xamarin.com/MonoTouch/Mac/xamarin.ios-11.4.0.214.pkg
+[2017-12-05 15:42:48.785] [Debug] Download service starting.
+[2017-12-05 15:42:48.785] [Info] Downloading from 'https://dl.xamarin.com/MonoTouch/Mac/xamarin.ios-11.4.0.214.pkg'.
+[2017-12-05 15:42:48.786] [Debug] Setting download timeout for 'https://dl.xamarin.com/MonoTouch/Mac/xamarin.ios-11.4.0.214.pkg' to 60s
+[2017-12-05 15:42:48.786] [Info] Installation of software items is starting.
+[2017-12-05 15:42:48.787] [Debug] Checking software item 'Mono Framework'
+[2017-12-05 15:42:48.787] [Info] Component 'Mono Framework' installation was attempted and succeeded. Skipping it this time.
+[2017-12-05 15:42:48.787] [Debug] Checking software item 'Java SDK'
+[2017-12-05 15:42:48.787] [Info] Component 'Java SDK' installation was attempted and succeeded. Skipping it this time.
+[2017-12-05 15:42:48.787] [Debug] Checking software item 'Android SDK'
+[2017-12-05 15:42:48.795] [Info] Component 'Android SDK' installation was attempted and succeeded. Skipping it this time.
+[2017-12-05 15:42:48.795] [Debug] Checking software item 'Visual Studio'
+[2017-12-05 15:42:48.795] [Info] Component 'Visual Studio' installation was attempted and succeeded. Skipping it this time.
+[2017-12-05 15:42:48.795] [Debug] Checking software item 'Xamarin.Android'
+[2017-12-05 15:42:48.795] [Info] Component 'Xamarin.Android' installation was attempted and succeeded. Skipping it this time.
+[2017-12-05 15:42:48.795] [Debug] Checking software item 'Xamarin.iOS'
+[2017-12-05 15:42:48.795] [Error] Component 'Xamarin.iOS' installation was attempted and failed. Will try again.
+[2017-12-05 15:42:48.796] [Debug] Checking software item 'Xamarin.Mac'
+[2017-12-05 15:42:48.796] [Debug] Checking software item 'Intel® HAXM'
+[2017-12-05 15:42:48.796] [Debug] Checking software item 'Xamarin Profiler'
+[2017-12-05 15:42:48.796] [Debug] Checking software item 'Xamarin Workbooks & Inspector'
+[2017-12-05 15:42:48.796] [Debug] Checking software item '.NET Core 2.x'
+[2017-12-05 15:42:48.796] [Debug] Starting installation task.
+[2017-12-05 15:42:48.796] [Info] Background installation worker called.
+[2017-12-05 15:42:48.796] [Info] Processing software items
+[2017-12-05 15:42:48.796] [Info] Skipping installation of software item 'Mono Framework'
+[2017-12-05 15:42:48.797] [Info] Skipping installation of software item 'Java SDK'
+[2017-12-05 15:42:48.797] [Info] Skipping installation of software item 'Android SDK'
+[2017-12-05 15:42:48.797] [Info] Skipping installation of software item 'Visual Studio'
+[2017-12-05 15:42:48.797] [Info] Skipping installation of software item 'Xamarin.Android'
+[2017-12-05 15:42:48.797] [Info] Installing software item 'Xamarin.iOS'
+[2017-12-05 15:42:48.797] [Info] Xamarin.iOS is waiting for download to finish.
+[2017-12-05 15:54:16.153] [Debug] Running '/usr/sbin/installer -pkg /Users/MonaAskary/Library/Caches/XamarinInstaller/Universal/downloads/xamarin.ios-11.4.0.214.pkg -target / -verboseR' with privileges
+[2017-12-05 15:54:28.006] [Warning] Installer passed unexpected string: installer: Package name is Xamarin.iOS
+[2017-12-05 15:54:28.006] [Warning] Installer passed unexpected string: installer: Installing at base path /
+[2017-12-05 15:54:37.219] [Warning] Installer passed unexpected string: installer: The install was successful.
+[2017-12-05 15:54:37.220] [Info] Waiting for the child process to finish running with root privileges.
+[2017-12-05 15:54:37.220] [Debug] Installer finished with success. Exit code was 0
+[2017-12-05 15:54:37.220] [Info] Software item 'Xamarin.iOS' installed successfully.
+[2017-12-05 15:54:37.220] [Info] Status: successful
+[2017-12-05 15:54:37.220] [Info] Status: successful
+[2017-12-05 15:54:37.220] [Info] Installing software item 'Xamarin.Mac'
+[2017-12-05 15:54:37.220] [Debug] Running '/usr/sbin/installer -pkg /Users/MonaAskary/Library/Caches/XamarinInstaller/Universal/downloads/xamarin.mac-4.0.0.214.pkg -target / -verboseR' with privileges
+[2017-12-05 15:54:37.531] [Warning] Installer passed unexpected string: installer: Package name is Xamarin.Mac
+[2017-12-05 15:54:37.531] [Warning] Installer passed unexpected string: installer: Installing at base path /
+[2017-12-05 15:54:40.585] [Warning] Installer passed unexpected string: installer: The install was successful.
+[2017-12-05 15:54:40.585] [Info] Waiting for the child process to finish running with root privileges.
+[2017-12-05 15:54:40.585] [Debug] Installer finished with success. Exit code was 0
+[2017-12-05 15:54:40.585] [Info] Software item 'Xamarin.Mac' installed successfully.
+[2017-12-05 15:54:40.586] [Info] Status: successful
+[2017-12-05 15:54:40.586] [Info] Status: successful
+[2017-12-05 15:54:40.586] [Info] Installing software item 'Intel® HAXM'
+[2017-12-05 15:54:40.586] [Info] Unzipping file '/Users/MonaAskary/Library/Caches/XamarinInstaller/Universal/downloads/haxm-macosx_v6_2_1.zip' to directory '/var/folders/bq/d2wrx2td5sx723cbb81wv5sm0000gn/T/x-haxm-6e082ccb
+[2017-12-05 15:54:40.586] [Debug] Processing ZIP archive with external utility
+[2017-12-05 15:54:40.688] [Info] Archive unzipped to '/var/folders/bq/d2wrx2td5sx723cbb81wv5sm0000gn/T/x-haxm-6e082ccb'
+[2017-12-05 15:54:40.688] [Info] /var/folders/bq/d2wrx2td5sx723cbb81wv5sm0000gn/T/x-haxm-6e082ccb/silent_install.sh binary '/var/folders/bq/d2wrx2td5sx723cbb81wv5sm0000gn/T/x-haxm-6e082ccb/silent_install.sh' is not executable
+[2017-12-05 15:54:40.688] [Debug] Running '/var/folders/bq/d2wrx2td5sx723cbb81wv5sm0000gn/T/x-haxm-6e082ccb/silent_install.sh -c' with privileges
+[2017-12-05 15:54:40.688] [Debug] Preauthenticating the command
+[2017-12-05 15:54:51.252] [Info] Waiting for the child process to finish running with root privileges.
+[2017-12-05 15:54:51.253] [Debug] HAXM check output:
+[2017-12-05 15:54:51.253] [Debug] VT support -- Yes
+[2017-12-05 15:54:51.253] [Debug] NX support -- Yes
+[2017-12-05 15:54:51.253] [Info] Invoking HAXM silent installation script
+[2017-12-05 15:54:51.253] [Info] Configuring HAXM to use 4096MB of RAM when running (HAXM default is 2048MB)
+[2017-12-05 15:54:51.253] [Info] HAXM installation log file (created by HAXM installer, it may NOT exist): /Users/MonaAskary/Library/Logs/XamarinInstaller/Universal/InstallLog.636480811599709590-haxm.txt
+[2017-12-05 15:54:51.253] [Debug] Running '/var/folders/bq/d2wrx2td5sx723cbb81wv5sm0000gn/T/x-haxm-6e082ccb/silent_install.sh -m 4096 -log /Users/MonaAskary/Library/Logs/XamarinInstaller/Universal/InstallLog.636480811599709590-haxm.txt' with privileges
+[2017-12-05 15:55:25.745] [Info] Waiting for the child process to finish running with root privileges.
+[2017-12-05 15:55:25.746] [Debug] HAXM install output:
+[2017-12-05 15:55:25.746] [Debug] Silent installation Pass!
+[2017-12-05 15:55:25.950] [Debug] HAXM extension dir: /Library/Extensions/intelhaxm.kext
+[2017-12-05 15:55:25.950] [Debug] HAXM extension status:
+[2017-12-05 15:55:25.951] [Debug] Index Refs Address            Size       Wired      Name (Version) UUID <Linked Against>
+[2017-12-05 15:55:25.951] [Debug] 161    0 0xffffff7f83417000 0x1d000    0x1d000    com.intel.kext.intelhaxm (6.2.1) 7B6ABC56-699C-3449-A0EC-BEB36C154E3C <7 5 4 3 1>
+[2017-12-05 15:55:25.951] [Info] Software item 'Intel® HAXM' installed successfully.
+[2017-12-05 15:55:25.951] [Info] Status: successful
+[2017-12-05 15:55:25.951] [Info] Status: successful
+[2017-12-05 15:55:25.951] [Info] Installing software item 'Xamarin Profiler'
+[2017-12-05 15:55:25.951] [Debug] Running '/usr/sbin/installer -pkg /Users/MonaAskary/Library/Caches/XamarinInstaller/Universal/downloads/profiler-mac-1.6.0-25.pkg -target / -verboseR' with privileges
+[2017-12-05 15:55:26.257] [Warning] Installer passed unexpected string: installer: Package name is Xamarin Profiler 1.6.0
+[2017-12-05 15:55:26.257] [Warning] Installer passed unexpected string: installer: Installing at base path /
+[2017-12-05 15:55:28.323] [Warning] Installer passed unexpected string: installer: The install was successful.
+[2017-12-05 15:55:28.324] [Info] Waiting for the child process to finish running with root privileges.
+[2017-12-05 15:55:28.325] [Debug] Installer finished with success. Exit code was 0
+[2017-12-05 15:55:28.325] [Info] Software item 'Xamarin Profiler' installed successfully.
+[2017-12-05 15:55:28.325] [Info] Status: successful
+[2017-12-05 15:55:28.326] [Info] Status: successful
+[2017-12-05 15:55:28.326] [Info] Installing software item 'Xamarin Workbooks & Inspector'
+[2017-12-05 15:55:28.326] [Debug] Running '/usr/sbin/installer -pkg /Users/MonaAskary/Library/Caches/XamarinInstaller/Universal/downloads/XamarinInteractive-1.3.2.pkg -target / -verboseR' with privileges
+[2017-12-05 15:55:28.527] [Warning] Installer passed unexpected string: installer: Package name is Xamarin Interactive 1.3.2
+[2017-12-05 15:55:28.527] [Warning] Installer passed unexpected string: installer: Installing at base path /
+[2017-12-05 15:55:33.724] [Warning] Installer passed unexpected string: installer: The install was successful.
+[2017-12-05 15:55:33.725] [Info] Waiting for the child process to finish running with root privileges.
+[2017-12-05 15:55:33.726] [Debug] Installer finished with success. Exit code was 0
+[2017-12-05 15:55:33.726] [Info] Software item 'Xamarin Workbooks & Inspector' installed successfully.
+[2017-12-05 15:55:33.726] [Info] Status: successful
+[2017-12-05 15:55:33.726] [Info] Status: successful
+[2017-12-05 15:55:33.726] [Info] Installing software item '.NET Core 2.x'
+[2017-12-05 15:55:33.726] [Debug] Running '/usr/sbin/installer -pkg /Users/MonaAskary/Library/Caches/XamarinInstaller/Universal/downloads/dotnet-runtime-2.0.0-osx-x64.pkg -target / -verboseR' with privileges
+[2017-12-05 15:55:33.928] [Warning] Installer passed unexpected string: installer: Package name is Microsoft .NET Core Runtime - 2.0.0 (x64)
+[2017-12-05 15:55:33.928] [Warning] Installer passed unexpected string: installer: Installing at base path /
+[2017-12-05 15:55:36.085] [Warning] Installer passed unexpected string: installer: The install was successful.
+[2017-12-05 15:55:36.190] [Info] Waiting for the child process to finish running with root privileges.
+[2017-12-05 15:55:36.190] [Debug] Installer finished with success. Exit code was 0
+[2017-12-05 15:55:36.191] [Debug] Running '/usr/sbin/installer -pkg /Users/MonaAskary/Library/Caches/XamarinInstaller/Universal/downloads/dotnet-sdk-2.0.0-osx-x64.pkg -target / -verboseR' with privileges
+[2017-12-05 15:55:36.395] [Warning] Installer passed unexpected string: installer: Package name is Microsoft .NET Core SDK - 2.0.0 (x64)
+[2017-12-05 15:55:36.395] [Warning] Installer passed unexpected string: installer: Upgrading at base path /
+[2017-12-05 15:56:00.727] [Info] Waiting for the child process to finish running with root privileges.
+[2017-12-05 15:56:00.727] [Debug] Installer finished with success. Exit code was 0
+[2017-12-05 15:56:00.728] [Info] Software item '.NET Core 2.x' installed successfully.
+[2017-12-05 15:56:00.728] [Info] Status: successful
+[2017-12-05 15:56:00.728] [Info] Status: successful
+[2017-12-05 15:56:00.728] [Debug] Starting installation complete task.
+[2017-12-05 15:56:00.728] [Info] Background installation worker completed.
+[2017-12-05 15:56:00.728] [Info] Installation completed successfully
+[2017-12-05 15:56:00.728] [Info] Status: successful
+[2017-12-05 15:56:05.945] [Info] Done. All steps completed. Failure: False; Status: Successful
+[2017-12-05 15:56:05.946] [Info] Status: successful
+[2017-12-05 15:56:05.946] [Info] Status: completed

@@ -1,0 +1,5 @@
+/Users/MonaAskary/Projects/Enterprise/Enterprise/bin/Enterprise.dll
+/Users/MonaAskary/Projects/Enterprise/Enterprise/bin/Enterprise.pdb
+/Users/MonaAskary/Projects/Enterprise/Enterprise/obj/Debug/Enterprise.csproj.CoreCompileInputs.cache
+/Users/MonaAskary/Projects/Enterprise/Enterprise/obj/Debug/Enterprise.dll
+/Users/MonaAskary/Projects/Enterprise/Enterprise/obj/Debug/Enterprise.pdb

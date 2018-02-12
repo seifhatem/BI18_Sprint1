@@ -1,0 +1,1 @@
+/Users/MonaAskary/Projects/Sample/Sample/obj/Debug/Sample.csproj.CoreCompileInputs.cache

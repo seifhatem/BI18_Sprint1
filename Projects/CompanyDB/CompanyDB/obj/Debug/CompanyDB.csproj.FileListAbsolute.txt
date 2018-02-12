@@ -1,0 +1,1 @@
+/Users/MonaAskary/Projects/CompanyDB/CompanyDB/obj/Debug/CompanyDB.csproj.CoreCompileInputs.cache

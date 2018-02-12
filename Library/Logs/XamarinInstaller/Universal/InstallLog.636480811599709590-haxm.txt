@@ -1,0 +1,16 @@
+/dev/disk3          	GUID_partition_scheme          	
+/dev/disk3s1        	Apple_HFS                      	/Volumes/com_intel_kext_haxm_disc
+mpkg_file=/Volumes/com_intel_kext_haxm_disc//IntelHAXM_6.2.1.mpkg
+ecx 7ffafbbf
+edx 2c100800
+edx 2c100800
+No emulator instance exist!
+sed: /Library/Extensions/intelhaxm.kext/Contents/Resources/support.txt: No such file or directory
+Intel HAXM: This is a new installation
+installer: Package name is Intel(R) Hardware Accelerated Execution Manager
+installer: Installing at base path /
+installer: The install was successful.
+"disk3" unmounted.
+"disk3" ejected.
+HAXM silent installation finished! 
+*************** Silent installation Pass ! ****************

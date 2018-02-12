@@ -1,0 +1,301 @@
+[867] 12-18 13:16:08 DEBUG [MAIN]version 8.0.22-20151218_fix_rmnoise_deshaking
+[867] 12-18 13:16:11 DEBUG [ASPLAYER]SDL initiated
+[867] 12-18 13:25:15 DEBUG [FFMPEG-CTL]set report on
+[867] 12-18 13:25:15 DEBUG [INPUT:normal]Ready to open file: ufile:/Users/MonaAskary/Downloads/Lots of Facts about Sushi.mp4
+[867] 12-18 13:25:15 DEBUG [INPUT:FFIN]Got a format metadata major_brand:mp42
+[867] 12-18 13:25:15 DEBUG [INPUT:FFIN]Got a format metadata minor_version:0
+[867] 12-18 13:25:15 DEBUG [INPUT:FFIN]Got a format metadata compatible_brands:isommp42
+[867] 12-18 13:25:15 DEBUG [INPUT:FFIN]Got a format metadata creation_time:2016-08-11 13:52:44
+[867] 12-18 13:25:15 DEBUG [INPUT:FFST]Got a stream metadata creation_time:2016-08-11 13:52:44
+[867] 12-18 13:25:15 DEBUG [INPUT:FFST]Got a stream metadata language:und
+[867] 12-18 13:25:15 DEBUG [INPUT:FFST]Got a stream metadata handler_name:ISO Media file produced by Google Inc.
+[867] 12-18 13:25:15 DEBUG [INPUT:FFST]Got a stream metadata creation_time:2016-08-11 13:52:44
+[867] 12-18 13:25:15 DEBUG [INPUT:FFST]Got a stream metadata language:und
+[867] 12-18 13:25:15 DEBUG [INPUT:FFST]Got a stream metadata handler_name:ISO Media file produced by Google Inc.
+[867] 12-18 13:25:15 DEBUG [ASPLAYER]File parsed, to get thunmb
+[867] 12-18 13:25:15 DEBUG [ASPLAYER]Video stream wxh: 1280x720
+[867] 12-18 13:25:15 DEBUG [INPUT:EDITOR]Before correct src, w x h: 1280 x 720
+[867] 12-18 13:25:15 DEBUG [INPUT:EDITOR]correctSrcPropBaseOn3D, b3d: 0, type: 0
+[867] 12-18 13:25:15 DEBUG [INPUT:EDITOR]Ready to construct a filter graph: settb=AVTB
+[867] 12-18 13:25:16 DEBUG [INPUT]Construct a source: video_size=1280x720:pix_fmt=0:time_base=1/90000:pixel_aspect=1/1:sws_param=flags=4
+[867] 12-18 13:25:16 DEBUG [INPUT:ff]Input file has been started: ufile:/Users/MonaAskary/Downloads/Lots of Facts about Sushi.mp4
+[867] 12-18 13:25:16 DEBUG [INPUT:FFST]Got a stream metadata creation_time:2016-08-11 13:52:44
+[867] 12-18 13:25:16 DEBUG [INPUT:FFST]Got a stream metadata language:und
+[867] 12-18 13:25:16 DEBUG [INPUT:FFST]Got a stream metadata handler_name:ISO Media file produced by Google Inc.
+[867] 12-18 13:25:16 DEBUG [INPUT:FFST]Got a stream metadata creation_time:2016-08-11 13:52:44
+[867] 12-18 13:25:16 DEBUG [INPUT:FFST]Got a stream metadata language:und
+[867] 12-18 13:25:16 DEBUG [INPUT:FFST]Got a stream metadata handler_name:ISO Media file produced by Google Inc.
+[867] 12-18 13:25:16 DEBUG [AddedFileClose]close input file
+[867] 12-18 13:25:16 DEBUG [AddedFileClose]avMedia_CloseInputStream
+[867] 12-18 13:25:16 DEBUG [INPUT:FFST]avcodec_close codec is NULL : false
+[867] 12-18 13:25:16 DEBUG [INPUT:FFST]avcodec_close closed
+[867] 12-18 13:25:16 DEBUG [AddedFileClose]delete input stream
+[867] 12-18 13:25:16 DEBUG [AddedFileClose]avMedia_CloseInputStream
+[867] 12-18 13:25:16 DEBUG [INPUT:FFST]avcodec_close codec is NULL : false
+[867] 12-18 13:25:16 DEBUG [INPUT:FFST]avcodec_close closed
+[867] 12-18 13:25:16 DEBUG [AddedFileClose]delete input stream
+[867] 12-18 13:25:16 DEBUG [AddedFileClose]delete input
+[867] 12-18 13:25:16 DEBUG [INPUT:ff]Input file will be stopped: ufile:/Users/MonaAskary/Downloads/Lots of Facts about Sushi.mp4
+[867] 12-18 13:25:16 DEBUG [INPUT:ff]Destructor FfMediaInput success
+[867] 12-18 13:25:16 DEBUG [AddedFileClose]delete inputFile->streams
+[867] 12-18 13:25:16 DEBUG [AddedFileClose]delete inputFile
+[867] 12-18 13:25:16 DEBUG [AddedFileClose]close input file end
+[867] 12-18 13:25:16 DEBUG [QFFPreviewWrapper:GetFileInfo]ifile->duration : 278451320
+[867] 12-18 13:25:16 DEBUG [QFFPreviewWrapper:GetFileInfo]ifile->is_multi_stream_3d : 0
+[867] 12-18 13:25:16 DEBUG [QFFPreviewWrapper:GetFileInfo]probesize : 5000000
+[867] 12-18 13:25:16 DEBUG [QFFPreviewWrapper:GetFileInfo]analyzeduration : 20000000
+[867] 12-18 13:25:16 DEBUG [QFFPreviewWrapper:GetFileInfo]vecVideo :id: 0
+[867] 12-18 13:25:16 DEBUG [QFFPreviewWrapper:GetFileInfo]istream->codec_exist : 1
+[867] 12-18 13:25:16 DEBUG [QFFPreviewWrapper:GetFileInfo]istream->codec_time_base.den : 60; istream->codec_time_base.num : 1
+[867] 12-18 13:25:16 DEBUG [QFFPreviewWrapper:GetFileInfo]istream->codec_name : h264
+[867] 12-18 13:25:16 DEBUG [QFFPreviewWrapper:GetFileInfo]istream->duration : 0
+[867] 12-18 13:25:16 DEBUG [QFFPreviewWrapper:GetFileInfo]istream->flags : 0
+[867] 12-18 13:25:16 DEBUG [QFFPreviewWrapper:GetFileInfo]istream->width : 1280
+[867] 12-18 13:25:16 DEBUG [QFFPreviewWrapper:GetFileInfo]istream->height : 720
+[867] 12-18 13:25:16 DEBUG [QFFPreviewWrapper:GetFileInfo]istream->id : 1
+[867] 12-18 13:25:16 DEBUG [QFFPreviewWrapper:GetFileInfo]istream->index : 0
+[867] 12-18 13:29:00 DEBUG [MainWindow::outputDiskSpace]compare total : 30 FreeSpace : 55263
+[867] 12-18 13:29:01 DEBUG [FfConverter:startCurrentTask]creatTempFile:/var/folders/bq/d2wrx2td5sx723cbb81wv5sm0000gn/T/qt_temp.BMJ867
+[867] 12-18 13:32:56 DEBUG [FfConverter:GetProgress]exitcode = 0
+[867] 12-18 13:32:56 DEBUG [FfConverter:GetProgress]!ct.pproc->working() state == -2 -1 : FF_DONE_FAIL, -2 : FF_DONE_SUCCESS 
+[867] 12-18 13:32:56 DEBUG [QFFConverterWrapper::timerEvent]convertStopped(false, false);FF_DONE_SUCCESS
+[867] 12-18 13:32:56 DEBUG [FfConverter::Stop]from user: 1
+[867] 12-18 13:48:55 DEBUG [MainWindow::outputDiskSpace]compare total : 30 FreeSpace : 55216
+[867] 12-18 13:48:56 DEBUG [FfConverter:startCurrentTask]creatTempFile:/var/folders/bq/d2wrx2td5sx723cbb81wv5sm0000gn/T/qt_temp.HaQ867
+[867] 12-18 13:49:02 DEBUG [FfConverter::Stop]from user: 1
+[867] 12-18 13:49:02 DEBUG [FfConverter:GetProgress]m_nUserCanceled   FF_DONE_CANCELED
+[867] 12-18 13:49:03 DEBUG [FfConverter:GetProgress]exitcode = 0
+[867] 12-18 13:49:03 DEBUG [FfConverter:GetProgress]!ct.pproc->working() state == -2 -1 : FF_DONE_FAIL, -2 : FF_DONE_SUCCESS 
+[867] 12-18 13:49:03 DEBUG [FfConverter:GetProgress]m_nUserCanceled   FF_DONE_CANCELED
+[867] 12-18 13:49:03 DEBUG [QFFConverterWrapper::timerEvent]convertStopped(true, true);FF_DONE_CANCELED
+[867] 12-18 13:49:03 DEBUG [FfConverter::Stop]from user: 1
+[867] 12-18 13:49:34 DEBUG [Player:init]ctx.trim.trimLength : 278451320
+[867] 12-18 13:49:34 DEBUG [Player:init]ctx.crop.zoom : 1, ctx.crop.w : 1280, ctx.crop.h : 720
+[867] 12-18 13:49:34 DEBUG [Player:init]ctx.mark.mark_file : , ctx.mark.w : 0, ctx.mark.h : 0
+[867] 12-18 13:49:34 DEBUG [Player:init]ctx.widthOutput : 1280, ctx.heightOutput : 720
+[867] 12-18 13:49:34 DEBUG [Player:init]ctx.outputDprNum : 16, ctx.outputDprDen : 9
+[867] 12-18 13:49:34 DEBUG [Player:init]ctx.widthOri : 0, ctx.heightOri : 0
+[867] 12-18 13:49:34 DEBUG [Player:init]ctx.widthRender : 656, ctx.heightRender : 368
+[867] 12-18 13:49:34 DEBUG [Player:init]input->GetVideo3D()->inputType : 0
+[867] 12-18 13:49:34 DEBUG [FFMPEG-CTL]set report on
+[867] 12-18 13:49:34 DEBUG [INPUT:normal]Ready to open file: ufile:/Users/MonaAskary/Downloads/Lots of Facts about Sushi.mp4
+[867] 12-18 13:49:34 DEBUG [INPUT:FFIN]Got a format metadata major_brand:mp42
+[867] 12-18 13:49:34 DEBUG [INPUT:FFIN]Got a format metadata minor_version:0
+[867] 12-18 13:49:34 DEBUG [INPUT:FFIN]Got a format metadata compatible_brands:isommp42
+[867] 12-18 13:49:34 DEBUG [INPUT:FFIN]Got a format metadata creation_time:2016-08-11 13:52:44
+[867] 12-18 13:49:34 DEBUG [INPUT:FFST]Got a stream metadata creation_time:2016-08-11 13:52:44
+[867] 12-18 13:49:34 DEBUG [INPUT:FFST]Got a stream metadata language:und
+[867] 12-18 13:49:34 DEBUG [INPUT:FFST]Got a stream metadata handler_name:ISO Media file produced by Google Inc.
+[867] 12-18 13:49:34 DEBUG [INPUT:FFST]Got a stream metadata creation_time:2016-08-11 13:52:44
+[867] 12-18 13:49:34 DEBUG [INPUT:FFST]Got a stream metadata language:und
+[867] 12-18 13:49:34 DEBUG [INPUT:FFST]Got a stream metadata handler_name:ISO Media file produced by Google Inc.
+[867] 12-18 13:49:34 DEBUG [INPUT:EDITOR]Ready to construct a filter graph: aformat=sample_fmts=s16:channel_layouts=stereo:sample_rates=44100,asettb=AVTB 
+[867] 12-18 13:49:34 DEBUG [INPUT]Construct a source: time_base=1/44100:sample_rate=44100:sample_fmt=fltp:channel_layout=0x3
+[867] 12-18 13:49:34 DEBUG [ASME]to construct an editor for video, width: 1280, height: 720
+[867] 12-18 13:49:34 DEBUG [INPUT:EDITOR]Before correct src, w x h: 1280 x 720
+[867] 12-18 13:49:34 DEBUG [INPUT:EDITOR]correctSrcPropBaseOn3D, b3d: 0, type: 55968510
+[867] 12-18 13:49:34 DEBUG [INPUT:EDITOR]Ready to construct a filter graph: [i0] settb=AVTB [O0];[O0] format=yuv420p 
+[867] 12-18 13:49:34 DEBUG [INPUT]Construct a source: video_size=1280x720:pix_fmt=0:time_base=1/90000:pixel_aspect=1/1:sws_param=flags=4
+[867] 12-18 13:49:34 DEBUG [INPUT:EDITOR]Before correct src, w x h: 1280 x 720
+[867] 12-18 13:49:34 DEBUG [INPUT:EDITOR]correctSrcPropBaseOn3D, b3d: 0, type: 444
+[867] 12-18 13:49:34 DEBUG [INPUT:EDITOR]Ready to construct a filter graph: settb=AVTB
+[867] 12-18 13:49:34 DEBUG [INPUT]Construct a source: video_size=1280x720:pix_fmt=0:time_base=1/90000:pixel_aspect=1/1:sws_param=flags=4
+[867] 12-18 13:49:34 DEBUG [INPUT:EDITOR]Ready to construct a filter graph: asettb=AVTB 
+[867] 12-18 13:49:34 DEBUG [INPUT]Construct a source: time_base=1/44100:sample_rate=44100:sample_fmt=fltp:channel_layout=0x3
+[867] 12-18 13:49:34 DEBUG [INPUT:ff]Input file has been started: ufile:/Users/MonaAskary/Downloads/Lots of Facts about Sushi.mp4
+[867] 12-18 13:49:34 DEBUG [INPUT:FFST]Got a stream metadata creation_time:2016-08-11 13:52:44
+[867] 12-18 13:49:34 DEBUG [INPUT:FFST]Got a stream metadata language:und
+[867] 12-18 13:49:34 DEBUG [INPUT:FFST]Got a stream metadata handler_name:ISO Media file produced by Google Inc.
+[867] 12-18 13:49:34 ERROR [INPUT:EDITOR]you can only get the video size on a video stream editor
+[867] 12-18 13:49:34 DEBUG [INPUT:FFST]Got a stream metadata creation_time:2016-08-11 13:52:44
+[867] 12-18 13:49:34 DEBUG [INPUT:FFST]Got a stream metadata language:und
+[867] 12-18 13:49:34 DEBUG [INPUT:FFST]Got a stream metadata handler_name:ISO Media file produced by Google Inc.
+[867] 12-18 13:50:35 DEBUG [AddedFileClose]close input file
+[867] 12-18 13:50:35 DEBUG [AddedFileClose]avMedia_CloseInputStream
+[867] 12-18 13:50:35 DEBUG [INPUT:FFST]avcodec_close codec is NULL : false
+[867] 12-18 13:50:35 DEBUG [INPUT:FFST]avcodec_close closed
+[867] 12-18 13:50:35 DEBUG [AddedFileClose]delete input stream
+[867] 12-18 13:50:35 DEBUG [AddedFileClose]avMedia_CloseInputStream
+[867] 12-18 13:50:35 DEBUG [INPUT:FFST]avcodec_close codec is NULL : false
+[867] 12-18 13:50:35 DEBUG [INPUT:FFST]avcodec_close closed
+[867] 12-18 13:50:35 DEBUG [AddedFileClose]delete input stream
+[867] 12-18 13:50:35 DEBUG [AddedFileClose]delete input
+[867] 12-18 13:50:35 DEBUG [INPUT:ff]Input file will be stopped: ufile:/Users/MonaAskary/Downloads/Lots of Facts about Sushi.mp4
+[867] 12-18 13:50:35 DEBUG [INPUT:ff]Destructor FfMediaInput success
+[867] 12-18 13:50:35 DEBUG [AddedFileClose]delete inputFile->streams
+[867] 12-18 13:50:35 DEBUG [AddedFileClose]delete inputFile
+[867] 12-18 13:50:35 DEBUG [AddedFileClose]close input file end
+[867] 12-18 13:50:48 DEBUG [Player:init]ctx.trim.trimLength : 0
+[867] 12-18 13:50:48 DEBUG [Player:init]ctx.crop.zoom : 1, ctx.crop.w : 1280, ctx.crop.h : 720
+[867] 12-18 13:50:48 DEBUG [Player:init]ctx.mark.mark_file : , ctx.mark.w : 0, ctx.mark.h : 0
+[867] 12-18 13:50:48 DEBUG [Player:init]ctx.widthOutput : 640, ctx.heightOutput : 480
+[867] 12-18 13:50:48 DEBUG [Player:init]ctx.outputDprNum : 0, ctx.outputDprDen : 0
+[867] 12-18 13:50:48 DEBUG [Player:init]ctx.widthOri : 0, ctx.heightOri : 0
+[867] 12-18 13:50:48 DEBUG [Player:init]ctx.widthRender : 360, ctx.heightRender : 268
+[867] 12-18 13:50:48 DEBUG [Player:init]input->GetVideo3D()->inputType : 0
+[867] 12-18 13:50:48 DEBUG [FFMPEG-CTL]set report on
+[867] 12-18 13:50:48 DEBUG [INPUT:normal]Ready to open file: ufile:/Users/MonaAskary/Downloads/Lots of Facts about Sushi.mp4
+[867] 12-18 13:50:48 DEBUG [INPUT:FFIN]Got a format metadata major_brand:mp42
+[867] 12-18 13:50:48 DEBUG [INPUT:FFIN]Got a format metadata minor_version:0
+[867] 12-18 13:50:48 DEBUG [INPUT:FFIN]Got a format metadata compatible_brands:isommp42
+[867] 12-18 13:50:48 DEBUG [INPUT:FFIN]Got a format metadata creation_time:2016-08-11 13:52:44
+[867] 12-18 13:50:48 DEBUG [INPUT:FFST]Got a stream metadata creation_time:2016-08-11 13:52:44
+[867] 12-18 13:50:48 DEBUG [INPUT:FFST]Got a stream metadata language:und
+[867] 12-18 13:50:48 DEBUG [INPUT:FFST]Got a stream metadata handler_name:ISO Media file produced by Google Inc.
+[867] 12-18 13:50:48 DEBUG [INPUT:FFST]Got a stream metadata creation_time:2016-08-11 13:52:44
+[867] 12-18 13:50:48 DEBUG [INPUT:FFST]Got a stream metadata language:und
+[867] 12-18 13:50:48 DEBUG [INPUT:FFST]Got a stream metadata handler_name:ISO Media file produced by Google Inc.
+[867] 12-18 13:50:48 DEBUG [INPUT:EDITOR]Ready to construct a filter graph: aformat=sample_fmts=s16:channel_layouts=stereo:sample_rates=44100,asettb=AVTB 
+[867] 12-18 13:50:48 DEBUG [INPUT]Construct a source: time_base=1/44100:sample_rate=44100:sample_fmt=fltp:channel_layout=0x3
+[867] 12-18 13:50:48 DEBUG [ASME]to construct an editor for video, width: 1280, height: 720
+[867] 12-18 13:50:48 DEBUG [INPUT:EDITOR]Before correct src, w x h: 1280 x 720
+[867] 12-18 13:50:48 DEBUG [INPUT:EDITOR]correctSrcPropBaseOn3D, b3d: 0, type: 16
+[867] 12-18 13:50:48 DEBUG [INPUT:EDITOR]Ready to construct a filter graph: [i0] scale=w=640:h=360,pad=640:480:0:60:black,settb=AVTB [O0];[O0] format=yuv420p 
+[867] 12-18 13:50:48 DEBUG [INPUT]Construct a source: video_size=1280x720:pix_fmt=0:time_base=1/90000:pixel_aspect=1/1:sws_param=flags=4
+[867] 12-18 13:50:48 DEBUG [INPUT:EDITOR]Before correct src, w x h: 1280 x 720
+[867] 12-18 13:50:48 DEBUG [INPUT:EDITOR]correctSrcPropBaseOn3D, b3d: 0, type: -29163610
+[867] 12-18 13:50:48 DEBUG [INPUT:EDITOR]Ready to construct a filter graph: settb=AVTB
+[867] 12-18 13:50:48 DEBUG [INPUT]Construct a source: video_size=1280x720:pix_fmt=0:time_base=1/90000:pixel_aspect=1/1:sws_param=flags=4
+[867] 12-18 13:50:48 DEBUG [INPUT:EDITOR]Ready to construct a filter graph: asettb=AVTB 
+[867] 12-18 13:50:48 DEBUG [INPUT]Construct a source: time_base=1/44100:sample_rate=44100:sample_fmt=fltp:channel_layout=0x3
+[867] 12-18 13:50:48 DEBUG [INPUT:ff]Input file has been started: ufile:/Users/MonaAskary/Downloads/Lots of Facts about Sushi.mp4
+[867] 12-18 13:50:48 DEBUG [INPUT:FFST]Got a stream metadata creation_time:2016-08-11 13:52:44
+[867] 12-18 13:50:48 DEBUG [INPUT:FFST]Got a stream metadata language:und
+[867] 12-18 13:50:48 DEBUG [INPUT:FFST]Got a stream metadata handler_name:ISO Media file produced by Google Inc.
+[867] 12-18 13:50:48 ERROR [INPUT:EDITOR]you can only get the video size on a video stream editor
+[867] 12-18 13:50:48 DEBUG [INPUT:FFST]Got a stream metadata creation_time:2016-08-11 13:52:44
+[867] 12-18 13:50:48 DEBUG [INPUT:FFST]Got a stream metadata language:und
+[867] 12-18 13:50:48 DEBUG [INPUT:FFST]Got a stream metadata handler_name:ISO Media file produced by Google Inc.
+[867] 12-18 13:52:03 DEBUG [AddedFileClose]close input file
+[867] 12-18 13:52:03 DEBUG [AddedFileClose]avMedia_CloseInputStream
+[867] 12-18 13:52:03 DEBUG [INPUT:FFST]avcodec_close codec is NULL : false
+[867] 12-18 13:52:03 DEBUG [INPUT:FFST]avcodec_close closed
+[867] 12-18 13:52:03 DEBUG [AddedFileClose]delete input stream
+[867] 12-18 13:52:03 DEBUG [AddedFileClose]avMedia_CloseInputStream
+[867] 12-18 13:52:03 DEBUG [INPUT:FFST]avcodec_close codec is NULL : false
+[867] 12-18 13:52:03 DEBUG [INPUT:FFST]avcodec_close closed
+[867] 12-18 13:52:03 DEBUG [AddedFileClose]delete input stream
+[867] 12-18 13:52:03 DEBUG [AddedFileClose]delete input
+[867] 12-18 13:52:03 DEBUG [INPUT:ff]Input file will be stopped: ufile:/Users/MonaAskary/Downloads/Lots of Facts about Sushi.mp4
+[867] 12-18 13:52:03 DEBUG [INPUT:ff]Destructor FfMediaInput success
+[867] 12-18 13:52:03 DEBUG [AddedFileClose]delete inputFile->streams
+[867] 12-18 13:52:03 DEBUG [AddedFileClose]delete inputFile
+[867] 12-18 13:52:03 DEBUG [AddedFileClose]close input file end
+[867] 12-18 13:53:12 DEBUG [Player:init]ctx.trim.trimLength : 0
+[867] 12-18 13:53:12 DEBUG [Player:init]ctx.crop.zoom : 1, ctx.crop.w : 1280, ctx.crop.h : 720
+[867] 12-18 13:53:12 DEBUG [Player:init]ctx.mark.mark_file : , ctx.mark.w : 0, ctx.mark.h : 0
+[867] 12-18 13:53:12 DEBUG [Player:init]ctx.widthOutput : 640, ctx.heightOutput : 480
+[867] 12-18 13:53:12 DEBUG [Player:init]ctx.outputDprNum : 0, ctx.outputDprDen : 0
+[867] 12-18 13:53:12 DEBUG [Player:init]ctx.widthOri : 424, ctx.heightOri : 236
+[867] 12-18 13:53:12 DEBUG [Player:init]ctx.widthRender : 424, ctx.heightRender : 316
+[867] 12-18 13:53:12 DEBUG [Player:init]input->GetVideo3D()->inputType : 0
+[867] 12-18 13:53:12 DEBUG [FFMPEG-CTL]set report on
+[867] 12-18 13:53:12 DEBUG [INPUT:normal]Ready to open file: ufile:/Users/MonaAskary/Downloads/Lots of Facts about Sushi.mp4
+[867] 12-18 13:53:12 DEBUG [INPUT:FFIN]Got a format metadata major_brand:mp42
+[867] 12-18 13:53:12 DEBUG [INPUT:FFIN]Got a format metadata minor_version:0
+[867] 12-18 13:53:12 DEBUG [INPUT:FFIN]Got a format metadata compatible_brands:isommp42
+[867] 12-18 13:53:12 DEBUG [INPUT:FFIN]Got a format metadata creation_time:2016-08-11 13:52:44
+[867] 12-18 13:53:12 DEBUG [INPUT:FFST]Got a stream metadata creation_time:2016-08-11 13:52:44
+[867] 12-18 13:53:12 DEBUG [INPUT:FFST]Got a stream metadata language:und
+[867] 12-18 13:53:12 DEBUG [INPUT:FFST]Got a stream metadata handler_name:ISO Media file produced by Google Inc.
+[867] 12-18 13:53:12 DEBUG [INPUT:FFST]Got a stream metadata creation_time:2016-08-11 13:52:44
+[867] 12-18 13:53:12 DEBUG [INPUT:FFST]Got a stream metadata language:und
+[867] 12-18 13:53:12 DEBUG [INPUT:FFST]Got a stream metadata handler_name:ISO Media file produced by Google Inc.
+[867] 12-18 13:53:12 DEBUG [INPUT:EDITOR]Ready to construct a filter graph: aformat=sample_fmts=s16:channel_layouts=stereo:sample_rates=44100,asettb=AVTB 
+[867] 12-18 13:53:12 DEBUG [INPUT]Construct a source: time_base=1/44100:sample_rate=44100:sample_fmt=fltp:channel_layout=0x3
+[867] 12-18 13:53:12 DEBUG [ASME]to construct an editor for video, width: 1280, height: 720
+[867] 12-18 13:53:12 DEBUG [INPUT:EDITOR]Before correct src, w x h: 1280 x 720
+[867] 12-18 13:53:12 DEBUG [INPUT:EDITOR]correctSrcPropBaseOn3D, b3d: 0, type: -51112124
+[867] 12-18 13:53:12 DEBUG [INPUT:EDITOR]Ready to construct a filter graph: [i0] scale=w=640:h=360,pad=640:480:0:60:black,settb=AVTB [O0];[O0] format=yuv420p 
+[867] 12-18 13:53:12 DEBUG [INPUT]Construct a source: video_size=1280x720:pix_fmt=0:time_base=1/90000:pixel_aspect=1/1:sws_param=flags=4
+[867] 12-18 13:53:12 DEBUG [INPUT:EDITOR]Before correct src, w x h: 1280 x 720
+[867] 12-18 13:53:12 DEBUG [INPUT:EDITOR]correctSrcPropBaseOn3D, b3d: 0, type: 0
+[867] 12-18 13:53:12 DEBUG [INPUT:EDITOR]Ready to construct a filter graph: settb=AVTB
+[867] 12-18 13:53:12 DEBUG [INPUT]Construct a source: video_size=1280x720:pix_fmt=0:time_base=1/90000:pixel_aspect=1/1:sws_param=flags=4
+[867] 12-18 13:53:12 DEBUG [INPUT:EDITOR]Ready to construct a filter graph: asettb=AVTB 
+[867] 12-18 13:53:12 DEBUG [INPUT]Construct a source: time_base=1/44100:sample_rate=44100:sample_fmt=fltp:channel_layout=0x3
+[867] 12-18 13:53:12 DEBUG [INPUT:ff]Input file has been started: ufile:/Users/MonaAskary/Downloads/Lots of Facts about Sushi.mp4
+[867] 12-18 13:53:12 DEBUG [INPUT:FFST]Got a stream metadata creation_time:2016-08-11 13:52:44
+[867] 12-18 13:53:12 DEBUG [INPUT:FFST]Got a stream metadata language:und
+[867] 12-18 13:53:12 DEBUG [INPUT:FFST]Got a stream metadata handler_name:ISO Media file produced by Google Inc.
+[867] 12-18 13:53:12 ERROR [INPUT:EDITOR]you can only get the video size on a video stream editor
+[867] 12-18 13:53:12 DEBUG [INPUT:FFST]Got a stream metadata creation_time:2016-08-11 13:52:44
+[867] 12-18 13:53:12 DEBUG [INPUT:FFST]Got a stream metadata language:und
+[867] 12-18 13:53:12 DEBUG [INPUT:FFST]Got a stream metadata handler_name:ISO Media file produced by Google Inc.
+[867] 12-18 13:53:31 DEBUG [AddedFileClose]close input file
+[867] 12-18 13:53:31 DEBUG [AddedFileClose]avMedia_CloseInputStream
+[867] 12-18 13:53:31 DEBUG [INPUT:FFST]avcodec_close codec is NULL : false
+[867] 12-18 13:53:31 DEBUG [INPUT:FFST]avcodec_close closed
+[867] 12-18 13:53:31 DEBUG [AddedFileClose]delete input stream
+[867] 12-18 13:53:31 DEBUG [AddedFileClose]avMedia_CloseInputStream
+[867] 12-18 13:53:31 DEBUG [INPUT:FFST]avcodec_close codec is NULL : false
+[867] 12-18 13:53:31 DEBUG [INPUT:FFST]avcodec_close closed
+[867] 12-18 13:53:31 DEBUG [AddedFileClose]delete input stream
+[867] 12-18 13:53:31 DEBUG [AddedFileClose]delete input
+[867] 12-18 13:53:31 DEBUG [INPUT:ff]Input file will be stopped: ufile:/Users/MonaAskary/Downloads/Lots of Facts about Sushi.mp4
+[867] 12-18 13:53:31 DEBUG [INPUT:ff]Destructor FfMediaInput success
+[867] 12-18 13:53:31 DEBUG [AddedFileClose]delete inputFile->streams
+[867] 12-18 13:53:31 DEBUG [AddedFileClose]delete inputFile
+[867] 12-18 13:53:31 DEBUG [AddedFileClose]close input file end
+[867] 12-18 13:54:18 DEBUG [MainWindow::outputDiskSpace]compare total : 6 FreeSpace : 55221
+[867] 12-18 13:54:18 DEBUG [FfConverter:startCurrentTask]creatTempFile:/var/folders/bq/d2wrx2td5sx723cbb81wv5sm0000gn/T/qt_temp.TAw867
+[867] 12-18 13:55:32 DEBUG [FfConverter:GetProgress]exitcode = 0
+[867] 12-18 13:55:32 DEBUG [FfConverter:GetProgress]!ct.pproc->working() state == -2 -1 : FF_DONE_FAIL, -2 : FF_DONE_SUCCESS 
+[867] 12-18 13:55:32 DEBUG [QFFConverterWrapper::timerEvent]convertStopped(false, false);FF_DONE_SUCCESS
+[867] 12-18 13:55:32 DEBUG [FfConverter::Stop]from user: 1
+[867] 12-18 14:00:19 DEBUG [Player:init]ctx.trim.trimLength : 0
+[867] 12-18 14:00:19 DEBUG [Player:init]ctx.crop.zoom : 1, ctx.crop.w : 1280, ctx.crop.h : 720
+[867] 12-18 14:00:19 DEBUG [Player:init]ctx.mark.mark_file : , ctx.mark.w : 0, ctx.mark.h : 0
+[867] 12-18 14:00:19 DEBUG [Player:init]ctx.widthOutput : 800, ctx.heightOutput : 480
+[867] 12-18 14:00:19 DEBUG [Player:init]ctx.outputDprNum : 0, ctx.outputDprDen : 0
+[867] 12-18 14:00:19 DEBUG [Player:init]ctx.widthOri : 0, ctx.heightOri : 0
+[867] 12-18 14:00:19 DEBUG [Player:init]ctx.widthRender : 360, ctx.heightRender : 216
+[867] 12-18 14:00:19 DEBUG [Player:init]input->GetVideo3D()->inputType : 0
+[867] 12-18 14:00:19 DEBUG [FFMPEG-CTL]set report on
+[867] 12-18 14:00:19 DEBUG [INPUT:normal]Ready to open file: ufile:/Users/MonaAskary/Downloads/Lots of Facts about Sushi.mp4
+[867] 12-18 14:00:19 DEBUG [INPUT:FFIN]Got a format metadata major_brand:mp42
+[867] 12-18 14:00:19 DEBUG [INPUT:FFIN]Got a format metadata minor_version:0
+[867] 12-18 14:00:19 DEBUG [INPUT:FFIN]Got a format metadata compatible_brands:isommp42
+[867] 12-18 14:00:19 DEBUG [INPUT:FFIN]Got a format metadata creation_time:2016-08-11 13:52:44
+[867] 12-18 14:00:19 DEBUG [INPUT:FFST]Got a stream metadata creation_time:2016-08-11 13:52:44
+[867] 12-18 14:00:19 DEBUG [INPUT:FFST]Got a stream metadata language:und
+[867] 12-18 14:00:19 DEBUG [INPUT:FFST]Got a stream metadata handler_name:ISO Media file produced by Google Inc.
+[867] 12-18 14:00:19 DEBUG [INPUT:FFST]Got a stream metadata creation_time:2016-08-11 13:52:44
+[867] 12-18 14:00:19 DEBUG [INPUT:FFST]Got a stream metadata language:und
+[867] 12-18 14:00:19 DEBUG [INPUT:FFST]Got a stream metadata handler_name:ISO Media file produced by Google Inc.
+[867] 12-18 14:00:19 DEBUG [INPUT:EDITOR]Ready to construct a filter graph: aformat=sample_fmts=s16:channel_layouts=stereo:sample_rates=44100,asettb=AVTB 
+[867] 12-18 14:00:19 DEBUG [INPUT]Construct a source: time_base=1/44100:sample_rate=44100:sample_fmt=fltp:channel_layout=0x3
+[867] 12-18 14:00:19 DEBUG [ASME]to construct an editor for video, width: 1280, height: 720
+[867] 12-18 14:00:19 DEBUG [INPUT:EDITOR]Before correct src, w x h: 1280 x 720
+[867] 12-18 14:00:19 DEBUG [INPUT:EDITOR]correctSrcPropBaseOn3D, b3d: 0, type: -5138889
+[867] 12-18 14:00:19 DEBUG [INPUT:EDITOR]Ready to construct a filter graph: [i0] scale=w=800:h=452,pad=800:480:0:14:black,settb=AVTB [O0];[O0] format=yuv420p 
+[867] 12-18 14:00:19 DEBUG [INPUT]Construct a source: video_size=1280x720:pix_fmt=0:time_base=1/90000:pixel_aspect=1/1:sws_param=flags=4
+[867] 12-18 14:00:19 DEBUG [INPUT:EDITOR]Before correct src, w x h: 1280 x 720
+[867] 12-18 14:00:19 DEBUG [INPUT:EDITOR]correctSrcPropBaseOn3D, b3d: 0, type: 0
+[867] 12-18 14:00:19 DEBUG [INPUT:EDITOR]Ready to construct a filter graph: settb=AVTB
+[867] 12-18 14:00:19 DEBUG [INPUT]Construct a source: video_size=1280x720:pix_fmt=0:time_base=1/90000:pixel_aspect=1/1:sws_param=flags=4
+[867] 12-18 14:00:19 DEBUG [INPUT:EDITOR]Ready to construct a filter graph: asettb=AVTB 
+[867] 12-18 14:00:19 DEBUG [INPUT]Construct a source: time_base=1/44100:sample_rate=44100:sample_fmt=fltp:channel_layout=0x3
+[867] 12-18 14:00:19 DEBUG [INPUT:ff]Input file has been started: ufile:/Users/MonaAskary/Downloads/Lots of Facts about Sushi.mp4
+[867] 12-18 14:00:19 DEBUG [INPUT:FFST]Got a stream metadata creation_time:2016-08-11 13:52:44
+[867] 12-18 14:00:19 DEBUG [INPUT:FFST]Got a stream metadata language:und
+[867] 12-18 14:00:19 DEBUG [INPUT:FFST]Got a stream metadata handler_name:ISO Media file produced by Google Inc.
+[867] 12-18 14:00:19 ERROR [INPUT:EDITOR]you can only get the video size on a video stream editor
+[867] 12-18 14:00:19 DEBUG [INPUT:FFST]Got a stream metadata creation_time:2016-08-11 13:52:44
+[867] 12-18 14:00:19 DEBUG [INPUT:FFST]Got a stream metadata language:und
+[867] 12-18 14:00:19 DEBUG [INPUT:FFST]Got a stream metadata handler_name:ISO Media file produced by Google Inc.
+[867] 12-18 14:01:45 DEBUG [AddedFileClose]close input file
+[867] 12-18 14:01:45 DEBUG [AddedFileClose]avMedia_CloseInputStream
+[867] 12-18 14:01:45 DEBUG [INPUT:FFST]avcodec_close codec is NULL : false
+[867] 12-18 14:01:45 DEBUG [INPUT:FFST]avcodec_close closed
+[867] 12-18 14:01:45 DEBUG [AddedFileClose]delete input stream
+[867] 12-18 14:01:45 DEBUG [AddedFileClose]avMedia_CloseInputStream
+[867] 12-18 14:01:45 DEBUG [INPUT:FFST]avcodec_close codec is NULL : false
+[867] 12-18 14:01:45 DEBUG [INPUT:FFST]avcodec_close closed
+[867] 12-18 14:01:45 DEBUG [AddedFileClose]delete input stream
+[867] 12-18 14:01:45 DEBUG [AddedFileClose]delete input
+[867] 12-18 14:01:45 DEBUG [INPUT:ff]Input file will be stopped: ufile:/Users/MonaAskary/Downloads/Lots of Facts about Sushi.mp4
+[867] 12-18 14:01:45 DEBUG [INPUT:ff]Destructor FfMediaInput success
+[867] 12-18 14:01:45 DEBUG [AddedFileClose]delete inputFile->streams
+[867] 12-18 14:01:45 DEBUG [AddedFileClose]delete inputFile
+[867] 12-18 14:01:45 DEBUG [AddedFileClose]close input file end
