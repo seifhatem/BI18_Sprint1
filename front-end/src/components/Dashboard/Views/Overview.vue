@@ -76,8 +76,7 @@
             name: 'Doha Yasser',
             tag: 'DohaYasser',
             info: 'My Favorite colors are red and black.',
-            image: 'static/img/members/doha.jpg',
-
+            image: 'static/img/members/doha.jpg'
           },
           {
             name: 'PUT YOUR NAME HERE',
