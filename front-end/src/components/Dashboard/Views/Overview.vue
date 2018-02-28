@@ -42,10 +42,10 @@
             image: 'static/img/faces/face-2.jpg'
           },
           {
-            name: 'Rana Samir',
-            tag: 'Ranasamir',
-            info: 'My zodiac sign is Aquarius',
-            image: 'static/img/faces/rana.jpg'
+            name: 'Mounir Basta',
+            tag: 'mounirbasta',
+            info: 'Glory Glory ManUtd',
+            image: 'static/img/members/mounir.jpg'
           },
           {
             name: 'PUT YOUR NAME HERE',
