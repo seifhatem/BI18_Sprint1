@@ -73,6 +73,13 @@
             image: 'static/img/members/robert.jpg'
           },
           {
+            name: 'Doha Yasser',
+            tag: 'DohaYasser',
+            info: 'My Favorite colors are red and black.',
+            image: 'static/img/members/doha.jpg',
+
+          },
+          {
             name: 'PUT YOUR NAME HERE',
             tag: 'NAMEHEREWITHOUTSPACES',
             info: 'DO NOT DELETEE IT, COPY IT AND PUT IT ABOVE THIS',
