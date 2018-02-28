@@ -54,6 +54,12 @@
             image: 'static/img/members/mounir.jpg'
           },
           {
+            name: 'Robert Shenouda',
+            tag: 'RobertShenouda',
+            info: 'A lead guitarist who loves rock music like whoe doesnt ????',
+            image: 'static/img/members/robert.jpg',
+          },
+          {
             name: 'PUT YOUR NAME HERE',
             tag: 'NAMEHEREWITHOUTSPACES',
             info: 'DO NOT DELETEE IT, COPY IT AND PUT IT ABOVE THIS',
