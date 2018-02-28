@@ -70,14 +70,13 @@
             tag: 'RobertShenouda',
             info: 'A lead guitarist who loves rock music like who doesnt???',
             image: 'static/img/members/robert.jpg',
-            
+
           },
           {
-            name: 'PUT YOUR NAME HERE',
-            tag: 'NAMEHEREWITHOUTSPACES',
-            info: 'DO NOT DELETEE IT, COPY IT AND PUT IT ABOVE THIS',
-            image: 'static/img/members/delete.jpg',
-            social: 'https://twitter.com/seifhatem'
+            name: 'Farah Ahmed',
+            tag: 'farahmed',
+            info: 'Everything will pass',
+            image: 'static/img/members/Farah.jpg'
           }
         ]
       }
