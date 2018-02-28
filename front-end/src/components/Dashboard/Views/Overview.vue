@@ -34,6 +34,12 @@
             info: 'SE is fun!  okaayyy...not so much',
             image: 'static/img/members/seif.jpg',
             social: 'https://twitter.com/seifhatem'
+          },{
+            name: 'Meray Samy',
+            tag: 'meraysamy',
+            info: 'BI Student at GUC',
+            image: 'static/img/members/meray.jpg',
+            social: 'https://twitter.com/meraysamy'
           },
           {
             name: 'Louay Diaa',
