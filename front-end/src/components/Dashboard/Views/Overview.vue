@@ -42,6 +42,12 @@
             image: 'static/img/faces/face-2.jpg'
           },
           {
+            name: 'Rana Samir',
+            tag: 'Ranasamir',
+            info: 'My zodiac sign is Aquarius',
+            image: 'static/img/faces/rana.jpg'
+          },
+          {
             name: 'PUT YOUR NAME HERE',
             tag: 'NAMEHEREWITHOUTSPACES',
             info: 'DO NOT DELETEE IT, COPY IT AND PUT IT ABOVE THIS',
