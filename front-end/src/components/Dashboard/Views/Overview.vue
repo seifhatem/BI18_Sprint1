@@ -54,10 +54,10 @@
             image: 'static/img/members/mounir.jpg'
           },
           {
-            name: 'Robert Shenouda',
-            tag: 'RobertShenouda',
-            info: 'A lead guitarist who loves rock music like whoe doesnt ????',
-            image: 'static/img/members/robert.jpg',
+            name: 'Rana Samir',
+            tag: 'Ranasamir',
+            info: 'My zodiac sign is Aquarius',
+            image: 'static/img/members/rana.jpg'
           },
           {
             name: 'PUT YOUR NAME HERE',
