@@ -54,6 +54,12 @@
             image: 'static/img/members/mounir.jpg'
           },
           {
+            name: 'Martina Nashaat',
+            tag: 'martinanashaat',
+            info: 'BI student at the GUC',
+            image: 'static/img/members/martina.jpg'
+          },
+          {
             name: 'Rana Samir',
             tag: 'Ranasamir',
             info: 'My zodiac sign is Aquarius',
