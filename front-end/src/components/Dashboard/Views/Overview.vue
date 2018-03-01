@@ -127,10 +127,17 @@
             image: 'static/img/members/aya.jpg'
           },
           {
+<<<<<<< HEAD
             name: 'Yasmina Gamal',
             tag: 'yasminagamal',
             info: 'I like travelling.',
             image: 'static/img/members/yasmina.jpg'
+=======
+            name: 'Shorouk Sherif',
+            tag: 'Shorouksherif',
+            info: 'A feminist to the core, with some good music sprinkled on top',
+            image: 'static/img/members/shorouk.jpg'
+>>>>>>> 02711044939bad659d2f544c9fd9315be07595cb
           },
           {
             name: 'PUT YOUR NAME HERE',
