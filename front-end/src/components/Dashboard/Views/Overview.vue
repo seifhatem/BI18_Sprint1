@@ -112,7 +112,7 @@
             name: 'Mohamed abdelfatah',
             tag: 'mohamedabdelfattah',
             info: 'BI student',
-            image: 'static/img/members/mm.jpg',
+            image: 'static/img/members/mm.jpg'
           },
           {
             name: 'PUT YOUR NAME HERE',
