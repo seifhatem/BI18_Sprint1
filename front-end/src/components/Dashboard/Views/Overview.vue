@@ -55,6 +55,7 @@
             image: 'static/img/members/mounir.jpg'
           },
           {
+
             name: 'Martina Nashaat',
             tag: 'martinanashaat',
             info: 'BI student at the GUC',
@@ -79,11 +80,19 @@
             image: 'static/img/members/doha.jpg'
           },
           {
+
+            name: 'Ingy Ahmad',
+            tag: 'IngyAhmad',
+            info: 'Green is my favourite colour',
+            image: 'static/img/faces/ingy.jpg',
+          }
+
             name: 'Amr Samih',
             tag: 'Amrsamih',
             info: 'i love se',
             image: 'static/img/members/samih.JPG'
           },
+
           {
             name: 'PUT YOUR NAME HERE',
             tag: 'NAMEHEREWITHOUTSPACES',
