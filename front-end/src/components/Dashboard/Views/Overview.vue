@@ -93,7 +93,7 @@
             info: 'BI Student',
             image: 'static/img/faces/farah.jpg.jpg',
           },
-
+{
             name: 'Amr Samih',
             tag: 'Amrsamih',
             info: 'i love se',
