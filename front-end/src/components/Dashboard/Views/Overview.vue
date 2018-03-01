@@ -85,7 +85,14 @@
             tag: 'IngyAhmad',
             info: 'Green is my favourite colour',
             image: 'static/img/faces/ingy.jpg',
-          }
+          },
+          {
+
+            name: 'Farah Rezk',
+            tag: 'farahRezk',
+            info: 'BI Student',
+            image: 'static/img/faces/farah.jpg.jpg',
+          },
 
             name: 'Amr Samih',
             tag: 'Amrsamih',
