@@ -80,32 +80,34 @@
             image: 'static/img/members/doha.jpg'
           },
           {
-
             name: 'Ingy Ahmad',
             tag: 'IngyAhmad',
             info: 'Green is my favourite colour',
-            image: 'static/img/faces/ingy.jpg',
+            image: 'static/img/faces/ingy.jpg'
           },
           {
-
             name: 'Farah Rezk',
             tag: 'farahRezk',
             info: 'BI Student',
-            image: 'static/img/faces/farah.jpg.jpg',
+            image: 'static/img/faces/farah.jpg.jpg'
           },
-{
+          {
             name: 'Amr Samih',
             tag: 'Amrsamih',
             info: 'i love se',
             image: 'static/img/members/samih.JPG'
           },
-          {
            name: 'Mona Askary',
-              tag: 'MonaAskary',
-              info: 'I love running',
-              image: 'static/img/members/MonaAskary.png'
+            tag: 'MonaAskary',
+            info: 'I love running',
+            image: 'static/img/members/MonaAskary.png'
             },
-
+            {
+              name: 'Habiba Elkassed',
+              tag: 'habibaelkassed',
+              info: '20 years old',
+              image: 'static/img/members/habiba.jpg'
+            },
           {
             name: 'PUT YOUR NAME HERE',
             tag: 'NAMEHEREWITHOUTSPACES',
