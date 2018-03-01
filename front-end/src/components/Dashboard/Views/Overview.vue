@@ -61,6 +61,12 @@
             image: 'static/img/members/martina.jpg'
           },
           {
+            name: 'Youssef Anany',
+            tag: 'YoussefAnany',
+            info: 'BI student at the GUC',
+            image: 'static/img/members/youssefAnany.jpg'
+          },
+          {
             name: 'Rana Samir',
             tag: 'Ranasamir',
             info: 'My zodiac sign is Aquarius',
