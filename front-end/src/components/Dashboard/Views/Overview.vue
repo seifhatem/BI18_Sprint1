@@ -73,6 +73,12 @@
             image: 'static/img/members/robert.jpg'
           },
           {
+            name: 'Farah Ahmed',
+            tag: 'farahmed',
+            info: 'Everything will pass',
+            image: 'static/img/members/Farah.jpg'
+          },
+          {
             name: 'Doha Yasser',
             tag: 'DohaYasser',
             info: 'My Favorite colors are red and black.',
