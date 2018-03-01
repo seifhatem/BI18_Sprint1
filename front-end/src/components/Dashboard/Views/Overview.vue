@@ -99,6 +99,7 @@
             info: 'i love se',
             image: 'static/img/members/samih.JPG'
           },
+          {
            name: 'Mona Askary',
               tag: 'MonaAskary',
               info: 'I love running',
