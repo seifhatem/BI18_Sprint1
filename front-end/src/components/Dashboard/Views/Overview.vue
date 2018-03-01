@@ -109,6 +109,12 @@
              image: 'static/img/members/habiba.jpg'
             },
             {
+            name: 'Mohamed abdelfatah',
+            tag: 'mohamedabdelfattah',
+            info: 'BI student',
+            image: 'static/img/members/mm.jpg',
+          },
+            {
             name: 'PUT YOUR NAME HERE',
             tag: 'NAMEHEREWITHOUTSPACES',
             info: 'DO NOT DELETEE IT, COPY IT AND PUT IT ABOVE THIS',
