@@ -115,6 +115,12 @@
             image: 'static/img/members/mm.jpg'
           },
           {
+            name: 'Aya Gougou',
+            tag: 'AyaGougou',
+            info: 'I like rock music',
+            image: 'static/img/members/aya.jpg'
+          },
+          {
             name: 'PUT YOUR NAME HERE',
             tag: 'NAMEHEREWITHOUTSPACES',
             info: 'DO NOT DELETEE IT, COPY IT AND PUT IT ABOVE THIS',
