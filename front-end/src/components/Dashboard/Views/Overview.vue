@@ -95,26 +95,26 @@
             tag: 'Amrsamih',
             info: 'i love se',
             image: 'static/img/members/samih.JPG'
-           },
-           {
+          },
+          {
             name: 'Mona Askary',
             tag: 'MonaAskary',
             info: 'I love running',
             image: 'static/img/members/MonaAskary.png'
-            },
-            {
-             name: 'Habiba Elkassed',
-             tag: 'habibaelkassed',
-             info: '20 years old',
-             image: 'static/img/members/habiba.jpg'
-            },
-            {
+          },
+          {
+            name: 'Habiba Elkassed',
+            tag: 'habibaelkassed',
+            info: '20 years old',
+            image: 'static/img/members/habiba.jpg'
+          },
+          {
             name: 'Mohamed abdelfatah',
             tag: 'mohamedabdelfattah',
             info: 'BI student',
             image: 'static/img/members/mm.jpg',
           },
-            {
+          {
             name: 'PUT YOUR NAME HERE',
             tag: 'NAMEHEREWITHOUTSPACES',
             info: 'DO NOT DELETEE IT, COPY IT AND PUT IT ABOVE THIS',
