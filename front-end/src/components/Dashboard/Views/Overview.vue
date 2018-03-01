@@ -127,6 +127,12 @@
             image: 'static/img/members/aya.jpg'
           },
           {
+            name: 'Yasmina Gamal',
+            tag: 'yasminagamal',
+            info: 'I like travelling.',
+            image: 'static/img/members/yasmina.jpg'
+          },
+          {
             name: 'PUT YOUR NAME HERE',
             tag: 'NAMEHEREWITHOUTSPACES',
             info: 'DO NOT DELETEE IT, COPY IT AND PUT IT ABOVE THIS',
