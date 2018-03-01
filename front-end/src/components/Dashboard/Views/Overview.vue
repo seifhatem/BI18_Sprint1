@@ -127,12 +127,6 @@
             image: 'static/img/members/aya.jpg'
           },
           {
-            name: 'Shorouk Sherif',
-            tag: 'Shorouksherif',
-            info: 'A feminist to the core, with some good music sprinkled on top',
-            image: 'static/img/members/shorouk.jpg'
-          },
-          {
             name: 'PUT YOUR NAME HERE',
             tag: 'NAMEHEREWITHOUTSPACES',
             info: 'DO NOT DELETEE IT, COPY IT AND PUT IT ABOVE THIS',
