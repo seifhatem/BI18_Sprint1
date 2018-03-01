@@ -79,6 +79,12 @@
             image: 'static/img/members/doha.jpg'
           },
           {
+            name: 'Amr Samih',
+            tag: 'Amrsamih',
+            info: 'i love se',
+            image: 'static/img/members/samih.JPG'
+          },
+          {
             name: 'PUT YOUR NAME HERE',
             tag: 'NAMEHEREWITHOUTSPACES',
             info: 'DO NOT DELETEE IT, COPY IT AND PUT IT ABOVE THIS',
