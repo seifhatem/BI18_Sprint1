@@ -100,7 +100,7 @@
             name: 'Mona Askary',
             tag: 'MonaAskary',
             info: 'I love running',
-            image: 'static/img/members/MonaAskary.png'
+            image: 'static/img/members/MonaAskarypic.jpg'
           },
           {
             name: 'Habiba Elkassed',
