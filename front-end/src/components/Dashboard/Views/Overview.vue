@@ -92,6 +92,11 @@
             info: 'i love se',
             image: 'static/img/members/samih.JPG'
           },
+           name: 'Mona Askary',
+              tag: 'MonaAskary',
+              info: 'I love running',
+              image: 'static/img/members/MonaAskary.png'
+            },
 
           {
             name: 'PUT YOUR NAME HERE',
