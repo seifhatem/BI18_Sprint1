@@ -137,19 +137,13 @@
             tag: 'Shorouksherif',
             info: 'A feminist to the core, with some good music sprinkled on top',
             image: 'static/img/members/shorouk.jpg'
-          },  {
-              name: 'yousef hamdy',
-              tag: 'yousefhamdy',
-              info: 'addicted to music and i love to explore ',
-              image: 'static/img/members/youse.jpg',
-              
-            },
+          },
           {
-            name: 'PUT YOUR NAME HERE',
-            tag: 'NAMEHEREWITHOUTSPACES',
-            info: 'DO NOT DELETEE IT, COPY IT AND PUT IT ABOVE THIS',
-            image: 'static/img/members/delete.jpg',
-            social: 'https://twitter.com/seifhatem'
+            name: 'yousef hamdy',
+            tag: 'yousefhamdy',
+            info: 'addicted to music and i love to explore ',
+            image: 'static/img/members/youse.jpg'
+
           }
         ]
       }
