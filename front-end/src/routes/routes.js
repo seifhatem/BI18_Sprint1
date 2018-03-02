@@ -10,8 +10,9 @@ import Icons from 'src/components/Dashboard/Views/Icons.vue'
 import Maps from 'src/components/Dashboard/Views/Maps.vue'
 import Typography from 'src/components/Dashboard/Views/Typography.vue'
 import TableList from 'src/components/Dashboard/Views/TableList.vue'
+import Login from 'src/components/Dashboard/Views/Login/Login.vue'
+import Register from 'src/components/Dashboard/Views/Login/Register.vue'
 import Store from 'src/components/Dashboard/Views/Store.vue'
-import Login from 'src/components/Dashboard/Views/Login.vue'
 
 const routes = [
   {
@@ -30,45 +31,51 @@ const routes = [
         component: Overview
       },
       {
-        path: 'stats',
-        name: 'stats',
-        component: UserProfile
+        path: 'login',
+        name: 'login',
+        component: Login
+        // redirect: 'admin/login'
       },
       {
-        path: 'notifications',
-        name: 'notifications',
-        component: Notifications
+        path: 'register',
+        name: 'register',
+        component: Register
       },
       {
-        path: 'icons',
-        name: 'icons',
-        component: Icons
-      },
-      {
-        path: 'maps',
-        name: 'maps',
-        component: Maps
-      },
-      {
-        path: 'typography',
-        name: 'typography',
-        component: Typography
-      },
-      {
-        path: 'table-list',
-        name: 'table-list',
-        component: TableList
-      },
-      {
-        path: 'Store',
-        name: 'Store',
+        path: 'store',
+        name: 'store',
         component: Store
       },
       {
-        path: 'Login',
-        name: 'Login',
-        component: Login
+        path: 'stats',
+        name: 'stats',
+        component: UserProfile
       }
+      // {
+      //   path: 'notifications',
+      //   name: 'notifications',
+      //   component: Notifications
+      // },
+      // {
+      //   path: 'icons',
+      //   name: 'icons',
+      //   component: Icons
+      // },
+      // {
+      //   path: 'maps',
+      //   name: 'maps',
+      //   component: Maps
+      // },
+      // {
+      //   path: 'typography',
+      //   name: 'typography',
+      //   component: Typography
+      // },
+      // {
+      //   path: 'table-list',
+      //   name: 'table-list',
+      //   component: TableList
+      // }
     ]
   },
   { path: '*', component: NotFound }
