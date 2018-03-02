@@ -146,6 +146,13 @@
 
           },
           {
+            name: 'Kareem Adel',
+            tag: 'kareemadel',
+            info: 'Dodgeball player ',
+            image: 'static/img/members/Kareem.jpg'
+
+          },
+          {
             name: 'Karim Wael',
             tag: 'karimwael',
             info: 'Love cars!',
