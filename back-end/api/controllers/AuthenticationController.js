@@ -11,30 +11,24 @@
         msg: 'username and password required',
         data: null
       });
-      User.find({ 'username': username,'email':email }, function(err, user) {
-
-          if (err) {
-
-              console.log('Signup error');
-              return done(err);
-          }
-
-          //if user found.
-          if (user.length!=0) {
-            if(user[0].username){
-              console.log('Username already exists, username: ' + username);
-               }else{
-                  console.log('EMAIL already exists, email: ' + email);
-               }
-               var err = new Error();
-              err.status = 310;
-              return done(err);
-
-          }
-      res.status(200).json({
-        err: null,
-        msg: 'Hi',
-        data: users
-      });
     }
-    };
+     const users = await User.find({username: req.body.username}).exec();
+     if(users.length==1){
+       res.status(200).json({
+       });
+     }
+
+     if(users.length==0){
+       res.status(403).json({
+         err: 'Invalid username or password'
+       });
+     }
+
+     if(users.length>1){
+       res.status(500).json({
+         err: 'Duplicate users found!'
+       });
+     }
+
+
+}
