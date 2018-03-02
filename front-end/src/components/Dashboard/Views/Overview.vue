@@ -144,7 +144,13 @@
             info: 'addicted to music and i love to explore ',
             image: 'static/img/members/youse.jpg'
 
-          }
+          },
+          {
+            name: 'Karim Wael',
+            tag: 'karimwael',
+            info: 'Love cars!',
+            image: 'static/img/members/karimw.jpeg'
+          },
         ]
       }
     }
