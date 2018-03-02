@@ -50,7 +50,7 @@ const routes = [
         path: 'stats',
         name: 'stats',
         component: UserProfile
-      }
+      },
       // {
       //   path: 'notifications',
       //   name: 'notifications',
@@ -71,11 +71,11 @@ const routes = [
       //   name: 'typography',
       //   component: Typography
       // },
-      // {
-      //   path: 'table-list',
-      //   name: 'table-list',
-      //   component: TableList
-      // }
+      {
+         path: 'table-list',
+         name: 'table-list',
+         component: TableList
+      }
     ]
   },
   { path: '*', component: NotFound }
