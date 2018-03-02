@@ -4,9 +4,24 @@ const SidebarStore = {
   showSidebar: false,
   sidebarLinks: [
     {
+      name: 'Login',
+      icon: 'ti-anchor',
+      path: '/admin/login'
+    },
+    {
+      name: 'Signup',
+      icon: 'ti-anchor',
+      path: '/admin/register'
+    },
+    {
       name: 'Dashboard',
       icon: 'ti-panel',
       path: '/admin/overview'
+    },
+    {
+      name: 'Store',
+      icon: 'ti-wallet',
+      path: '/admin/store'
     },
     {
       name: 'User Profile',
@@ -17,17 +32,12 @@ const SidebarStore = {
       name: 'Table List',
       icon: 'ti-view-list-alt',
       path: '/admin/table-list'
-    },
-    {
-      name: 'Store',
-      icon: 'ti-wallet',
-      path: '/admin/Store'
-    },
-    {
-      name: 'Login',
-      icon: 'ti-user',
-      path: '/admin/Login'
     }
+    // {
+    //   name: 'Typography',
+    //   icon: 'ti-text',
+    //   path: '/admin/typography'
+    // },
     // {
     //   name: 'Icons',
     //   icon: 'ti-pencil-alt2',
