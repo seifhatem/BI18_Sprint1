@@ -2,6 +2,7 @@ const express = require('express'),
   router = express.Router(),
   asyncMiddleware = require('express-async-handler'),
   productCtrl = require('../controllers/ProductController');
+  authenticationCtrl = require('../controllers/AuthenticationController');
 
 //-------------------------------Product Routes-----------------------------------
 router.get('/product/getProducts', asyncMiddleware(productCtrl.getProducts));
@@ -13,5 +14,8 @@ router.get(
 router.post('/product/createProduct', asyncMiddleware(productCtrl.createProduct));
 router.patch('/product/updateProduct/:productId', asyncMiddleware(productCtrl.updateProduct));
 router.delete('/product/deleteProduct/:productId', asyncMiddleware(productCtrl.deleteProduct));
+
+
+router.post('/login', asyncMiddleware(authenticationCtrl.checkCredentials));
 
 module.exports = router;

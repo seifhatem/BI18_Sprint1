@@ -71,3 +71,4 @@ mongoose
   });
 
 require('../models/Product');
+require('../models/Users');
