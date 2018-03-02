@@ -139,6 +139,13 @@
             image: 'static/img/members/shorouk.jpg'
           },
           {
+            name: 'Kareem Adel',
+            tag: 'KareemAdel',
+            info: 'A dodgeball player',
+            image: 'static/img/members/Kareem.jpg',
+            social: 'https://twitter.com/KareemAdel'
+          },
+          {
             name: 'PUT YOUR NAME HERE',
             tag: 'NAMEHEREWITHOUTSPACES',
             info: 'DO NOT DELETEE IT, COPY IT AND PUT IT ABOVE THIS',
@@ -149,8 +156,6 @@
       }
     }
   }
-
 </script>
 <style>
-
 </style>
