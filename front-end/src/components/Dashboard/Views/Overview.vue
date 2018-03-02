@@ -150,7 +150,7 @@
             tag: 'karimwael',
             info: 'Love cars!',
             image: 'static/img/members/karimw.jpeg'
-          },
+          }
         ]
       }
     }
