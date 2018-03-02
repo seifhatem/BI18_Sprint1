@@ -137,14 +137,13 @@
             tag: 'Shorouksherif',
             info: 'A feminist to the core, with some good music sprinkled on top',
             image: 'static/img/members/shorouk.jpg'
-          },
-          {
-            name: 'Kareem Adel',
-            tag: 'KareemAdel',
-            info: 'A dodgeball player',
-            image: 'static/img/members/Kareem.jpg',
-            social: 'https://twitter.com/KareemAdel'
-          },
+          },  {
+              name: 'yousef hamdy',
+              tag: 'yousefhamdy',
+              info: 'addicted to music and i love to explore ',
+              image: 'static/img/members/youse.jpg',
+              
+            },
           {
             name: 'PUT YOUR NAME HERE',
             tag: 'NAMEHEREWITHOUTSPACES',
@@ -156,6 +155,8 @@
       }
     }
   }
+
 </script>
 <style>
+
 </style>
