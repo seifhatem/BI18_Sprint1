@@ -1,7 +1,14 @@
 <template>
-  <paper-table :title="table.title" :sub-title="table.subTitle" :data="table.data" :columns="table.columns">
-  </paper-table>
+<div>
+<button><router-link to="/Admin/Anany">Anany's Store</router-link></button>
+<div>
+<paper-table :title="table.title" :sub-title="table.subTitle" :data="table.data" :columns="table.columns">
+
+
+
+</paper-table></div></div>
 </template>
+
 <script>
 import PaperTable from 'components/UIComponents/PaperTable.vue'
 export default {

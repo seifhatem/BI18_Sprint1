@@ -12,7 +12,10 @@ import Typography from 'src/components/Dashboard/Views/Typography.vue'
 import TableList from 'src/components/Dashboard/Views/TableList.vue'
 import Store from 'src/components/Dashboard/Views/Store.vue'
 import Login from 'src/components/Dashboard/Views/Login.vue'
-
+import Anany from 'src/components/Dashboard/Views/Individual/Anany.vue'
+import Create from 'src/components/Dashboard/Views/Individual/Create.vue'
+import Delete from 'src/components/Dashboard/Views/Individual/Delete.vue'
+import Update from 'src/components/Dashboard/Views/Individual/Update.vue'
 const routes = [
   {
     path: '/',
@@ -60,9 +63,29 @@ const routes = [
         component: TableList
       },
       {
+        path: 'Anany',
+        name: 'Anany',
+        component: Anany
+      },
+      {
         path: 'Store',
         name: 'Store',
         component: Store
+      },
+      {
+        path: 'Create',
+        name: 'Create',
+        component: Create
+      },
+      {
+        path: 'Delete',
+        name: 'Delete',
+        component: Delete
+      },
+      {
+        path: 'Update',
+        name: 'Update',
+        component: Update
       },
       {
         path: 'Login',
