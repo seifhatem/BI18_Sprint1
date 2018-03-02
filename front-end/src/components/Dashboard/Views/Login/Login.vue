@@ -14,40 +14,38 @@
         <div class="panel-body">
           <div class="row">
             <div class="col-lg-12">
-              <form id="login-form"  action="#" method="post" role="form" style="display: block;">
+              <form id="login-form" style="display: block;">
                 <h2>LOGIN</h2>
                   <div class="form-group">
-                    <input type="text" name="username" id="username" tabindex="1" class="form-control" placeholder="Username" value="">
+                    <input v-model="login_user" type="text" name="username" id="username" tabindex="1" class="form-control" placeholder="Username" value="">
                   </div>
                   <div class="form-group">
-                    <input type="password" name="password" id="password" tabindex="2" class="form-control" placeholder="Password">
+                    <input v-model="login_pass" type="password" name="password" id="password" tabindex="2" class="form-control" placeholder="Password">
                   </div>
                   <div class="col-xs-6 form-group pull-left checkbox">
                     <input id="checkbox1" type="checkbox" name="remember">
                     <label for="checkbox1">Remember Me</label>
                   </div>
                   <div class="col-xs-6 form-group pull-right">
-                        <input type="submit" name="login-submit" id="login-submit" tabindex="4" class="form-control btn btn-login" value="Log In">
+                    <input type="button" class="form-control btn btn-login" value="Login" @click="login()" />
+
                   </div>
               </form>
-              <form id="register-form" action="#" method="post" role="form" style="display: none;">
+              <form id="register-form" style="display: none;">
                 <h2>REGISTER</h2>
                   <div class="form-group">
-                    <input type="text" name="username" id="username" tabindex="1" class="form-control" placeholder="Username" value="">
+                    <input type="text" v-model="register_user" tabindex="1" class="form-control" placeholder="Username" value="">
                   </div>
                   <div class="form-group">
-                    <input type="email" name="email" id="email" tabindex="1" class="form-control" placeholder="Email Address" value="">
+                    <input type="email" v-model="register_email" tabindex="1" class="form-control" placeholder="Email Address" value="">
                   </div>
                   <div class="form-group">
-                    <input type="password" name="password" id="password" tabindex="2" class="form-control" placeholder="Password">
-                  </div>
-                  <div class="form-group">
-                    <input type="password" name="confirm-password" id="confirm-password" tabindex="2" class="form-control" placeholder="Confirm Password">
+                    <input type="password" v-model="register_pass" tabindex="2" class="form-control" placeholder="Password">
                   </div>
                   <div class="form-group">
                     <div class="row">
                       <div class="col-sm-6 col-sm-offset-3">
-                        <input type="submit" name="register-submit" id="register-submit" tabindex="4" class="form-control btn btn-register" value="Register Now">
+                        <input type="button" class="form-control btn btn-login" value="Register Now" @click="register()" />
                       </div>
                     </div>
                   </div>
@@ -64,7 +62,46 @@
 </template>
 
 <script>
-
+import axios from 'axios'
+export default {
+  name: 'Login',
+  data () {
+    return {
+      login_user: '',
+      login_pass: '',
+      register_user: '',
+      register_pass: '',
+      register_email: ''
+    }
+  },
+  methods: {
+    login: function () {
+      axios.post('http://localhost:3000/api/login', {
+        username: this.login_user,
+        password: this.login_pass
+      })
+      .then(response => {
+        alert(response.data.msg)
+      })
+      .catch(e => {
+        alert(e)
+      })
+    },
+    register: function () {
+      axios.post('http://localhost:3000/api/signup', {
+        username: this.register_user,
+        password: this.register_pass,
+        email: this.register_email
+      })
+      .then(response => {
+        alert(response.data)
+      })
+      .catch(e => {
+        alert(e)
+      })
+    }
+  }
+}
 </script>
 <style scoped>
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,300,100,700,500);

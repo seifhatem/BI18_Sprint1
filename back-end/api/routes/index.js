@@ -17,5 +17,6 @@ router.delete('/product/deleteProduct/:productId', asyncMiddleware(productCtrl.d
 
 
 router.post('/login', asyncMiddleware(authenticationCtrl.checkCredentials));
+router.post('/signup', asyncMiddleware(authenticationCtrl.createUser));
 
 module.exports = router;

@@ -7,99 +7,70 @@
 <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
 <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
 </head>
-   <div class="row">
-<p>
-{{user.username}}
-{{user.email}}
-{{user.password}}
-</p>
-    <div class="col-md-6 col-md-offset-3">
-      <div class="panel panel-login">
-        <div class="panel-body">
-          <div class="row">
-            <div class="col-lg-12">
-              <form id="login-form"  action="#" method="post" role="form" style="display: none;">
-                <h2>LOGIN</h2>
-                  <div class="form-group">
-                    <input type="text" name="username" id="username" tabindex="1" class="form-control" placeholder="Username" value="">
-                  </div>
-                  <div class="form-group">
-                    <input type="password" name="password" id="password" tabindex="2" class="form-control" placeholder="Password">
-                  </div>
-                  <div class="col-xs-6 form-group pull-left checkbox">
-                    <input id="checkbox1" type="checkbox" name="remember">
-                    <label for="checkbox1">Remember Me</label>
-                  </div>
-                  <div class="col-xs-6 form-group pull-right">
-                        <input type="submit" name="login-submit" id="login-submit" tabindex="4" class="form-control btn btn-login" value="Log In">
-                  </div>
-              </form>
-              <form id="register-form" role="form" style="display: block;">
-                <h2>REGISTER</h2>
-                  <div class="form-group">
-                    <input type="text" name="username" id="username" tabindex="1" class="form-control" placeholder="Username" v-model="user.username">
-                  </div>
-                  <div class="form-group">
-                    <input type="email" name="email" id="email" tabindex="1" class="form-control" placeholder="Email Address"v-model="user.email">
-                  </div>
-                  <div class="form-group">
-                    <input type="password" name="password" id="password" tabindex="2" class="form-control" placeholder="Password" v-model="user.password">
-                  </div>
-                  <div class="form-group">
-                    <input type="password" name="confirm-password" id="confirm-password" tabindex="2" class="form-control" placeholder="Confirm Password">
-                  </div>
-                  <div class="form-group">
-                    <div class="row">
-                      <div class="col-sm-6 col-sm-offset-3">
-                        <input type="submit" name="register-submit" id="register-submit" tabindex="4" class="form-control btn btn-register" @click="addToAPI">
-                      </div>
-                    </div>
-                  </div>
-              </form>
-            </div>
-          </div>
-        </div>
-        </div>
-      </div>
-    </div>
-  </div>
+<div class="row">
+
+ <div class="col-md-6 col-md-offset-3">
+   <div class="panel panel-login">
+     <div class="panel-body">
+       <div class="row">
+         <div class="col-lg-12">
+           <form id="register-form" style="display: block;">
+             <h2>REGISTER</h2>
+               <div class="form-group">
+                 <input type="text" v-model="register_user" tabindex="1" class="form-control" placeholder="Username" value="">
+               </div>
+               <div class="form-group">
+                 <input type="email" v-model="register_email" tabindex="1" class="form-control" placeholder="Email Address" value="">
+               </div>
+               <div class="form-group">
+                 <input type="password" v-model="register_pass" tabindex="2" class="form-control" placeholder="Password">
+               </div>
+               <div class="form-group">
+                 <div class="row">
+                   <div class="col-sm-6 col-sm-offset-3">
+                     <input type="button" class="form-control btn btn-login" value="Register Now" @click="register()" />
+                   </div>
+                 </div>
+               </div>
+           </form>
+         </div>
+       </div>
+     </div>
+     </div>
+   </div>
+ </div>
+</div>
 </div>
 
 </template>
 
 <script>
-
 import axios from 'axios'
-
-export default{
+export default {
+  name: 'Login',
   data () {
     return {
-      user: {
-        username: '',
-        email: '',
-        password: ''
-      }
+      register_user: '',
+      register_pass: '',
+      register_email: ''
     }
   },
   methods: {
-    addToAPI () {
-      let newUser = {
-        first_name: this.user.username,
-        last_name: this.user.email,
-        email: this.user.password
-      }
-      console.log(newUser)
-      axios.post('http://localhost:3000/api/users/createUser', newUser)
-        .then((response) => {
-          console.log(response)
-        })
-        .catch((error) => {
-          console.log(error)
-        })
+    register: function () {
+      axios.post('http://localhost:3000/api/signup', {
+        username: this.register_user,
+        password: this.register_pass,
+        email: this.register_email
+      })
+      .then(response => {
+        alert(response.data.msg)
+      })
+      .catch(e => {
+        alert(e)
+      })
     }
   }
 }
-
 </script>
 
 <style scoped>
