@@ -72,9 +72,9 @@ const routes = [
       //   component: Typography
       // },
       {
-         path: 'table-list',
-         name: 'table-list',
-         component: TableList
+        path: 'table-list',
+        name: 'table-list',
+        component: TableList
       }
     ]
   },
